@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <databrowser>
     <title>
-        <text>CPU Livetimes CB (and others)</text>
+        <text>CPU Livetimes TAPS</text>
         <color>
             <red>49</red>
             <green>55</green>
@@ -15,10 +15,10 @@
         <show_plot_area_border>true</show_plot_area_border>
         <transparent>true</transparent>
     </graph_settings>
-    <scroll>false</scroll>
+    <scroll>true</scroll>
     <update_period>1.0</update_period>
-    <start>2013/10/22 19:17:19.299</start>
-    <end>2013/10/22 19:19:19.299</end>
+    <start>-2 minutes 0.0 seconds</start>
+    <end>now</end>
     <time_axis>
         <axis>
             <name>Time</name>
@@ -29,8 +29,8 @@
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <min>1.382462239299E12</min>
-            <max>1.382462359299E12</max>
+            <min>1.382462269508E12</min>
+            <max>1.382462389508E12</max>
             <log_scale>false</log_scale>
             <autoscale>false</autoscale>
             <visible>true</visible>
@@ -91,8 +91,8 @@
     </annotations>
     <pvlist>
         <pv>
-            <name>DAQ:Livetime_vme-beampolmon</name>
-            <display_name>vme-beampolmon</display_name>
+            <name>DAQ:Livetime_vme-taps-trigger</name>
+            <display_name>taps-trigger</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -108,8 +108,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-cb-adc-1a</name>
-            <display_name>vme-cb-adc-1a</display_name>
+            <name>DAQ:Livetime_CPU_13</name>
+            <display_name>taps-trigger(standalone)</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -125,8 +125,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-cb-adc-1b</name>
-            <display_name>vme-cb-adc-1b</display_name>
+            <name>DAQ:Livetime_vme-taps-baf-a</name>
+            <display_name>taps-baf-a</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -142,8 +142,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-cb-adc-2a</name>
-            <display_name>vme-cb-adc-2a</display_name>
+            <name>DAQ:Livetime_vme-taps-baf-b</name>
+            <display_name>taps-baf-b</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -159,8 +159,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-cb-adc-2b</name>
-            <display_name>vme-cb-adc-2b</display_name>
+            <name>DAQ:Livetime_vme-taps-baf-c</name>
+            <display_name>taps-baf-c</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -176,8 +176,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-cb-tdc-a</name>
-            <display_name>vme-cb-tdc-a</display_name>
+            <name>DAQ:Livetime_vme-taps-baf-d</name>
+            <display_name>taps-baf-d</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -193,8 +193,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-cb-tdc-b</name>
-            <display_name>vme-cb-tdc-b</display_name>
+            <name>DAQ:Livetime_vme-taps-baf-e</name>
+            <display_name>taps-baf-e</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -210,8 +210,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-mwpc-adc-a</name>
-            <display_name>vme-mwpc-adc-a</display_name>
+            <name>DAQ:Livetime_vme-taps-baf-f</name>
+            <display_name>vme-baf-f</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -227,8 +227,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-mwpc-adc-b</name>
-            <display_name>vme-mwpc-adc-b</display_name>
+            <name>DAQ:Livetime_vme-taps-veto-ab</name>
+            <display_name>taps-veto-ab</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -244,8 +244,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-tagg-tdc-a</name>
-            <display_name>vme-tagg-tdc-a</display_name>
+            <name>DAQ:Livetime_vme-taps-veto-cd</name>
+            <display_name>taps-veto-cd</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -261,8 +261,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-tagg-tdc-b</name>
-            <display_name>vme-tagg-tdc-b</display_name>
+            <name>DAQ:Livetime_vme-taps-veto-ef</name>
+            <display_name>taps-veto-ef</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>
@@ -278,8 +278,8 @@
             <request>OPTIMIZED</request>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme_exptrigger</name>
-            <display_name>vme_exptrigger</display_name>
+            <name>DAQ:Livetime_vme-taps-pwo</name>
+            <display_name>taps-pwo</display_name>
             <visible>true</visible>
             <axis>0</axis>
             <linewidth>2</linewidth>

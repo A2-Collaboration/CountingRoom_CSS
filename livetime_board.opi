@@ -8,7 +8,7 @@
   <boy_version>3.2.7.20130827</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
-  <height>600</height>
+  <height>700</height>
   <name></name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
@@ -20,7 +20,7 @@
   </foreground_color>
   <widget_type>Display</widget_type>
   <show_close_button>true</show_close_button>
-  <width>1024</width>
+  <width>1280</width>
   <rules />
   <show_edit_range>true</show_edit_range>
   <grid_space>6</grid_space>
@@ -70,7 +70,7 @@
     </border_color>
     <y>381</y>
     <actions hook="false" hook_all="false" />
-    <x>276</x>
+    <x>479</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
       <level_lo>20.0</level_lo>
@@ -267,7 +267,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>48</y>
     <actions hook="false" hook_all="false" />
-    <x>276</x>
+    <x>479</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
       <level_lo>20.0</level_lo>
@@ -776,7 +776,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>280</y>
     <actions hook="false" hook_all="false" />
-    <x>737</x>
+    <x>940</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
       <level_lo>20.0</level_lo>
@@ -973,7 +973,7 @@ $(pv_value)</tooltip>
     </border_color>
     <y>48</y>
     <actions hook="false" hook_all="false" />
-    <x>737</x>
+    <x>940</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
       <level_lo>20.0</level_lo>
@@ -1192,11 +1192,11 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Action Button</widget_type>
     <enabled>true</enabled>
-    <text>Graphs</text>
+    <text>Graphs CB and others</text>
     <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
     </font>
-    <width>151</width>
+    <width>175</width>
     <border_style>0</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -1210,7 +1210,7 @@ $(pv_value)</tooltip>
     <y>9</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_OPI_IN_VIEW">
-        <path>livetime_graphs.opi</path>
+        <path>livetime_graphs_CB.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
@@ -1219,84 +1219,1032 @@ $(pv_value)</tooltip>
       </action>
     </actions>
     <tooltip></tooltip>
-    <x>832</x>
+    <x>828</x>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
-    <level_lo>20.0</level_lo>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
     <visible>true</visible>
-    <color_hihi>
-      <color red="255" green="0" blue="0" />
-    </color_hihi>
-    <show_lo>true</show_lo>
+    <wuid>-603c924c:141e100235d:-7e68</wuid>
     <scripts />
-    <height>96</height>
-    <major_tick_step_hint>50</major_tick_step_hint>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <enabled>true</enabled>
-    <widget_type>Meter</widget_type>
-    <show_minor_ticks>true</show_minor_ticks>
-    <font>
-      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>211</width>
-    <show_lolo>true</show_lolo>
-    <border_style>12</border_style>
-    <pv_value />
-    <show_markers>true</show_markers>
-    <show_hi>true</show_hi>
-    <maximum>100.0</maximum>
-    <border_width>1</border_width>
-    <log_scale>false</log_scale>
-    <minimum>0.0</minimum>
-    <wuid>-603c924c:141e100235d:-7fb0</wuid>
-    <show_hihi>true</show_hihi>
-    <scale_format></scale_format>
-    <show_scale>true</show_scale>
-    <color_lo>
-      <color red="255" green="255" blue="0" />
-    </color_lo>
-    <name>cb-adc-2a</name>
+    <height>641</height>
+    <name>TAPS</name>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
-      <keep_wh_ratio>true</keep_wh_ratio>
+      <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name>DAQ:Livetime_CPU_00</pv_name>
-    <color_hi>
-      <color red="255" green="255" blue="0" />
-    </color_hi>
+    <transparent>false</transparent>
+    <show_scrollbar>false</show_scrollbar>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color red="192" green="192" blue="192" />
     </foreground_color>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
-    <level_hi>80.0</level_hi>
-    <scale_font>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <enabled>true</enabled>
+    <widget_type>Grouping Container</widget_type>
+    <font>
       <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
-    </scale_font>
-    <level_hihi>90.0</level_hihi>
-    <ramp_gradient>true</ramp_gradient>
-    <color_lolo>
-      <color red="255" green="0" blue="0" />
-    </color_lolo>
+    </font>
+    <width>462</width>
+    <border_style>13</border_style>
     <rules />
-    <value_label_format></value_label_format>
-    <show_value_label>true</show_value_label>
-    <needle_color>
-      <color red="255" green="0" blue="0" />
-    </needle_color>
-    <limits_from_pv>true</limits_from_pv>
+    <fc>false</fc>
+    <lock_children>true</lock_children>
+    <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <level_lolo>10.0</level_lolo>
-    <y>280</y>
+    <y>48</y>
     <actions hook="false" hook_all="false" />
-    <x>54</x>
-    <tooltip>$(pv_name)
+    <x>18</x>
+    <tooltip></tooltip>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7fb0</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-trigger</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-trigger</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>0</y>
+      <actions hook="false" hook_all="false" />
+      <x>0</x>
+      <tooltip>$(pv_name)
 $(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7f66</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-baf-a</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-baf-a</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>102</y>
+      <actions hook="false" hook_all="false" />
+      <x>0</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7f54</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-baf-b</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-baf-b</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>204</y>
+      <actions hook="false" hook_all="false" />
+      <x>0</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7f45</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-baf-c</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-baf-c</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>306</y>
+      <actions hook="false" hook_all="false" />
+      <x>0</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7f36</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-baf-d</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-baf-d</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>408</y>
+      <actions hook="false" hook_all="false" />
+      <x>0</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7f1f</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-baf-e</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-baf-e</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>510</y>
+      <actions hook="false" hook_all="false" />
+      <x>0</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7f10</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-baf-f</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-baf-f</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>102</y>
+      <actions hook="false" hook_all="false" />
+      <x>216</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7ed9</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-veto-ab</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-veto-ab</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>204</y>
+      <actions hook="false" hook_all="false" />
+      <x>216</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7eca</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-veto-cd</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-veto-cd</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>306</y>
+      <actions hook="false" hook_all="false" />
+      <x>216</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7ebb</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-veto-ef</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-veto-ef</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>408</y>
+      <actions hook="false" hook_all="false" />
+      <x>216</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7ea4</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-pwo</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_vme-taps-pwo</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>510</y>
+      <actions hook="false" hook_all="false" />
+      <x>216</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.meter" version="1.0.0">
+      <level_lo>20.0</level_lo>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <visible>true</visible>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <show_lo>true</show_lo>
+      <scripts />
+      <height>96</height>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <enabled>true</enabled>
+      <widget_type>Meter</widget_type>
+      <show_minor_ticks>true</show_minor_ticks>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </font>
+      <width>211</width>
+      <show_lolo>true</show_lolo>
+      <border_style>12</border_style>
+      <pv_value />
+      <show_markers>true</show_markers>
+      <show_hi>true</show_hi>
+      <maximum>100.0</maximum>
+      <border_width>1</border_width>
+      <log_scale>false</log_scale>
+      <minimum>0.0</minimum>
+      <wuid>-603c924c:141e100235d:-7e9d</wuid>
+      <show_hihi>true</show_hihi>
+      <scale_format></scale_format>
+      <show_scale>true</show_scale>
+      <color_lo>
+        <color red="255" green="255" blue="0" />
+      </color_lo>
+      <name>taps-trigger (standalone)</name>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <pv_name>DAQ:Livetime_CPU_13</pv_name>
+      <color_hi>
+        <color red="255" green="255" blue="0" />
+      </color_hi>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+      <level_hi>80.0</level_hi>
+      <scale_font>
+        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+      </scale_font>
+      <level_hihi>90.0</level_hihi>
+      <ramp_gradient>true</ramp_gradient>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <rules />
+      <value_label_format></value_label_format>
+      <show_value_label>true</show_value_label>
+      <needle_color>
+        <color red="255" green="0" blue="0" />
+      </needle_color>
+      <limits_from_pv>true</limits_from_pv>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <level_lolo>10.0</level_lolo>
+      <y>0</y>
+      <actions hook="false" hook_all="false" />
+      <x>216</x>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-603c924c:141e100235d:-7e18</wuid>
+    <scripts />
+    <height>40</height>
+    <style>1</style>
+    <name>OpenGraphs_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Graphs TAPS</text>
+    <font>
+      <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+    </font>
+    <width>175</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>9</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_OPI_IN_VIEW">
+        <path>livetime_graphs_TAPS.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <Position>4</Position>
+        <description>Open a new window showing graphs</description>
+      </action>
+    </actions>
+    <tooltip></tooltip>
+    <x>108</x>
   </widget>
 </display>
