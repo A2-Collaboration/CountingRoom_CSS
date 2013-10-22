@@ -1209,13 +1209,13 @@ $(pv_value)</tooltip>
     </border_color>
     <y>9</y>
     <actions hook="false" hook_all="false">
-      <action type="OPEN_OPI_IN_VIEW">
+      <action type="OPEN_DISPLAY">
         <path>livetime_graphs_CB.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
-        <Position>4</Position>
-        <description>Open a new window showing graphs</description>
+        <replace>0</replace>
+        <description>Open the CB (and others) CPU LIvetimes overview</description>
       </action>
     </actions>
     <tooltip></tooltip>
@@ -2235,13 +2235,13 @@ $(pv_value)</tooltip>
     </border_color>
     <y>9</y>
     <actions hook="false" hook_all="false">
-      <action type="OPEN_OPI_IN_VIEW">
+      <action type="OPEN_DISPLAY">
         <path>livetime_graphs_TAPS.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
-        <Position>4</Position>
-        <description>Open a new window showing graphs</description>
+        <replace>0</replace>
+        <description>Open the TAPS CPU Livetimes overview</description>
       </action>
     </actions>
     <tooltip></tooltip>
