@@ -15,10 +15,10 @@
         <show_plot_area_border>true</show_plot_area_border>
         <transparent>true</transparent>
     </graph_settings>
-    <scroll>false</scroll>
+    <scroll>true</scroll>
     <update_period>1.0</update_period>
-    <start>2013/10/22 19:17:19.299</start>
-    <end>2013/10/22 19:19:19.299</end>
+    <start>-2 minutes 0.0 seconds</start>
+    <end>now</end>
     <time_axis>
         <axis>
             <name>Time</name>
@@ -29,8 +29,8 @@
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <min>1.382462239299E12</min>
-            <max>1.382462359299E12</max>
+            <min>1.382464942322E12</min>
+            <max>1.382465062322E12</max>
             <log_scale>false</log_scale>
             <autoscale>false</autoscale>
             <visible>true</visible>
