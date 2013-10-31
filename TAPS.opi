@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>-603c924c:141e100235d:-7af5</wuid>
-  <boy_version>3.2.7.20130827</boy_version>
+  <boy_version>3.2.10.20131029</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>600</height>
@@ -68,9 +68,9 @@
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>293</y>
+    <y>288</y>
     <actions hook="false" hook_all="false" />
-    <x>162</x>
+    <x>83</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -92,7 +92,7 @@
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:VETO_SectorOR_C</pv_name>
+      <pv_name>TAPS:VETOBAF:SectorC:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -183,7 +183,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:VETO_SectorOR_B</pv_name>
+      <pv_name>TAPS:VETOBAF:SectorB:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -274,7 +274,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:VETO_SectorOR_A</pv_name>
+      <pv_name>TAPS:VETOBAF:SectorA:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -365,7 +365,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:VETO_SectorOR_D</pv_name>
+      <pv_name>TAPS:VETOBAF:SectorD:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -456,7 +456,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:VETO_SectorOR_E</pv_name>
+      <pv_name>TAPS:VETOBAF:SectorE:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -547,7 +547,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:VETO_SectorOR_F</pv_name>
+      <pv_name>TAPS:VETOBAF:SectorF:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -655,9 +655,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>144</y>
+    <y>139</y>
     <actions hook="false" hook_all="false" />
-    <x>162</x>
+    <x>83</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -679,7 +679,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:CFD_SectorOR_C</pv_name>
+      <pv_name>TAPS:BAF:SectorC:TRIG:CFD:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -770,7 +770,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:CFD_SectorOR_B</pv_name>
+      <pv_name>TAPS:BAF:SectorB:TRIG:CFD:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -861,7 +861,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:CFD_SectorOR_A</pv_name>
+      <pv_name>TAPS:BAF:SectorA:TRIG:CFD:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -952,7 +952,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:CFD_SectorOR_D</pv_name>
+      <pv_name>TAPS:BAF:SectorD:TRIG:CFD:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1043,7 +1043,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:CFD_SectorOR_E</pv_name>
+      <pv_name>TAPS:BAF:SectorE:TRIG:CFD:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1134,7 +1134,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:CFD_SectorOR_F</pv_name>
+      <pv_name>TAPS:BAF:SectorF:TRIG:CFD:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1242,9 +1242,9 @@ $(pv_value)</tooltip>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>144</y>
+    <y>139</y>
     <actions hook="false" hook_all="false" />
-    <x>375</x>
+    <x>296</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1266,7 +1266,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED1_SectorOR_C</pv_name>
+      <pv_name>TAPS:BAF:SectorC:TRIG:LED1:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1357,7 +1357,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED1_SectorOR_B</pv_name>
+      <pv_name>TAPS:BAF:SectorB:TRIG:LED1:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1448,7 +1448,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED1_SectorOR_A</pv_name>
+      <pv_name>TAPS:BAF:SectorA:TRIG:LED1:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1539,7 +1539,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED1_SectorOR_D</pv_name>
+      <pv_name>TAPS:BAF:SectorD:TRIG:LED1:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1630,7 +1630,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED1_SectorOR_E</pv_name>
+      <pv_name>TAPS:BAF:SectorE:TRIG:LED1:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1721,7 +1721,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED1_SectorOR_F</pv_name>
+      <pv_name>TAPS:BAF:SectorF:TRIG:LED1:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1801,7 +1801,7 @@ $(pv_value)</tooltip>
     <wuid>-603c924c:141e100235d:-7165</wuid>
     <scripts />
     <height>150</height>
-    <name>LED2 ORs</name>
+    <name>PWO VETO ORs</name>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
@@ -1824,14 +1824,14 @@ $(pv_value)</tooltip>
     <border_style>13</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>false</lock_children>
+    <lock_children>true</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>293</y>
+    <y>288</y>
     <actions hook="false" hook_all="false" />
-    <x>375</x>
+    <x>296</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -1853,7 +1853,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED2_SectorOR_C</pv_name>
+      <pv_name>TAPS:VETOPWO:SectorC:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -1944,7 +1944,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED2_SectorOR_B</pv_name>
+      <pv_name>TAPS:VETOPWO:SectorB:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2035,7 +2035,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED2_SectorOR_A</pv_name>
+      <pv_name>TAPS:VETOPWO:SectorA:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2126,7 +2126,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED2_SectorOR_D</pv_name>
+      <pv_name>TAPS:VETOPWO:SectorD:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2217,7 +2217,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED2_SectorOR_E</pv_name>
+      <pv_name>TAPS:VETOPWO:SectorE:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2308,7 +2308,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:LED2_SectorOR_F</pv_name>
+      <pv_name>TAPS:VETOPWO:SectorF:TRIG:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2428,7 +2428,7 @@ $(pv_value)</tooltip>
     <wuid>69fc50bd:141f9f356e4:-71c8</wuid>
     <scripts />
     <height>150</height>
-    <name>PWO Veto ORs</name>
+    <name>LED2 ORs</name>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
@@ -2451,14 +2451,14 @@ $(pv_value)</tooltip>
     <border_style>13</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>false</lock_children>
+    <lock_children>true</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <y>144</y>
+    <y>139</y>
     <actions hook="false" hook_all="false" />
-    <x>588</x>
+    <x>509</x>
     <tooltip></tooltip>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -2470,7 +2470,7 @@ $(pv_value)</tooltip>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>20</height>
-      <name>veto_sectorc</name>
+      <name>led2_sectorc</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2480,7 +2480,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:PWO_VETO_SectorOR_C</pv_name>
+      <pv_name>TAPS:BAF:SectorC:TRIG:LED2:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2561,7 +2561,7 @@ $(pv_value)</tooltip>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>20</height>
-      <name>veto_sectorc_1</name>
+      <name>led2_sectorb</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2571,7 +2571,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:PWO_VETO_SectorOR_B</pv_name>
+      <pv_name>TAPS:BAF:SectorB:TRIG:LED2:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2652,7 +2652,7 @@ $(pv_value)</tooltip>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>20</height>
-      <name>veto_sectorc_2</name>
+      <name>led2_sectora</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2662,7 +2662,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:PWO_VETO_SectorOR_A</pv_name>
+      <pv_name>TAPS:BAF:SectorA:TRIG:LED2:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2743,7 +2743,7 @@ $(pv_value)</tooltip>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>20</height>
-      <name>veto_sectorc_3</name>
+      <name>led2_sectord</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2753,7 +2753,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:PWO_VETO_SectorOR_D</pv_name>
+      <pv_name>TAPS:BAF:SectorD:TRIG:LED2:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2834,7 +2834,7 @@ $(pv_value)</tooltip>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>20</height>
-      <name>veto_sectorc_4</name>
+      <name>led2_sectore</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2844,7 +2844,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:PWO_VETO_SectorOR_E</pv_name>
+      <pv_name>TAPS:BAF:SectorE:TRIG:LED2:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -2925,7 +2925,7 @@ $(pv_value)</tooltip>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>20</height>
-      <name>veto_sectorc_5</name>
+      <name>led2_sectorf</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2935,7 +2935,7 @@ $(pv_value)</tooltip>
       <format_type>0</format_type>
       <precision_from_pv>true</precision_from_pv>
       <transparent>true</transparent>
-      <pv_name>DAQ:PWO_VETO_SectorOR_F</pv_name>
+      <pv_name>TAPS:BAF:SectorF:TRIG:LED2:OR</pv_name>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
@@ -3012,57 +3012,6 @@ $(pv_value)</tooltip>
     <visible>true</visible>
     <vertical_alignment>1</vertical_alignment>
     <show_units>true</show_units>
-    <wuid>69fc50bd:141f9f356e4:-7133</wuid>
-    <auto_size>false</auto_size>
-    <rotation_angle>0.0</rotation_angle>
-    <scripts />
-    <height>20</height>
-    <name>Text Update</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <format_type>0</format_type>
-    <precision_from_pv>true</precision_from_pv>
-    <transparent>false</transparent>
-    <pv_name>DAQ:PWO_TAPSOR</pv_name>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Text Update</widget_type>
-    <enabled>true</enabled>
-    <text>######</text>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <precision>0</precision>
-    <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
-    </font>
-    <width>100</width>
-    <border_style>0</border_style>
-    <rules />
-    <pv_value />
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>480</y>
-    <wrap_words>false</wrap_words>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <x>372</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <show_units>true</show_units>
     <wuid>69fc50bd:141f9f356e4:-70a8</wuid>
     <auto_size>false</auto_size>
     <rotation_angle>0.0</rotation_angle>
@@ -3078,7 +3027,7 @@ $(pv_value)</tooltip>
     <format_type>0</format_type>
     <precision_from_pv>true</precision_from_pv>
     <transparent>false</transparent>
-    <pv_name>DAQ:TAPSInterrupt</pv_name>
+    <pv_name>TAPS:TRIG:InternalTrigger</pv_name>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
@@ -3101,53 +3050,13 @@ $(pv_value)</tooltip>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <horizontal_alignment>0</horizontal_alignment>
+    <horizontal_alignment>2</horizontal_alignment>
     <actions hook="false" hook_all="false" />
     <y>504</y>
     <wrap_words>false</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <x>372</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <wuid>69fc50bd:141f9f356e4:-7012</wuid>
-    <auto_size>false</auto_size>
-    <scripts />
-    <height>20</height>
-    <name>Label_1</name>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <transparent>true</transparent>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>true</enabled>
-    <text>PWO TAPSOR</text>
-    <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
-    </font>
-    <width>97</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <horizontal_alignment>1</horizontal_alignment>
-    <actions hook="false" hook_all="false" />
-    <y>480</y>
-    <wrap_words>false</wrap_words>
-    <tooltip></tooltip>
-    <x>270</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -3171,22 +3080,113 @@ $(pv_value)</tooltip>
     </foreground_color>
     <widget_type>Label</widget_type>
     <enabled>true</enabled>
-    <text>TAPS Interrupts</text>
+    <text>Internal Trigger:</text>
     <font>
       <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
     </font>
-    <width>97</width>
+    <width>115</width>
     <border_style>0</border_style>
     <rules />
     <border_width>1</border_width>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
-    <horizontal_alignment>1</horizontal_alignment>
+    <horizontal_alignment>2</horizontal_alignment>
     <actions hook="false" hook_all="false" />
     <y>504</y>
     <wrap_words>false</wrap_words>
     <tooltip></tooltip>
-    <x>270</x>
+    <x>252</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <show_units>true</show_units>
+    <wuid>35fbe2ae:1420f01f231:-6c44</wuid>
+    <auto_size>false</auto_size>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <height>20</height>
+    <name>Text Update_2</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <format_type>0</format_type>
+    <precision_from_pv>true</precision_from_pv>
+    <transparent>false</transparent>
+    <pv_name>TAPS:TRIG:ExternalTrigger</pv_name>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Text Update</widget_type>
+    <enabled>true</enabled>
+    <text>######</text>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <precision>0</precision>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>100</width>
+    <border_style>0</border_style>
+    <rules />
+    <pv_value />
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>523</y>
+    <wrap_words>false</wrap_words>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>372</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <wuid>35fbe2ae:1420f01f231:-6c43</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>20</height>
+    <name>Label_3</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <transparent>true</transparent>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Label</widget_type>
+    <enabled>true</enabled>
+    <text>External Trigger:</text>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>115</width>
+    <border_style>0</border_style>
+    <rules />
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <horizontal_alignment>2</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>523</y>
+    <wrap_words>false</wrap_words>
+    <tooltip></tooltip>
+    <x>252</x>
   </widget>
 </display>
