@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>2da4dada:138bb0b2666:-7ff6</wuid>
-  <boy_version>3.2.7.20130827</boy_version>
+  <boy_version>3.2.10.20131029</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>300</height>
@@ -57,13 +57,13 @@
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
     </font>
     <width>766</width>
     <border_style>12</border_style>
     <rules />
     <fc>false</fc>
-    <lock_children>true</lock_children>
+    <lock_children>false</lock_children>
     <border_width>1</border_width>
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
@@ -97,13 +97,13 @@
       <enabled>true</enabled>
       <widget_type>Grouping Container</widget_type>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
       </font>
       <width>643</width>
       <border_style>13</border_style>
       <rules />
       <fc>false</fc>
-      <lock_children>true</lock_children>
+      <lock_children>false</lock_children>
       <border_width>1</border_width>
       <border_color>
         <color name="Black" red="0" green="0" blue="0" />
@@ -131,7 +131,7 @@
         <widget_type>Meter</widget_type>
         <show_minor_ticks>true</show_minor_ticks>
         <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </font>
         <width>200</width>
         <show_lolo>true</show_lolo>
@@ -156,7 +156,7 @@
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>true</keep_wh_ratio>
         </scale_options>
-        <pv_name>vme-taps-trigger:VITEC:VP5</pv_name>
+        <pv_name>TAPS:TRIG:VITEC:VP5</pv_name>
         <color_hi>
           <color red="255" green="255" blue="0" />
         </color_hi>
@@ -166,7 +166,7 @@
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <level_hi>80.0</level_hi>
         <scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </scale_font>
         <level_hihi>90.0</level_hihi>
         <ramp_gradient>true</ramp_gradient>
@@ -209,7 +209,7 @@ $(pv_value)</tooltip>
         <widget_type>Meter</widget_type>
         <show_minor_ticks>true</show_minor_ticks>
         <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </font>
         <width>200</width>
         <show_lolo>true</show_lolo>
@@ -234,7 +234,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>true</keep_wh_ratio>
         </scale_options>
-        <pv_name>vme-taps-trigger:VITEC:VP12</pv_name>
+        <pv_name>TAPS:TRIG:VITEC:VP12</pv_name>
         <color_hi>
           <color red="255" green="255" blue="0" />
         </color_hi>
@@ -244,7 +244,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <level_hi>80.0</level_hi>
         <scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </scale_font>
         <level_hihi>90.0</level_hihi>
         <ramp_gradient>true</ramp_gradient>
@@ -287,7 +287,7 @@ $(pv_value)</tooltip>
         <widget_type>Meter</widget_type>
         <show_minor_ticks>true</show_minor_ticks>
         <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </font>
         <width>200</width>
         <show_lolo>true</show_lolo>
@@ -312,7 +312,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>true</keep_wh_ratio>
         </scale_options>
-        <pv_name>vme-taps-trigger:VITEC:VN12</pv_name>
+        <pv_name>TAPS:TRIG:VITEC:VN12</pv_name>
         <color_hi>
           <color red="255" green="255" blue="0" />
         </color_hi>
@@ -322,7 +322,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <level_hi>80.0</level_hi>
         <scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </scale_font>
         <level_hihi>90.0</level_hihi>
         <ramp_gradient>true</ramp_gradient>
@@ -365,7 +365,7 @@ $(pv_value)</tooltip>
         <widget_type>Meter</widget_type>
         <show_minor_ticks>true</show_minor_ticks>
         <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </font>
         <width>200</width>
         <show_lolo>true</show_lolo>
@@ -390,7 +390,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>true</keep_wh_ratio>
         </scale_options>
-        <pv_name>vme-taps-trigger:VITEC:VP3V3</pv_name>
+        <pv_name>TAPS:TRIG:VITEC:VP3V3</pv_name>
         <color_hi>
           <color red="255" green="255" blue="0" />
         </color_hi>
@@ -400,7 +400,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <level_hi>80.0</level_hi>
         <scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </scale_font>
         <level_hihi>90.0</level_hihi>
         <ramp_gradient>true</ramp_gradient>
@@ -443,7 +443,7 @@ $(pv_value)</tooltip>
         <widget_type>Meter</widget_type>
         <show_minor_ticks>true</show_minor_ticks>
         <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </font>
         <width>200</width>
         <show_lolo>true</show_lolo>
@@ -468,7 +468,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>true</keep_wh_ratio>
         </scale_options>
-        <pv_name>vme-taps-trigger:VITEC:VP2V5</pv_name>
+        <pv_name>TAPS:TRIG:VITEC:VP2V5</pv_name>
         <color_hi>
           <color red="255" green="255" blue="0" />
         </color_hi>
@@ -478,7 +478,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <level_hi>80.0</level_hi>
         <scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </scale_font>
         <level_hihi>90.0</level_hihi>
         <ramp_gradient>true</ramp_gradient>
@@ -521,7 +521,7 @@ $(pv_value)</tooltip>
         <widget_type>Meter</widget_type>
         <show_minor_ticks>true</show_minor_ticks>
         <font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </font>
         <width>200</width>
         <show_lolo>true</show_lolo>
@@ -546,7 +546,7 @@ $(pv_value)</tooltip>
           <height_scalable>true</height_scalable>
           <keep_wh_ratio>true</keep_wh_ratio>
         </scale_options>
-        <pv_name>vme-taps-trigger:VITEC:VP1V2</pv_name>
+        <pv_name>TAPS:TRIG:VITEC:VP1V2</pv_name>
         <color_hi>
           <color red="255" green="255" blue="0" />
         </color_hi>
@@ -556,7 +556,7 @@ $(pv_value)</tooltip>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
         <level_hi>80.0</level_hi>
         <scale_font>
-          <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+          <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
         </scale_font>
         <level_hihi>90.0</level_hihi>
         <ramp_gradient>true</ramp_gradient>
@@ -604,7 +604,7 @@ $(pv_value)</tooltip>
       <widget_type>Thermometer</widget_type>
       <show_minor_ticks>true</show_minor_ticks>
       <font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
       </font>
       <width>121</width>
       <show_lolo>true</show_lolo>
@@ -631,7 +631,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
-      <pv_name>vme-taps-trigger:VITEC:Temp</pv_name>
+      <pv_name>TAPS:TRIG:VITEC:Temp</pv_name>
       <color_hi>
         <color red="255" green="128" blue="0" />
       </color_hi>
@@ -641,7 +641,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <level_hi>80.0</level_hi>
       <scale_font>
-        <opifont.name fontName="Sans" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
       </scale_font>
       <level_hihi>90.0</level_hihi>
       <color_lolo>

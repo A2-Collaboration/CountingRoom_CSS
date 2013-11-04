@@ -29,8 +29,8 @@
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <min>1.382462269508E12</min>
-            <max>1.382462389508E12</max>
+            <min>1.383558117283E12</min>
+            <max>1.383558237283E12</max>
             <log_scale>false</log_scale>
             <autoscale>false</autoscale>
             <visible>true</visible>
@@ -72,7 +72,7 @@
             <autoscale>false</autoscale>
             <visible>true</visible>
             <grid_line>
-                <show_grid_line>false</show_grid_line>
+                <show_grid_line>true</show_grid_line>
                 <dash_grid_line>true</dash_grid_line>
                 <color>
                     <red>200</red>
@@ -91,7 +91,7 @@
     </annotations>
     <pvlist>
         <pv>
-            <name>DAQ:Livetime_vme-taps-trigger</name>
+            <name>TAPS:TRIG:TriggerLivetimeCoupled</name>
             <display_name>taps-trigger</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -106,9 +106,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_CPU_13</name>
+            <name>TRIG:TAPS:TriggerLivetimeStandalone</name>
             <display_name>taps-trigger(standalone)</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -123,9 +133,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-baf-a</name>
+            <name>TAPS:BAF:SectorA:TRIG:Livetime</name>
             <display_name>taps-baf-a</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -140,9 +160,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-baf-b</name>
+            <name>TAPS:BAF:SectorB:TRIG:Livetime</name>
             <display_name>taps-baf-b</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -157,9 +187,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-baf-c</name>
+            <name>TAPS:BAF:SectorC:TRIG:Livetime</name>
             <display_name>taps-baf-c</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -174,9 +214,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-baf-d</name>
+            <name>TAPS:BAF:SectorD:TRIG:Livetime</name>
             <display_name>taps-baf-d</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -191,9 +241,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-baf-e</name>
+            <name>TAPS:BAF:SectorE:TRIG:Livetime</name>
             <display_name>taps-baf-e</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -208,9 +268,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-baf-f</name>
+            <name>TAPS:BAF:SectorF:TRIG:Livetime</name>
             <display_name>vme-baf-f</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -225,9 +295,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-veto-ab</name>
+            <name>TAPS:VETOBAF:SectorAB:TRIG:Livetime</name>
             <display_name>taps-veto-ab</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -242,9 +322,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-veto-cd</name>
+            <name>TAPS:VETOBAF:SectorCD:TRIG:Livetime</name>
             <display_name>taps-veto-cd</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -259,9 +349,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-veto-ef</name>
+            <name>TAPS:VETOBAF:SectorEF:TRIG:Livetime</name>
             <display_name>taps-veto-ef</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -276,9 +376,19 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
-            <name>DAQ:Livetime_vme-taps-pwo</name>
+            <name>TAPS:PWO:TRIG:Livetime</name>
             <display_name>taps-pwo</display_name>
             <visible>true</visible>
             <axis>0</axis>
@@ -293,6 +403,16 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
     </pvlist>
 </databrowser>
