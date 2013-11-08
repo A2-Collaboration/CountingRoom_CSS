@@ -1,0 +1,689 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <wuid>2da4dada:138bb0b2666:-7ff6</wuid>
+  <boy_version>3.2.10.20131029</boy_version>
+  <scripts />
+  <show_ruler>true</show_ruler>
+  <height>939</height>
+  <name>Display</name>
+  <snap_to_geometry>true</snap_to_geometry>
+  <show_grid>true</show_grid>
+  <background_color>
+    <color name="OPI_Background" red="255" green="255" blue="255" />
+  </background_color>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <widget_type>Display</widget_type>
+  <show_close_button>true</show_close_button>
+  <width>1500</width>
+  <rules />
+  <show_edit_range>true</show_edit_range>
+  <grid_space>6</grid_space>
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <actions hook="false" hook_all="false" />
+  <y>-1</y>
+  <x>-1</x>
+  <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
+    <crop_right>0</crop_right>
+    <crop_left>0</crop_left>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7f97</wuid>
+    <auto_size>true</auto_size>
+    <scripts />
+    <height>939</height>
+    <name>Image</name>
+    <stretch_to_fit>true</stretch_to_fit>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <widget_type>Image</widget_type>
+    <enabled>true</enabled>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>1500</width>
+    <no_animation>false</no_animation>
+    <flip_horizontal>false</flip_horizontal>
+    <permutation_matrix>
+      <row>
+        <col>1.0</col>
+        <col>0.0</col>
+      </row>
+      <row>
+        <col>0.0</col>
+        <col>1.0</col>
+      </row>
+    </permutation_matrix>
+    <crop_top>0</crop_top>
+    <border_style>0</border_style>
+    <rules />
+    <flip_vertical>false</flip_vertical>
+    <crop_bottom>0</crop_bottom>
+    <degree>0</degree>
+    <border_width>1</border_width>
+    <image_file>../graphics/hall.png</image_file>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="false" hook_all="false" />
+    <y>0</y>
+    <tooltip></tooltip>
+    <x>0</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7dfe</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>LED_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>CB:CB:ADC_1:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>CB:CB:ADC_1:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>CB ADC 1 Crate Status</description>
+      </action>
+    </actions>
+    <y>336</y>
+    <tooltip>CB ADC 1 Crate</tooltip>
+    <x>906</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7dc2</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>LED_2</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>CB:CB:TDC:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>CB:CB:TDC:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>CB TDC Crate Status</description>
+      </action>
+    </actions>
+    <y>798</y>
+    <tooltip>CB TDC Crate</tooltip>
+    <x>906</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7d60</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>LED_3</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>CB:CB:ADC_2:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>CB:CB:ADC_2:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>CB ADC 2 Crate Status</description>
+      </action>
+    </actions>
+    <y>798</y>
+    <tooltip>CB ADC 2 Crate</tooltip>
+    <x>846</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7cf1</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>TriggerCrate</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>TRIG:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>TAGG:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>Open Tagger Crate Status</description>
+      </action>
+    </actions>
+    <y>168</y>
+    <tooltip>Tagger Crate</tooltip>
+    <x>120</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-78c5</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>TriggerCrate_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>BEAM:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>BEAM:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>BeamPolMon Crate Status</description>
+      </action>
+    </actions>
+    <y>168</y>
+    <tooltip>BeamPolMon Crate</tooltip>
+    <x>252</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-789e</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>TriggerCrate_2</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>CB:MWPC:ADC:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>CB:MWPC:ADC:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>MWPC Crate Status</description>
+      </action>
+    </actions>
+    <y>336</y>
+    <tooltip>MWPC Crate</tooltip>
+    <x>540</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-785f</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>TriggerCrate_3</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>TRIG:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>TRIG:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>Experiment Trigger Crate Status</description>
+      </action>
+    </actions>
+    <y>336</y>
+    <tooltip>Experiment Trigger Crate</tooltip>
+    <x>690</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7839</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>TriggerCrate_4</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>TAPS:TRIG:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>TAPS:TRIG:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>TAPS Trigger Crate Status</description>
+      </action>
+    </actions>
+    <y>546</y>
+    <tooltip>TAPS Trigger Crate</tooltip>
+    <x>1374</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>16e7a186:1423835a2ae:-7827</wuid>
+    <scripts />
+    <square_led>false</square_led>
+    <on_color>
+      <color name="On" red="0" green="255" blue="0" />
+    </on_color>
+    <height>26</height>
+    <data_type>0</data_type>
+    <name>TriggerCrate_5</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_boolean_label>false</show_boolean_label>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>true</keep_wh_ratio>
+    </scale_options>
+    <off_color>
+      <color name="STOP" red="255" green="0" blue="0" />
+    </off_color>
+    <pv_name>TAPS:PWO:CRATE:SupplyStatus</pv_name>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <off_label>OFF</off_label>
+    <widget_type>LED</widget_type>
+    <enabled>true</enabled>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>26</width>
+    <border_style>0</border_style>
+    <effect_3d>true</effect_3d>
+    <rules />
+    <pv_value />
+    <bit>0</bit>
+    <border_width>1</border_width>
+    <on_label>ON</on_label>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <actions hook="true" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>../crates/crate_mini.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <CRATE>TAPS:PWO:CRATE</CRATE>
+        </macros>
+        <replace>2</replace>
+        <description>TAPS PWO Crate Status</description>
+      </action>
+    </actions>
+    <y>348</y>
+    <tooltip>TAPS PWO Crate</tooltip>
+    <x>1254</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <wuid>16e7a186:1423835a2ae:-7693</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>44</height>
+    <name>Label</name>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <transparent>true</transparent>
+    <show_scrollbar>false</show_scrollbar>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Label</widget_type>
+    <enabled>true</enabled>
+    <text>VME Crate Power Status</text>
+    <font>
+      <opifont.name fontName="Sans" height="17" style="1">Header 1</opifont.name>
+    </font>
+    <width>488</width>
+    <border_style>0</border_style>
+    <rules />
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <horizontal_alignment>0</horizontal_alignment>
+    <actions hook="false" hook_all="false" />
+    <y>6</y>
+    <wrap_words>true</wrap_words>
+    <tooltip></tooltip>
+    <x>540</x>
+  </widget>
+</display>
