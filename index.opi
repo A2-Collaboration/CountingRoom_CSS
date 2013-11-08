@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>-603c924c:141e100235d:-7de4</wuid>
-  <boy_version>3.2.7.20130827</boy_version>
+  <boy_version>3.2.10.20131029</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>600</height>
@@ -308,46 +308,6 @@
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-7be6</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>crate_health_btn</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>false</enabled>
-    <text>Crate Health</text>
-    <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
-    </font>
-    <width>139</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
-    <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <y>372</y>
-    <actions hook="false" hook_all="false" />
-    <tooltip>Open the Health Monitor for the VME and NIM Crates</tooltip>
-    <x>24</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
     <wuid>-603c924c:141e100235d:-7bd4</wuid>
     <scripts />
     <height>40</height>
@@ -641,5 +601,105 @@
     </actions>
     <tooltip>Open the Scaler Board</tooltip>
     <x>420</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>3ee38d33:14222404767:-7d90</wuid>
+    <scripts />
+    <height>40</height>
+    <style>1</style>
+    <name>taps_overview_btn_1</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>test</text>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>139</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>544</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>VITECs/vme-taps-tagger.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+          <testm>HALLO</testm>
+        </macros>
+        <replace>0</replace>
+        <description>Open the TAPS overview</description>
+      </action>
+    </actions>
+    <tooltip>Open the Scaler Board</tooltip>
+    <x>204</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-57d3bf0a:142387e867f:-7ed8</wuid>
+    <scripts />
+    <height>40</height>
+    <style>1</style>
+    <name>Action Button</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Crate Status</text>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>139</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>372</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>crates/CrateStatus.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>0</replace>
+        <description>Open Crate Satus Overview</description>
+      </action>
+    </actions>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <x>24</x>
   </widget>
 </display>

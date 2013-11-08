@@ -29,8 +29,8 @@
                 <green>33</green>
                 <blue>33</blue>
             </color>
-            <min>1.382869136548E12</min>
-            <max>1.382879936548E12</max>
+            <min>1.383560578596E12</min>
+            <max>1.383571378596E12</max>
             <log_scale>false</log_scale>
             <autoscale>false</autoscale>
             <visible>true</visible>
@@ -66,8 +66,8 @@
                 <green>0</green>
                 <blue>0</blue>
             </color>
-            <min>18.710011780474</min>
-            <max>49.25798871504001</max>
+            <min>-3.391031498220366</min>
+            <max>52.65813143874036</max>
             <log_scale>false</log_scale>
             <autoscale>true</autoscale>
             <visible>true</visible>
@@ -106,6 +106,16 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
         <pv>
             <name>CB:MON:PRES:BOT</name>
@@ -123,6 +133,16 @@
             <period>0.0</period>
             <ring_size>5000</ring_size>
             <request>OPTIMIZED</request>
+            <archive>
+                <name>Inst</name>
+                <url>jdbc:oracle:thin:@snsoroda-scan.sns.gov:1521/scprod_controls</url>
+                <key>1</key>
+            </archive>
+            <archive>
+                <name>Accl</name>
+                <url>jdbc:oracle:thin:@(DESCRIPTION=(LOAD_BALANCE=OFF)(FAILOVER=ON)(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1a.sns.ornl.gov)(PORT=1610))(ADDRESS=(PROTOCOL=TCP)(HOST=snsapp1b.sns.ornl.gov)(PORT=1610))(CONNECT_DATA=(SERVICE_NAME=ics_prod_lba)))</url>
+                <key>1</key>
+            </archive>
         </pv>
     </pvlist>
 </databrowser>
