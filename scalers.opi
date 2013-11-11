@@ -1251,12 +1251,12 @@ $(pv_value)</tooltip>
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <show_units>true</show_units>
-      <wuid>-57d3bf0a:142387e867f:-7916</wuid>
+      <wuid>-5694a794:1424793ea77:-62ca</wuid>
       <auto_size>false</auto_size>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <height>26</height>
-      <name>Text Update_1</name>
+      <name>Text Update</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
         <width_scalable>true</width_scalable>
