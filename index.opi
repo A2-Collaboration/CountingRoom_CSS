@@ -9,11 +9,11 @@
   <scripts />
   <show_ruler>true</show_ruler>
   <height>600</height>
-  <name></name>
+  <name>A2 Index</name>
   <snap_to_geometry>true</snap_to_geometry>
   <show_grid>true</show_grid>
   <background_color>
-    <color red="240" green="240" blue="240" />
+    <color name="OPI_Background" red="255" green="255" blue="255" />
   </background_color>
   <foreground_color>
     <color red="192" green="192" blue="192" />
@@ -284,7 +284,7 @@
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <widget_type>Action Button</widget_type>
-    <enabled>false</enabled>
+    <enabled>true</enabled>
     <text>VITEC Cards Health</text>
     <font>
       <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
@@ -301,7 +301,16 @@
       <color red="0" green="128" blue="255" />
     </border_color>
     <y>324</y>
-    <actions hook="false" hook_all="false" />
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>VITECs/all_vitecs.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>0</replace>
+        <description></description>
+      </action>
+    </actions>
     <tooltip>Open the Health Monitor for the VITEC Cards</tooltip>
     <x>24</x>
   </widget>
@@ -460,7 +469,7 @@
     <visible>true</visible>
     <wuid>-603c924c:141e100235d:-70ab</wuid>
     <scripts />
-    <height>40</height>
+    <height>43</height>
     <style>1</style>
     <name>taps_overview_btn</name>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -479,7 +488,7 @@
     <font>
       <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
     </font>
-    <width>139</width>
+    <width>133</width>
     <border_style>0</border_style>
     <push_action_index>0</push_action_index>
     <image></image>
@@ -550,7 +559,7 @@
         <description>Open the CB Monitor</description>
       </action>
     </actions>
-    <tooltip>Open the Scaler Board</tooltip>
+    <tooltip>Open the CB Monitor</tooltip>
     <x>420</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
@@ -605,56 +614,6 @@
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <visible>true</visible>
-    <wuid>3ee38d33:14222404767:-7d90</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>taps_overview_btn_1</name>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>test</text>
-    <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
-    </font>
-    <width>139</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
-    <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <y>544</y>
-    <actions hook="false" hook_all="false">
-      <action type="OPEN_DISPLAY">
-        <path>VITECs/vme-taps-tagger.opi</path>
-        <macros>
-          <include_parent_macros>true</include_parent_macros>
-          <testm>HALLO</testm>
-        </macros>
-        <replace>0</replace>
-        <description>Open the TAPS overview</description>
-      </action>
-    </actions>
-    <tooltip>Open the Scaler Board</tooltip>
-    <x>204</x>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
     <wuid>-57d3bf0a:142387e867f:-7ed8</wuid>
     <scripts />
     <height>40</height>
@@ -701,5 +660,54 @@
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
     <x>24</x>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <visible>true</visible>
+    <wuid>-5694a794:1424793ea77:-6a6f</wuid>
+    <scripts />
+    <height>34</height>
+    <style>1</style>
+    <name>tagg_btn</name>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <pv_name></pv_name>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <widget_type>Action Button</widget_type>
+    <enabled>true</enabled>
+    <text>Tagger.</text>
+    <font>
+      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+    </font>
+    <width>115</width>
+    <border_style>0</border_style>
+    <push_action_index>0</push_action_index>
+    <image></image>
+    <rules />
+    <pv_value />
+    <toggle_button>false</toggle_button>
+    <border_width>1</border_width>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <y>138</y>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>tagger.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>0</replace>
+        <description>Open the Tagger Overview</description>
+      </action>
+    </actions>
+    <tooltip>Open the Tagger Overview</tooltip>
+    <x>240</x>
   </widget>
 </display>
