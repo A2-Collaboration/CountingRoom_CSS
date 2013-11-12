@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>2da4dada:138bb0b2666:-7ff6</wuid>
-  <boy_version>3.2.10.20131029</boy_version>
+  <boy_version>3.2.10.20131106</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>600</height>
@@ -39,7 +39,7 @@
     <visible>true</visible>
     <wuid>-5bd8c9be:142294c29c0:-7fcb</wuid>
     <scripts />
-    <height>51</height>
+    <height>68</height>
     <name>Run</name>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -57,7 +57,7 @@
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <width>439</width>
     <border_style>13</border_style>
@@ -68,7 +68,7 @@
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
     </border_color>
-    <y>53</y>
+    <y>72</y>
     <actions hook="false" hook_all="false" />
     <x>17</x>
     <tooltip></tooltip>
@@ -94,7 +94,7 @@
       <transparent>false</transparent>
       <pv_name>GEN:MON:Runfilename</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -105,7 +105,7 @@
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>151</width>
       <border_style>0</border_style>
@@ -147,7 +147,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Run File:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -185,7 +185,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>GEN:MON:Runfilesize</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -196,7 +196,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>100</width>
       <border_style>0</border_style>
@@ -238,7 +238,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>File Size:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -280,7 +280,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <width>194</width>
     <border_style>13</border_style>
@@ -291,7 +291,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
     </border_color>
-    <y>103</y>
+    <y>139</y>
     <actions hook="false" hook_all="false" />
     <x>17</x>
     <tooltip></tooltip>
@@ -320,7 +320,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>FaradayCup:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -361,7 +361,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>IonChamber:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -402,7 +402,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>PBGlass:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -440,7 +440,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>BEAM:FaradayCup</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -451,7 +451,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -491,7 +491,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>BEAM:IonChamber</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -502,7 +502,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -542,7 +542,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>BEAM:PBGlass</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -553,7 +553,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -597,7 +597,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <width>246</width>
     <border_style>13</border_style>
@@ -608,7 +608,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
     </border_color>
-    <y>103</y>
+    <y>139</y>
     <actions hook="false" hook_all="false" />
     <x>210</x>
     <tooltip></tooltip>
@@ -634,7 +634,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAGG:TAGG:ReferenceOR</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -645,7 +645,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>79</width>
       <border_style>0</border_style>
@@ -688,7 +688,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Ref OR (Ladder):</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>127</width>
       <border_style>0</border_style>
@@ -729,7 +729,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Ladder / P2</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>132</width>
       <border_style>0</border_style>
@@ -767,7 +767,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAGG:TAGG:ReferenceOR</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -778,7 +778,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>79</width>
       <border_style>0</border_style>
@@ -819,7 +819,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>TRIG:TotalLivetime</pv_name>
     <background_color>
-      <color name="Read_Background" red="255" green="255" blue="255" />
+      <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -830,7 +830,7 @@ $(pv_value)</tooltip>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <precision>0</precision>
     <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
     </font>
     <width>80</width>
     <border_style>0</border_style>
@@ -842,11 +842,11 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>2</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>28</y>
+    <y>36</y>
     <wrap_words>false</wrap_words>
     <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-    <x>258</x>
+    <x>248</x>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <visible>true</visible>
@@ -873,7 +873,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <text>Total Livetime:</text>
     <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
     </font>
     <width>91</width>
     <border_style>0</border_style>
@@ -884,7 +884,7 @@ $(pv_value)</tooltip>
     </border_color>
     <horizontal_alignment>0</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>28</y>
+    <y>36</y>
     <wrap_words>true</wrap_words>
     <tooltip></tooltip>
     <x>132</x>
@@ -914,7 +914,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <width>209</width>
     <border_style>13</border_style>
@@ -925,7 +925,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
     </border_color>
-    <y>288</y>
+    <y>324</y>
     <actions hook="false" hook_all="false" />
     <x>264</x>
     <tooltip></tooltip>
@@ -951,7 +951,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAPS:BAF:TRIG:CFD:OR</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -962,7 +962,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>84</width>
       <border_style>0</border_style>
@@ -1005,7 +1005,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>BaF CFD OR:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>95</width>
       <border_style>0</border_style>
@@ -1043,7 +1043,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAPS:BAF:TRIG:LED1:OR</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1054,7 +1054,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>84</width>
       <border_style>0</border_style>
@@ -1097,7 +1097,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>BaF LED1 OR:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>95</width>
       <border_style>0</border_style>
@@ -1135,7 +1135,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAPS:BAF:TRIG:LED2:OR</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1146,7 +1146,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>84</width>
       <border_style>0</border_style>
@@ -1189,7 +1189,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>BaF LED2 OR:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>95</width>
       <border_style>0</border_style>
@@ -1230,7 +1230,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Total Livetime:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>95</width>
       <border_style>0</border_style>
@@ -1268,7 +1268,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAPS:TRIG:TotalLivetime</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1279,7 +1279,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>84</width>
       <border_style>0</border_style>
@@ -1323,7 +1323,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <width>208</width>
     <border_style>13</border_style>
@@ -1334,7 +1334,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
     </border_color>
-    <y>208</y>
+    <y>244</y>
     <actions hook="false" hook_all="false" />
     <x>265</x>
     <tooltip></tooltip>
@@ -1360,7 +1360,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>CB:CB:TRIG:ESum_High</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1371,7 +1371,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -1411,7 +1411,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>CB:CB:TRIG:ESum_Low</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1422,7 +1422,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -1465,7 +1465,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>E Sum High:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>99</width>
       <border_style>0</border_style>
@@ -1506,7 +1506,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>E Sum Low:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>99</width>
       <border_style>0</border_style>
@@ -1548,7 +1548,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Sans" height="9" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <width>249</width>
     <border_style>13</border_style>
@@ -1559,7 +1559,7 @@ $(pv_value)</tooltip>
     <border_color>
       <color name="Black" red="0" green="0" blue="0" />
     </border_color>
-    <y>208</y>
+    <y>244</y>
     <actions hook="false" hook_all="false" />
     <x>17</x>
     <tooltip></tooltip>
@@ -1585,7 +1585,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TRIG:ImmediateReset</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1596,7 +1596,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -1636,7 +1636,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TAPS:TRIG:L1_Trigger</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1647,7 +1647,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -1687,7 +1687,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TRIG:FastClear</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1698,7 +1698,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -1741,7 +1741,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Immediate Reset:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>140</width>
       <border_style>0</border_style>
@@ -1782,7 +1782,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>L1 Trigger:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>140</width>
       <border_style>0</border_style>
@@ -1823,7 +1823,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>FastClear:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>140</width>
       <border_style>0</border_style>
@@ -1861,7 +1861,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TRIG:COPL:Trigger</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1872,7 +1872,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -1915,7 +1915,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Coplanar:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>140</width>
       <border_style>0</border_style>
@@ -1953,7 +1953,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <pv_name>TRIG:COPL:TriggerCharged</pv_name>
       <background_color>
-        <color name="Read_Background" red="255" green="255" blue="255" />
+        <color name="Read_Background" red="240" green="240" blue="240" />
       </background_color>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -1964,7 +1964,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>80</width>
       <border_style>0</border_style>
@@ -2007,7 +2007,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Coplanar Charged:</text>
       <font>
-        <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
       </font>
       <width>140</width>
       <border_style>0</border_style>
@@ -2046,7 +2046,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <pv_name>BEAM:PairSpectrometer</pv_name>
     <background_color>
-      <color name="Read_Background" red="255" green="255" blue="255" />
+      <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -2057,7 +2057,7 @@ $(pv_value)</tooltip>
     <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <precision>0</precision>
     <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
     </font>
     <width>80</width>
     <border_style>0</border_style>
@@ -2100,7 +2100,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <text>PairSpectrometer</text>
     <font>
-      <opifont.name fontName="Sans" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="0">Default</opifont.name>
     </font>
     <width>140</width>
     <border_style>0</border_style>
