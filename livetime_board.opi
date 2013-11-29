@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>-deee999:1416f1d7d22:-8000</wuid>
-  <boy_version>3.2.10.20131029</boy_version>
+  <boy_version>3.2.10.20131106</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>700</height>
@@ -2085,7 +2085,7 @@ $(pv_value)</tooltip>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>true</keep_wh_ratio>
       </scale_options>
-      <pv_name>TAPS:VETOBAF:SectorAB:TRIG:Livetime</pv_name>
+      <pv_name>TAPS:PWO:TRIG:Livetime</pv_name>
       <color_hi>
         <color red="255" green="255" blue="0" />
       </color_hi>
