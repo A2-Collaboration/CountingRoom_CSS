@@ -7,7 +7,7 @@
     <BOX>BOX:19</BOX>
   </macros>
   <wuid>724ae6f2:1427a323ae9:-5b14</wuid>
-  <boy_version>3.2.7.20130827</boy_version>
+  <boy_version>3.2.10.20131106</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>290</height>
@@ -59,7 +59,7 @@
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
     <width>343</width>
     <border_style>0</border_style>
@@ -98,7 +98,7 @@
       <enabled>true</enabled>
       <text>Box</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="18" style="1">Header 1</opifont.name>
+        <opifont.name fontName="Ubuntu" height="17" style="1">Header 1</opifont.name>
       </font>
       <width>49</width>
       <border_style>0</border_style>
@@ -112,15 +112,15 @@
       <y>0</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>0</x>
+      <x>26</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>724ae6f2:1427a323ae9:-58be</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>31</height>
+      <height>17</height>
       <name>Label_4</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -138,9 +138,9 @@
       <enabled>true</enabled>
       <text>channel setting status:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
-      <width>157</width>
+      <width>166</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -149,10 +149,10 @@
       </border_color>
       <horizontal_alignment>1</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>240</y>
+      <y>254</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>0</x>
+      <x>50</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -188,7 +188,7 @@
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Ubuntu" height="9" style="1">Default Bold</opifont.name>
       </font>
       <width>61</width>
       <border_style>0</border_style>
@@ -202,10 +202,10 @@
         <color red="0" green="128" blue="255" />
       </border_color>
       <actions hook="false" hook_all="false" />
-      <y>240</y>
+      <y>247</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>156</x>
+      <x>241</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -241,7 +241,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -361,7 +361,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -481,7 +481,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -601,7 +601,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -721,7 +721,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -841,7 +841,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -961,7 +961,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1081,7 +1081,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1201,7 +1201,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1321,7 +1321,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1441,7 +1441,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1561,7 +1561,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1681,7 +1681,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1801,7 +1801,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -1921,7 +1921,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2041,7 +2041,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2161,7 +2161,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2281,7 +2281,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2401,7 +2401,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2521,7 +2521,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2641,7 +2641,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2761,7 +2761,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -2881,7 +2881,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3001,7 +3001,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3121,7 +3121,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3241,7 +3241,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3361,7 +3361,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3481,7 +3481,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3601,7 +3601,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3721,7 +3721,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3841,7 +3841,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -3961,7 +3961,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4081,7 +4081,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4201,7 +4201,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4321,7 +4321,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4441,7 +4441,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4561,7 +4561,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4681,7 +4681,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4801,7 +4801,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -4921,7 +4921,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>28</width>
       <border_style>0</border_style>
@@ -5043,7 +5043,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>315</width>
       <line_style>0</line_style>
@@ -5098,7 +5098,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>315</width>
       <line_style>0</line_style>
@@ -5153,7 +5153,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>315</width>
       <line_style>0</line_style>
@@ -5208,7 +5208,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>315</width>
       <line_style>0</line_style>
@@ -5343,7 +5343,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>315</width>
       <line_style>0</line_style>
@@ -5838,7 +5838,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -5893,7 +5893,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -5941,7 +5941,7 @@ e
 l
 s</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>23</width>
       <border_style>0</border_style>
@@ -5981,7 +5981,7 @@ s</text>
       <enabled>true</enabled>
       <text>channels</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>60</width>
       <border_style>0</border_style>
@@ -6033,7 +6033,7 @@ s</text>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -6088,7 +6088,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -6143,7 +6143,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -6198,7 +6198,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -6253,7 +6253,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -6308,7 +6308,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>1</width>
       <line_style>0</line_style>
@@ -6351,7 +6351,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>$(BOXNO)</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="18" style="1">Header 1</opifont.name>
+        <opifont.name fontName="Ubuntu" height="17" style="1">Header 1</opifont.name>
       </font>
       <width>44</width>
       <border_style>0</border_style>
@@ -6365,7 +6365,7 @@ $(pv_value)</tooltip>
       <y>2</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>48</x>
+      <x>74</x>
     </widget>
   </widget>
 </display>
