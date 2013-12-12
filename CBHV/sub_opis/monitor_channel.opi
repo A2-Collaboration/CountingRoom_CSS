@@ -5,7 +5,7 @@
     <include_parent_macros>true</include_parent_macros>
   </macros>
   <wuid>4602d127:142b2ad5a68:-6796</wuid>
-  <boy_version>3.2.7.20130827</boy_version>
+  <boy_version>3.2.10.20131106</boy_version>
   <scripts />
   <show_ruler>true</show_ruler>
   <height>451</height>
@@ -57,7 +57,7 @@
     <enabled>true</enabled>
     <widget_type>Grouping Container</widget_type>
     <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
     <width>355</width>
     <border_style>0</border_style>
@@ -111,7 +111,7 @@
       </fg_gradient_color>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>355</width>
       <line_style>0</line_style>
@@ -181,7 +181,7 @@ $(pv_value)</tooltip>
       <axis_1_axis_title>Voltage [V]</axis_1_axis_title>
       <axis_0_maximum>100.0</axis_0_maximum>
       <axis_0_scale_font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </axis_0_scale_font>
       <axis_0_time_format>3</axis_0_time_format>
       <axis_1_log_scale>false</axis_1_log_scale>
@@ -217,7 +217,7 @@ $(trace_0_y_pv_value)</tooltip>
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <trace_0_y_axis_index>1</trace_0_y_axis_index>
       <axis_1_scale_font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </axis_1_scale_font>
       <border_style>0</border_style>
       <plot_area_background_color>
@@ -281,9 +281,9 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <text>Channel Info:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="18" style="1">Header 1</opifont.name>
+        <opifont.name fontName="Ubuntu" height="17" style="1">Header 1</opifont.name>
       </font>
-      <width>139</width>
+      <width>151</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -301,9 +301,9 @@ $(trace_0_y_pv_value)</tooltip>
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>4602d127:142b2ad5a68:-6703</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>31</height>
+      <height>17</height>
       <name>Label_1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -321,9 +321,9 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <text>element number:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
-      <width>127</width>
+      <width>124</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -332,18 +332,18 @@ $(trace_0_y_pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>1</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>45</y>
+      <y>54</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>3</x>
+      <x>16</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>4602d127:142b2ad5a68:-6701</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>31</height>
+      <height>17</height>
       <name>Label_1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -361,9 +361,9 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <text>current voltage:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
-      <width>115</width>
+      <width>116</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -372,18 +372,18 @@ $(trace_0_y_pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>1</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>108</y>
+      <y>114</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>15</x>
+      <x>24</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>4602d127:142b2ad5a68:-6700</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>31</height>
+      <height>17</height>
       <name>Label_1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -401,7 +401,7 @@ $(trace_0_y_pv_value)</tooltip>
       <enabled>true</enabled>
       <text>current variance:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
       <width>121</width>
       <border_style>0</border_style>
@@ -412,10 +412,10 @@ $(trace_0_y_pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>1</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>138</y>
+      <y>144</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>6</x>
+      <x>19</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -423,10 +423,10 @@ $(trace_0_y_pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <show_units>true</show_units>
       <wuid>4602d127:142b2ad5a68:-66ff</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
-      <height>31</height>
+      <height>15</height>
       <name>current_voltage</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
@@ -450,9 +450,9 @@ $(trace_0_y_pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>1</precision>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
-      <width>166</width>
+      <width>42</width>
       <border_style>0</border_style>
       <rules />
       <pv_value />
@@ -462,11 +462,11 @@ $(trace_0_y_pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>108</y>
+      <y>115</y>
       <wrap_words>false</wrap_words>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>129</x>
+      <x>144</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -474,10 +474,10 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <show_units>true</show_units>
       <wuid>4602d127:142b2ad5a68:-66fe</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
-      <height>31</height>
+      <height>15</height>
       <name>current_variance</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
@@ -501,9 +501,9 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
-      <width>217</width>
+      <width>42</width>
       <border_style>0</border_style>
       <rules />
       <pv_value />
@@ -513,11 +513,11 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>138</y>
+      <y>145</y>
       <wrap_words>false</wrap_words>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>129</x>
+      <x>144</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -555,7 +555,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>139</width>
       <line_style>0</line_style>
@@ -608,9 +608,9 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
-      <width>148</width>
+      <width>154</width>
       <border_style>0</border_style>
       <rules />
       <pv_value />
@@ -623,15 +623,15 @@ $(pv_value)</tooltip>
       <y>54</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>126</x>
+      <x>144</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>-710f844a:142b7ea9738:-64aa</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>31</height>
+      <height>17</height>
       <name>Label_1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -649,9 +649,9 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>adjusted voltage:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
-      <width>115</width>
+      <width>124</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -660,10 +660,10 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>1</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>75</y>
+      <y>84</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>9</x>
+      <x>16</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -671,10 +671,10 @@ $(pv_value)</tooltip>
       <vertical_alignment>1</vertical_alignment>
       <show_units>true</show_units>
       <wuid>-710f844a:142b7ea9738:-64a9</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
-      <height>31</height>
+      <height>15</height>
       <name>current_voltage</name>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
       <scale_options>
@@ -698,9 +698,9 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>1</precision>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
-      <width>166</width>
+      <width>42</width>
       <border_style>0</border_style>
       <rules />
       <pv_value />
@@ -710,19 +710,19 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>75</y>
+      <y>84</y>
       <wrap_words>false</wrap_words>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>129</x>
+      <x>144</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>-710f844a:142b7ea9738:-6365</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>31</height>
+      <height>17</height>
       <name>Label_1</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -740,9 +740,9 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>buffer size:</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
-      <width>79</width>
+      <width>82</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -751,10 +751,10 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>2</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>168</y>
+      <y>174</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>48</x>
+      <x>58</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
       <border_alarm_sensitive>false</border_alarm_sensitive>
@@ -788,7 +788,7 @@ $(pv_value)</tooltip>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <precision>0</precision>
       <font>
-        <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
       <width>88</width>
       <border_style>1</border_style>
@@ -804,18 +804,18 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>0</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>168</y>
+      <y>167</y>
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-      <x>129</x>
+      <x>144</x>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <visible>true</visible>
       <vertical_alignment>1</vertical_alignment>
       <wuid>-73a86958:142dbfb1528:-7504</wuid>
-      <auto_size>false</auto_size>
+      <auto_size>true</auto_size>
       <scripts />
-      <height>25</height>
+      <height>17</height>
       <name>Label</name>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -833,9 +833,9 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <text>$(P):$(BOX):$(CHANNEL)</text>
       <font>
-        <opifont.name fontName="Times New Roman" height="12" style="1">Header 3</opifont.name>
+        <opifont.name fontName="Ubuntu" height="11" style="1">Header 3</opifont.name>
       </font>
-      <width>181</width>
+      <width>177</width>
       <border_style>0</border_style>
       <rules />
       <border_width>1</border_width>
@@ -844,10 +844,10 @@ $(pv_value)</tooltip>
       </border_color>
       <horizontal_alignment>1</horizontal_alignment>
       <actions hook="false" hook_all="false" />
-      <y>9</y>
+      <y>17</y>
       <wrap_words>false</wrap_words>
       <tooltip></tooltip>
-      <x>156</x>
+      <x>162</x>
     </widget>
   </widget>
 </display>

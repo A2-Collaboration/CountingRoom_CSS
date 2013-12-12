@@ -6,14 +6,16 @@ macroInput = DataUtil.createMacrosInput(True)
 
 pvvalue = display.getWidget("eemem_read_box_combo").getValue()
 
-pvname = int(pvvalue)
+if pvvalue != 'Box':
 
-print pvname
+	pvname = int(pvvalue)
 
-macroInput.put("BOXNO", "%s" % pvname)
+	print pvname
 
-widgetController.setPropertyValue("macros", macroInput)
+	macroInput.put("BOXNO", "%s" % pvname)
 
-widgetController.setPropertyValue("opi_file", 
-    widgetController.getPropertyValue("opi_file"), True)
+	widgetController.setPropertyValue("macros", macroInput)
+
+	widgetController.setPropertyValue("opi_file", 
+    		widgetController.getPropertyValue("opi_file"), True)
 
