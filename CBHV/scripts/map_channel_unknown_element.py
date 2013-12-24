@@ -1,8 +1,11 @@
 from org.csstudio.opibuilder.scriptUtil import PVUtil
 
-pv = widget.getPV().getValue()
+# When choosing an element, there may be no corresponding box, level
+# and channelnumber as not all element numbers are assigend to a
+# channel. Hence this script checks if there is a channel assigned or
+# not and either displays it or a warning message.
 
-print pv
+pv = widget.getPV().getValue()
 
 if pv == None:
     

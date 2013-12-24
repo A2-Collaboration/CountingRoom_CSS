@@ -1,5 +1,10 @@
 from org.csstudio.opibuilder.scriptUtil import PVUtil
 
+# This script causes the 'WriteInUse' pvs for every channel to
+# process. These pvs hold the values for the channel usage as they are
+# set in the cbhv.sub file. Hence when executing this script, the
+# values for the channel usage are set to the initial ones.
+
 box = 1
 
 while box < 19:

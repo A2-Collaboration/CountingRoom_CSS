@@ -1,3 +1,10 @@
+# This script was used before local pvs and rules controlled the
+# behaviour of the 'Voltage' tab. It can be seen as a demo how to get
+# things going using scripts when looking at the commented out
+# lines. The only line still in use sets the pv loc://radio_source to
+# 'File' as this cannot be done by a rule as rules cannot change pv
+# values and hence this has to be done using a script.
+
 from org.csstudio.opibuilder.scriptUtil import PVUtil
 
 value = widget.getValue()

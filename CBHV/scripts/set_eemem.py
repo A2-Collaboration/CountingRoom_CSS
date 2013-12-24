@@ -1,5 +1,10 @@
+# This file is called to change any eemem value.
+
 from org.csstudio.opibuilder.scriptUtil import PVUtil
 import os, time
+
+# Below some general definitions that are often used are made and the
+# user's choice which eemem value should be changed is obtained.
 
 numberofboxes = 18
 check_eemem_boxarray =[]
@@ -7,12 +12,19 @@ eemem_message = display.getWidget("eemem_message")
 set_eemem = display.getWidget("eemem_choice").getPV()
 set_eemem_choice = PVUtil.getString(set_eemem)
 
+# This function returns True when its argument is a float number and
+# False in case it is not. There is no built in function for floats,
+# only to check for digits.
+
 def is_number(s):
     try:
         float(s)
         return True
     except ValueError:
         return False
+
+# Depending on the user's choice different if cases are used to do
+# what is necessary to change the according values.
 
 if set_eemem_choice == "":
     
@@ -26,7 +38,11 @@ elif set_eemem_choice == "Cards":
     empty_cards = 0
     cards_message =""
     
-    ################ check if calibration file exists #################
+# When changing the Cards values also the corresponding M and N values
+# need to be changed. To make this easier the user just needs to write
+# the card numbers and corresponding N and M values are automatically
+# extracted from a configuration file. First it is checked if such a
+# file exists at the specified path.
     
     filepath = display.getWidget("eemem_cards_cal_file").getValue()
             
@@ -35,6 +51,8 @@ elif set_eemem_choice == "Cards":
     if check_filepath == False:
                 
         cards_message = cards_message + 'No calibration file specified or the file is gone.\n'
+
+# If there is a file all lines in it are read.
             
     elif check_filepath == True:
                 
@@ -46,7 +64,9 @@ elif set_eemem_choice == "Cards":
         cal_gradient_array = []
         cal_offset_array = []
         
-        ##################### read and check if lines in calibration file contain 4 arguments that are only numbers - only the values of these lines are stored in arrays for card, channel, gradient and offset #
+# Then it is checked if the lines in the calibration file contain 4
+# arguments that are only numbers - only the values of these lines are
+# stored in arrays for card, channel, gradient and offset.
         
         while count < len(cal_lines):
                     
@@ -81,15 +101,12 @@ elif set_eemem_choice == "Cards":
                         
             count+=1
     
-    ############ check if the number of cards entered in css is correct and if the cardnumbers are really only digits #        
-            
-    print cal_card_array             
+# Then it is checked if the number of cards entered in css is correct and if the cardnumbers are really only digits.        
+     
     
     while cardscount < numberofboxes:
         
-        print cardscount
         cardscount+=1
-        print cardscount
         cards_pv = display.getWidget("Cards%d" % cardscount).getPV()
         new_cards = PVUtil.getString(cards_pv)
         new_cards_parts = new_cards.split(",")
@@ -123,7 +140,9 @@ elif set_eemem_choice == "Cards":
                     
                 count0 = 0
                 
-                ######### search for indices in the cards array for the entered cards -> this way the indices of the channel, gradient and offset values for the cards are obtained
+# After that it is checked, that the cardnumbers entered in CSS are
+# listed in the calibration file -> this way the indices of the
+# channel, gradient and offset values for the cards are obtained.
                     
                 while count0 < 5:
                         
@@ -131,6 +150,10 @@ elif set_eemem_choice == "Cards":
                     
                     count1 = 0
                     
+# Now the N and M values are written to pvs to store them, so they are
+# accessable for epics. Every value for each channel is stored
+# separately.
+
                     while count1 < 8:
                     
                         display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:WriteM%s_%s" % (cardscount, count0, count1)).setValue("%s" % (cal_gradient_array[cards_ch_indices[count1]]))
@@ -140,7 +163,10 @@ elif set_eemem_choice == "Cards":
                         
                     count0+=1
                     
-
+# When all M and N values are set, first the pv to unprotect the eemem
+# and then the pv to write the 'Cards' values is called. The second pv
+# causes a cascade of pvs to be processed (check the cbhv_eemem_nm.db
+# file to see how it works) rewriting the 'Cards', 'N' and 'M' values.
                 
                 display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:UnprotectEememCards" % (cardscount)).setValue("go")                
                 display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:SetCardsAndMN" % (cardscount)).setValue("%s" % new_cards)                   
@@ -159,6 +185,9 @@ elif set_eemem_choice == "Ip":
     ipcount = 0
     empty_ip = 0
     ip_message =""
+
+# First it is checked if new IPs are entered at all and if their
+# format matches the expected one.
     
     while ipcount < numberofboxes:
         
@@ -167,16 +196,22 @@ elif set_eemem_choice == "Ip":
         ip_pv = display.getWidget("Ip%d" % ipcount).getPV()
         new_ip = PVUtil.getString(ip_pv)
         new_ip_parts = new_ip.split(".")
+
+# Checking if there is a new IP.
         
         if new_ip == "":
             
             empty_ip+=1
+
+# Checking if the IP has the correct format.
         
         elif new_ip != "" and len(new_ip_parts) != 4:
             
             ip_message = ip_message + "Wrong IP format at Box %d. 4 blocks of digits separated by \".\" are expected." % ipcount
             
         elif new_ip !="" and len(new_ip_parts) == 4:
+
+# Checking if the IP consists only of digits.
             
             digitcount = 0
             all_digits = 0
@@ -191,10 +226,11 @@ elif set_eemem_choice == "Ip":
                     
                     break
                 digitcount+=1
+
+# When the IP matches all criteria it is set by processing the needed
+# pvs in the correct order.
                 
             if check_ip_digits == True:
-                
-                print "here"
                 
                 display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:UnprotectEemem" % (ipcount)).setValue("go")
                 display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:SetIp" % (ipcount)).setValue("%s" % new_ip)
@@ -223,13 +259,17 @@ elif set_eemem_choice == "Mac":
         
         maccount+=1
         
-        mac_pv = display.getWidget("Ip%d" % maccount).getPV()
+        mac_pv = display.getWidget("Mac%d" % maccount).getPV()
         new_mac = PVUtil.getString(mac_pv)
         new_mac_parts = new_mac.split(":")
+
+# Check if a new Mac was entered.
         
         if new_mac == "":
             
             empty_mac+=1
+
+# Check if the Mac has the correct format.
         
         elif new_mac != "" and len(new_mac_parts) != 6:
             
@@ -252,6 +292,9 @@ elif set_eemem_choice == "Mac":
                 charcount+=1
                 
             if check_mac_chars == 2:
+
+# In case the new Mac matches all criteria it is set using the needed
+# pvs in the correct order.
                 
                 display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:UnprotectEemem" % (maccount)).setValue("go")
                 display.getWidget("set_eemem").getPVByName("CB:CB:HV:BOX:%s:SetMac" % (maccount)).setValue("%s" % new_mac)
@@ -272,8 +315,13 @@ elif set_eemem_choice == "Mac":
 
 elif set_eemem_choice == "General values":
 
+# Using this if case, values can be set that can be equal for more
+# boxes.
+
     eemem_values = ["Dhcp", "Mask", "Gate", "Dns", "Ntpserver", "Utczone", "Ntp", "Umin", "Umax", "Reg", "Regn", "Reg_div", "Levels", "Mem", "File", "Lease"]
-    
+# First it is checked if there are boxed checked, the new values
+# should be written to.
+
     count = 0
     
     while count < numberofboxes:
@@ -288,6 +336,8 @@ elif set_eemem_choice == "General values":
         eemem_message.setPropertyValue("text", "Choose at least one box.")
         
     else:
+
+# Then it is checked which new values are entered.
         
         eemem_valuearray = []
         
@@ -299,6 +349,10 @@ elif set_eemem_choice == "General values":
             eemem_value = eemem_values[count1]
             value = PVUtil.getString(name)
             whitespace_check = "".join(value.split())
+
+# As CSS automatically generates floats though sometimes integers are
+# needed, the next lines make sure that in the cases needed really
+# only integers are used.
             
             if value != None and whitespace_check != "":
                 
@@ -320,6 +374,10 @@ elif set_eemem_choice == "General values":
         else:
             
             count2 = 0
+
+# When there are boxes checked and new values to write for a box,
+# these values are written to the box using the needed pvs in the
+# correct order.
             
             while count2 < numberofboxes:
                 

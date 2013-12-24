@@ -2,6 +2,9 @@ from org.csstudio.opibuilder.scriptUtil import PVUtil
 from org.csstudio.opibuilder.scriptUtil import FileUtil
 import os
 
+# First some often used pvs are defined for easy use. For every
+# combination of source and target a different if case was created.
+
 combo_box = display.getWidget("combo_box").getValue()
 combo_channel = display.getWidget("combo_channel").getValue()
 combo_level = display.getWidget("combo_level").getValue()
@@ -22,6 +25,8 @@ else:
     ############################ Element -> selected Value #######################
     
     if radio_target == "Element" and radio_source == "selected Value":
+
+# First it is made sure that the entered values are ok.
         
         if element == -1 and voltage != 0:
             
@@ -38,12 +43,19 @@ else:
         else:
             
             element_exists = widget.getPVByName("CB:CB:HV:ELEMENT:%s:SetVolt" % element)
+
+# In case the element exists the variable 'element_exists' contains an
+# alphaumeric code, created by CSS, representing the pv - if there is
+# no such pv the value is 'None'.
               
             if element_exists == None:
                 
                 message.setPropertyValue("text", "Element not in use/ unknown - choose another one")
                 
             else:
+
+# If the element number exists/ is in use and there is a voltage value
+# entered it is written to the corresponding pv.
                              
                 message.setPropertyValue("text", "")    
                 element_exists.setValue(voltage)
@@ -51,6 +63,9 @@ else:
     ######################## Element -> File ###########################
     
     elif radio_target == "Element" and radio_source == "File":
+
+# First it is checked that the entered element number and filepath are
+# valid.
         
         check_filepath = os.path.isfile(filepath)
     
@@ -67,6 +82,8 @@ else:
             message.setPropertyValue("text", "Choose a filepath and an element.")
             
         else:
+
+# Then the file is read and the element numbers and corresponding voltages are obtained.
             
             f = open (filepath, "r")
             file_element_voltages = f.readlines()
@@ -79,6 +96,9 @@ else:
                 file_elementarray.append(int(line[0]))
                 file_voltagearray.append(int(line[1]))  
                 count+=1
+
+# It is also checked if the desired element number is mentioned in the
+# file.
                 
             element_exists = widget.getPVByName("CB:CB:HV:ELEMENT:%s:SetVolt" % element)
             file_element_voltage_exist = element in file_elementarray
@@ -97,6 +117,9 @@ else:
             
             else:
                 
+# If the element number and filecontent matches all the criteria the
+# voltage value is set to the cooresponding pv.
+
                 message.setPropertyValue("text", "")
                 file_index = file_elementarray.index(element)
                 file_voltage = file_voltagearray[file_index]             
@@ -108,8 +131,11 @@ else:
         boxcount = 0
         check_boxarray = []
         checked_boxes_numberarray = []
-            
-    # Checking for ticked boxes: Creation of an array with all boxes. Checked ones get an entry 1, unchecked ones an entry 0. After that checking if 1 is in the array at least once reveals if at least one box is checked.
+
+# Checking for ticked boxes: Creation of an array with all
+# boxes. Checked ones get an entry 1, unchecked ones an entry 0. After
+# that checking if 1 is in the array at least once reveals if at least
+# one box is checked. This applies for both 'source' options.
             
         while boxcount < numberofboxes:
             
@@ -123,6 +149,8 @@ else:
         one_box_checked = True in check_boxarray
     
         if radio_target == "Box" and radio_source == "selected Value":
+
+# Checking if voltage value is ok and boxes are checked.
             
             if one_box_checked == False and voltage != 0:
                 
@@ -137,6 +165,9 @@ else:
                 message.setPropertyValue("text", "Choose a voltage value and check at least one box.")
                 
             else:
+
+# In case all criteria are matched, the values are set to the checked
+# boxes.
                 
                 message.setPropertyValue("text", "")
                 
@@ -177,6 +208,8 @@ else:
         ######################## Box -> File ###########################
         
         if radio_target == "Box" and radio_source == "File":
+
+# First it is checked that boxes are checked and the file exists.
             
             check_filepath = os.path.isfile(filepath)
             
@@ -201,6 +234,8 @@ else:
                     message.setPropertyValue("text", "Choose a filepath!")
                     
                 else:
+
+# Then the filecontent is obtained.
                     
                     f = open (filepath, "r")
                     file_element_voltages = f.readlines()
@@ -210,11 +245,17 @@ else:
                     file_voltagearray = []
         
                     while count < len(file_element_voltages):
+
+# Then it is checked if there is a channel assigned to the element of
+# every line of the file.
                         
                         line = file_element_voltages[count].split()
                         file_element = int(line[0])
                         file_voltage = int(line[1])
                         element_channel_pv = widget.getPVByName("CB:CB:HV:ELEMENT:%s:Channel" % file_element) 
+
+# In case the element is assigned to a box, that was checked the
+# according value is set to the corresponding channel.
                         
                         if element_channel_pv != None:
                         
@@ -237,6 +278,9 @@ else:
         ch_box = display.getWidget("combo_box").getValue()
         ch_level = display.getWidget("combo_level").getValue()
         ch_channel = display.getWidget("combo_channel").getValue()
+
+# First it is checked that a voltage value and a combination of box,
+# level and channel are set.
         
         if radio_target == "Channel" and radio_source == "selected Value":
             
@@ -250,11 +294,11 @@ else:
             
             if channel_selected == False and voltage != 0:
                 
-                message.setPropertyValue("text", "Choose a value for box, level and channel..")
+                message.setPropertyValue("text", "Choose a value for box, level and channel.")
                           
             elif voltage == 0 and channel_selected == True:
                 
-                message.setPropertyValue("text", "Choose a voltage value here2 %s." % voltage) 
+                message.setPropertyValue("text", "Choose a voltage value.") 
                 
             elif voltage == 0 and channel_selected == False:
                 
@@ -269,6 +313,9 @@ else:
                     message.setPropertyValue("text", "Chosen channel not known.")
                     
                 else:
+
+# If the channel and voltage match all the criteria the voltage value
+# is set to the correspoding pv.
                     
                     message.setPropertyValue("text", "")
                     ch_exists.setValue(voltage)
@@ -276,6 +323,8 @@ else:
 ############################# Channel -> File ############################
                     
         if radio_target == "Channel" and radio_source == "File":
+
+# First the channel and filepath are checked.
             
             check_filepath = os.path.isfile(filepath)
             
@@ -300,24 +349,8 @@ else:
                 message.setPropertyValue("text", "Choose a file and a value for box, level and channel.")
                 
             else:
-                
-                ############### check for config file ###############
-                
- #               opifilepath = display.getModel().getOpiFilePath().toString()
- #               workspacepath = FileUtil.workspacePathToSysPath("/")
- #                               
- #               path = workspacepath + opifilepath  
- #               
- #               path = path[::-1] ############### reverse string to remove name of opi file #########
- #               
- #               pathsplit = path.split("/",1)
- #               
- #               folder = pathsplit[1]
- #               
- #               configfilepath = folder[::-1]
- #               
- #               configfile = configfilepath + "/cbhv_config.txt"
-                
+
+# Then the filecontent is obtained.
                                
                 f = open (filepath, "r")
                 file_element_voltages = f.readlines()
@@ -332,6 +365,9 @@ else:
                     file_elementarray.append(int(line[0]))
                     file_voltagearray.append(int(line[1]))  
                     count+=1
+
+# It is checked if the entered channel is mentioned in the file -
+# therefor the corresponding element number has to be looked up.
                 
                                           
                 message.setPropertyValue("text", "")
@@ -341,6 +377,9 @@ else:
                 check_element_file = ch_element in file_elementarray
                 
                 print check_element_file
+
+# In case the channel/ element is mentioned the voltage value is
+# written to the pv.
                 
                 if check_element_file == True:
                     ch_exists = widget.getPVByName("CB:CB:HV:BOX:%s:%s:%s:SetVolt" % (ch_box, ch_level, ch_channel))
@@ -351,10 +390,16 @@ else:
 ################################# from file ###########################
 
     elif radio_target == "From file" and radio_source == "File":
+
+# When using this option, all element mentioned in the file are set the corresponding values.
         
         filepath = display.getWidget("filepath").getValue()
 
+# First it is checked if the file exists.
+
         check_filepath = os.path.isfile(filepath)
+
+# Then the filecontent is obtained.
 
         if check_filepath == True:
             
@@ -372,6 +417,9 @@ else:
                 file_element = int(line[0])
                 file_voltage = int(line[1]) 
                 pv = display.getWidget("engage").getPVByName("CB:CB:HV:ELEMENT:%s:SetVolt" % file_element)
+
+# In case the element number exists/ is assigned to a channel the
+# voltage value is written to the corresponding pv.
                 
                 if pv != None:
                     
