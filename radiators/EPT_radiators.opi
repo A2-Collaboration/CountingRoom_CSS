@@ -37,7 +37,7 @@
     <tooltip></tooltip>
     <rules />
     <enabled>true</enabled>
-    <wuid>-2cf37aa3:1424c5c5558:-7db2</wuid>
+    <wuid>64935827:1470629c9e1:-7aa0</wuid>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
@@ -60,9 +60,9 @@
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>745</width>
-    <x>18</x>
+    <x>12</x>
     <name>Status</name>
-    <y>24</y>
+    <y>36</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -72,59 +72,6 @@
     <font>
       <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
-    <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <effect_3d>true</effect_3d>
-      <bit>0</bit>
-      <pv_value />
-      <height>26</height>
-      <border_width>1</border_width>
-      <visible>true</visible>
-      <pv_name>BEAM:TABLE:STATUS0</pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>LED</widget_type>
-      <name>LED</name>
-      <actions hook="false" hook_all="false" />
-      <show_boolean_label>false</show_boolean_label>
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <enabled>true</enabled>
-      <wuid>11d03477:14237ac691a:-7fee</wuid>
-      <on_color>
-        <color name="On" red="0" green="255" blue="0" />
-      </on_color>
-      <scripts />
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <on_label>ON</on_label>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <off_color>
-        <color name="Off" red="60" green="100" blue="60" />
-      </off_color>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <square_led>false</square_led>
-      <width>26</width>
-      <x>96</x>
-      <data_type>0</data_type>
-      <y>12</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <off_label>OFF</off_label>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
@@ -145,7 +92,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <value_label_format></value_label_format>
       <visible>true</visible>
-      <pv_name>BEAM:TABLE:CH0:READ</pv_name>
+      <pv_name>EPT:Radiator:Pos:Read</pv_name>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -166,7 +113,7 @@ $(pv_value)</tooltip>
       <show_hihi>false</show_hihi>
       <log_scale>false</log_scale>
       <enabled>true</enabled>
-      <wuid>-2cf37aa3:1424c5c5558:-7fde</wuid>
+      <wuid>64935827:1470629c9e1:-7a9e</wuid>
       <indicator_mode>false</indicator_mode>
       <level_hihi>90.0</level_hihi>
       <origin_ignored>true</origin_ignored>
@@ -200,14 +147,14 @@ $(pv_value)</tooltip>
       <width>674</width>
       <x>7</x>
       <y>78</y>
-      <maximum>1.8</maximum>
+      <maximum>2000000.0</maximum>
       <color_lolo>
         <color red="255" green="0" blue="0" />
       </color_lolo>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <minimum>1.0</minimum>
+      <minimum>0.0</minimum>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
@@ -218,10 +165,10 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>-2cf37aa3:1424c5c5558:-7d02</wuid>
+      <wuid>64935827:1470629c9e1:-7a9d</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
-      <text>Motor on</text>
+      <text>Motor status</text>
       <scripts />
       <height>26</height>
       <border_width>1</border_width>
@@ -253,98 +200,6 @@ $(pv_value)</tooltip>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-2cf37aa3:1424c5c5558:-7c71</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>Direction</text>
-      <scripts />
-      <height>26</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>80</width>
-      <x>17</x>
-      <name>Label_2</name>
-      <y>48</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <precision>0</precision>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-2cf37aa3:1424c5c5558:-7c30</wuid>
-      <transparent>false</transparent>
-      <pv_value />
-      <auto_size>false</auto_size>
-      <text>##.###</text>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <show_units>true</show_units>
-      <height>26</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name>BEAM:TABLE:STATUS1</pv_name>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <precision_from_pv>true</precision_from_pv>
-      <widget_type>Text Update</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <wrap_words>false</wrap_words>
-      <format_type>0</format_type>
-      <background_color>
-        <color name="Read_Background" red="240" green="240" blue="240" />
-      </background_color>
-      <width>80</width>
-      <x>96</x>
-      <name>Text Update_2</name>
-      <y>48</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
       <border_style>0</border_style>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
@@ -354,7 +209,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
       <rules />
       <enabled>true</enabled>
-      <wuid>-36c95ccf:1424cc471c7:-3baa</wuid>
+      <wuid>64935827:1470629c9e1:-7a9a</wuid>
       <transparent>false</transparent>
       <points>
         <point x="588" y="157" />
@@ -414,7 +269,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
       <rules />
       <enabled>true</enabled>
-      <wuid>-36c95ccf:1424cc471c7:-3b97</wuid>
+      <wuid>64935827:1470629c9e1:-7a99</wuid>
       <transparent>false</transparent>
       <points>
         <point x="389" y="157" />
@@ -474,7 +329,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
       <rules />
       <enabled>true</enabled>
-      <wuid>-36c95ccf:1424cc471c7:-3b9e</wuid>
+      <wuid>64935827:1470629c9e1:-7a98</wuid>
       <transparent>false</transparent>
       <points>
         <point x="87" y="157" />
@@ -531,11 +386,10 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>-36c95ccf:1424cc471c7:-3b0c</wuid>
+      <wuid>64935827:1470629c9e1:-7a97</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
-      <text>Camera:
-1.0852 V</text>
+      <text>xx mu copper</text>
       <scripts />
       <height>40</height>
       <border_width>1</border_width>
@@ -554,7 +408,7 @@ $(pv_value)</tooltip>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
-      <width>80</width>
+      <width>121</width>
       <x>78</x>
       <name>Label_4</name>
       <y>189</y>
@@ -573,11 +427,10 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>-36c95ccf:1424cc471c7:-3afe</wuid>
+      <wuid>64935827:1470629c9e1:-7a96</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
-      <text>Lead Glass:
-1.4581 V</text>
+      <text>xx mu copper</text>
       <scripts />
       <height>40</height>
       <border_width>1</border_width>
@@ -596,7 +449,7 @@ $(pv_value)</tooltip>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
-      <width>80</width>
+      <width>113</width>
       <x>380</x>
       <name>Label_4</name>
       <y>189</y>
@@ -615,7 +468,7 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>21dffd5:142700c0f20:-7b0d</wuid>
+      <wuid>64935827:1470629c9e1:-7a95</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
       <text>Current voltage</text>
@@ -656,11 +509,10 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>-36c95ccf:1424cc471c7:-3af7</wuid>
+      <wuid>64935827:1470629c9e1:-7a94</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
-      <text>Active Target:
-1.7051 V</text>
+      <text>blank</text>
       <scripts />
       <height>40</height>
       <border_width>1</border_width>
@@ -701,11 +553,11 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>21dffd5:142700c0f20:-7b0e</wuid>
+      <wuid>64935827:1470629c9e1:-7a93</wuid>
       <transparent>false</transparent>
       <pv_value />
       <auto_size>false</auto_size>
-      <text>##.####</text>
+      <text>######</text>
       <rotation_angle>0.0</rotation_angle>
       <scripts />
       <border_alarm_sensitive>true</border_alarm_sensitive>
@@ -718,7 +570,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>BEAM:TABLE:CH0:READ</pv_name>
+      <pv_name>EPT:Radiator:Pos:Read</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -743,17 +595,68 @@ $(pv_value)</tooltip>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision>0</precision>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>64935827:1470629c9e1:-79bc</wuid>
+      <transparent>false</transparent>
+      <pv_value />
+      <auto_size>false</auto_size>
+      <text>##.###</text>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <show_units>true</show_units>
+      <height>26</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name>EPT:Radiator:Motor:Auto</pv_name>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <precision_from_pv>true</precision_from_pv>
+      <widget_type>Text Update</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <wrap_words>false</wrap_words>
+      <format_type>0</format_type>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240" />
+      </background_color>
+      <width>80</width>
+      <x>96</x>
+      <name>Text Update_2</name>
+      <y>23</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <border_style>13</border_style>
     <tooltip></tooltip>
     <rules />
     <enabled>true</enabled>
-    <wuid>21dffd5:142700c0f20:-7c33</wuid>
+    <wuid>64935827:1470629c9e1:-7a1c</wuid>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>108</height>
+    <height>115</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -772,9 +675,9 @@ $(pv_value)</tooltip>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>745</width>
-    <x>18</x>
+    <x>12</x>
     <name>Controls</name>
-    <y>312</y>
+    <y>324</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -793,7 +696,7 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>21dffd5:142700c0f20:-7f22</wuid>
+      <wuid>64935827:1470629c9e1:-7a1b</wuid>
       <transparent>false</transparent>
       <pv_value />
       <auto_size>false</auto_size>
@@ -810,7 +713,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>BEAM:TABLE:CH0:SET</pv_name>
+      <pv_name>EPT:Radiator:Pos:Set</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -843,7 +746,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
       <rules />
       <enabled>true</enabled>
-      <wuid>21dffd5:142700c0f20:-7e80</wuid>
+      <wuid>64935827:1470629c9e1:-7a1a</wuid>
       <transparent>false</transparent>
       <pv_value />
       <scripts />
@@ -860,7 +763,7 @@ $(pv_value)</tooltip>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
-      <label>Move beamtable</label>
+      <label>Move Radiator</label>
       <widget_type>Menu Button</widget_type>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
       <background_color>
@@ -875,25 +778,19 @@ $(pv_value)</tooltip>
       </foreground_color>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
-          <pv_name>BEAM:TABLE:CH0:SET</pv_name>
-          <value>1.0852</value>
+          <pv_name>EPT:Radiator:Pos:Set</pv_name>
+          <value>1e+6</value>
           <timeout>10</timeout>
-          <confirm_message>This will move the beamtable to Camera position. Please make sure that there is no beam!</confirm_message>
-          <description>Camera</description>
+          <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
+          <description>xx mu copper</description>
         </action>
-        <action type="WRITE_PV">
-          <pv_name>BEAM:TABLE:CH0:SET</pv_name>
-          <value>1.4581</value>
-          <timeout>10</timeout>
-          <confirm_message>This will move the beamtable to Lead Glass position. Please make sure that there is no beam!</confirm_message>
-          <description>Lead Glass</description>
-        </action>
-        <action type="WRITE_PV">
-          <pv_name>BEAM:TABLE:CH0:SET</pv_name>
-          <value>1.7051</value>
-          <timeout>10</timeout>
-          <confirm_message>This will move the beamtable to Active Target position. Please make sure that there is no beam!</confirm_message>
-          <description>Active Target</description>
+        <action type="OPEN_DISPLAY">
+          <path>EPT_radiators_expert.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <replace>1</replace>
+          <description>Open expert - control - panel</description>
         </action>
       </actions>
       <font>
@@ -909,7 +806,7 @@ $(pv_value)</tooltip>
 $(pv_value)</tooltip>
       <rules />
       <enabled>true</enabled>
-      <wuid>21dffd5:142700c0f20:-7c14</wuid>
+      <wuid>64935827:1470629c9e1:-7a19</wuid>
       <transparent>false</transparent>
       <points>
         <point x="228" y="28" />
@@ -966,7 +863,7 @@ $(pv_value)</tooltip>
       <horizontal_alignment>0</horizontal_alignment>
       <rules />
       <enabled>true</enabled>
-      <wuid>21dffd5:142700c0f20:-7bf1</wuid>
+      <wuid>64935827:1470629c9e1:-7a18</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
       <text>Current setpoint</text>
@@ -1001,5 +898,107 @@ $(pv_value)</tooltip>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <toggle_button>false</toggle_button>
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <push_action_index>0</push_action_index>
+      <rules>
+        <rule name="makeVis" prop_id="visible" out_exp="true">
+          <exp bool_exp="pv0 == 1">
+            <value>false</value>
+          </exp>
+          <pv trig="true">EPT:Radiator:Motor:Auto.DISV</pv>
+        </rule>
+      </rules>
+      <enabled>true</enabled>
+      <wuid>64935827:1470629c9e1:-6f75</wuid>
+      <pv_value />
+      <text>Auto-positioning is off,
+click here to fix it!!!</text>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>73</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <image></image>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Action Button</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <width>187</width>
+      <x>492</x>
+      <name>Action Button</name>
+      <y>0</y>
+      <style>0</style>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false">
+        <action type="WRITE_PV">
+          <pv_name>EPT:Radiator:Motor:Auto.DISV</pv_name>
+          <value>1</value>
+          <timeout>10</timeout>
+          <confirm_message></confirm_message>
+          <description></description>
+        </action>
+      </actions>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>64935827:1470629c9e1:-5bca</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>EPT - RADIATOR</text>
+    <scripts />
+    <height>25</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>745</width>
+    <x>12</x>
+    <name>Label</name>
+    <y>0</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
 </display>

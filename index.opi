@@ -1,66 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <show_close_button>true</show_close_button>
+  <rules />
+  <wuid>-603c924c:141e100235d:-7de4</wuid>
+  <show_grid>true</show_grid>
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <scripts />
+  <height>600</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
-  <wuid>-603c924c:141e100235d:-7de4</wuid>
-  <boy_version>3.2.7.20130827</boy_version>
-  <scripts />
-  <show_ruler>true</show_ruler>
-  <height>600</height>
-  <name>A2 Index</name>
-  <snap_to_geometry>true</snap_to_geometry>
-  <show_grid>true</show_grid>
-  <background_color>
-    <color name="OPI_Background" red="255" green="255" blue="255" />
-  </background_color>
-  <foreground_color>
-    <color red="192" green="192" blue="192" />
-  </foreground_color>
-  <widget_type>Display</widget_type>
-  <show_close_button>true</show_close_button>
-  <width>800</width>
-  <rules />
+  <boy_version>3.2.17.201406251207</boy_version>
   <show_edit_range>true</show_edit_range>
-  <grid_space>6</grid_space>
+  <widget_type>Display</widget_type>
   <auto_scale_widgets>
     <auto_scale_widgets>false</auto_scale_widgets>
     <min_width>-1</min_width>
     <min_height>-1</min_height>
   </auto_scale_widgets>
-  <actions hook="false" hook_all="false" />
-  <y>-1</y>
+  <background_color>
+    <color name="OPI_Background" red="255" green="255" blue="255" />
+  </background_color>
+  <width>800</width>
   <x>-1</x>
+  <name>A2 Index</name>
+  <grid_space>6</grid_space>
+  <show_ruler>true</show_ruler>
+  <y>-1</y>
+  <snap_to_geometry>true</snap_to_geometry>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <actions hook="false" hook_all="false" />
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
-    <crop_right>0</crop_right>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
     <crop_left>0</crop_left>
-    <visible>true</visible>
+    <enabled>true</enabled>
     <wuid>-603c924c:141e100235d:-7dbb</wuid>
     <auto_size>true</auto_size>
+    <image_file>graphics/a2logo_light_small.png</image_file>
     <scripts />
     <height>66</height>
-    <name>Image</name>
-    <stretch_to_fit>false</stretch_to_fit>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>true</keep_wh_ratio>
     </scale_options>
+    <visible>true</visible>
+    <crop_bottom>0</crop_bottom>
+    <degree>0</degree>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <no_animation>false</no_animation>
+    <widget_type>Image</widget_type>
+    <flip_horizontal>false</flip_horizontal>
     <background_color>
       <color red="240" green="240" blue="240" />
     </background_color>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <widget_type>Image</widget_type>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>100</width>
-    <no_animation>false</no_animation>
-    <flip_horizontal>false</flip_horizontal>
     <permutation_matrix>
       <row>
         <col>1.0</col>
@@ -71,98 +71,97 @@
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <crop_top>0</crop_top>
-    <border_style>0</border_style>
-    <rules />
-    <flip_vertical>false</flip_vertical>
-    <crop_bottom>0</crop_bottom>
-    <degree>0</degree>
-    <border_width>1</border_width>
-    <image_file>graphics/a2logo_light_small.png</image_file>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <actions hook="false" hook_all="false" />
-    <y>27</y>
-    <tooltip></tooltip>
+    <width>100</width>
     <x>24</x>
+    <name>Image</name>
+    <y>27</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <crop_top>0</crop_top>
+    <crop_right>0</crop_right>
+    <stretch_to_fit>false</stretch_to_fit>
+    <flip_vertical>false</flip_vertical>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
     <wuid>-603c924c:141e100235d:-7d81</wuid>
+    <transparent>true</transparent>
     <auto_size>false</auto_size>
+    <text>EPICS Control Center</text>
     <scripts />
     <height>30</height>
-    <name>Label</name>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <transparent>true</transparent>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>false</wrap_words>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
+    <width>547</width>
+    <x>126</x>
+    <name>Label</name>
+    <y>45</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <widget_type>Label</widget_type>
-    <enabled>true</enabled>
-    <text>EPICS Control Center</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="18" style="1">Header 1</opifont.name>
-    </font>
-    <width>547</width>
-    <border_style>0</border_style>
-    <rules />
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <horizontal_alignment>1</horizontal_alignment>
     <actions hook="false" hook_all="false" />
-    <y>45</y>
-    <wrap_words>false</wrap_words>
-    <tooltip></tooltip>
-    <x>126</x>
+    <font>
+      <opifont.name fontName="Cantarell" height="19" style="1">Header 1</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-7d39</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>scaler_board_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the Scaler Board</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-603c924c:141e100235d:-7d39</wuid>
+    <pv_value />
+    <text>Scaler Board</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>Scaler Board</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>157</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>scaler_board_btn</name>
     <y>180</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>scalers.opi</path>
@@ -173,45 +172,45 @@
         <description>Open the scaler overview</description>
       </action>
     </actions>
-    <tooltip>Open the Scaler Board</tooltip>
-    <x>24</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-7d2d</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>Action Button_1</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the CPU Livetimes overview</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-603c924c:141e100235d:-7d2d</wuid>
+    <pv_value />
+    <text>CPU Livetimes</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>CPU Livetimes</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>157</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>Action Button_1</name>
     <y>228</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>livetime_board.opi</path>
@@ -222,45 +221,45 @@
         <description>Open the CPU Livetimes overview</description>
       </action>
     </actions>
-    <tooltip>Open the CPU Livetimes overview</tooltip>
-    <x>24</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-7c90</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>cbhv_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the CB High Voltage controls</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-603c924c:141e100235d:-7c90</wuid>
+    <pv_value />
+    <text>CB HV Controls</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>CB HV Controls</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>157</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>cbhv_btn</name>
     <y>276</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="true">
       <action type="OPEN_DISPLAY">
         <path>CBHV/cbhv.opi</path>
@@ -271,45 +270,45 @@
         <description>Crystall Ball High Voltage Control</description>
       </action>
     </actions>
-    <tooltip>Open the CB High Voltage controls</tooltip>
-    <x>24</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-7c09</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>vitec_mon_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the Health Monitor for the VITEC Cards</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-603c924c:141e100235d:-7c09</wuid>
+    <pv_value />
+    <text>VITEC Cards Health</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>VITEC Cards Health</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>157</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>vitec_mon_btn</name>
     <y>324</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>VITECs/all_vitecs.opi</path>
@@ -320,45 +319,45 @@
         <description></description>
       </action>
     </actions>
-    <tooltip>Open the Health Monitor for the VITEC Cards</tooltip>
-    <x>24</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-7bd4</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>table_positon_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the PB Glass Controls</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-603c924c:141e100235d:-7bd4</wuid>
+    <pv_value />
+    <text>Beam Table Controls</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>Beam Table Controls</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>157</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>table_positon_btn</name>
     <y>420</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>beamTable/BeamTable.opi</path>
@@ -369,38 +368,39 @@
         <description></description>
       </action>
     </actions>
-    <tooltip>Open the PB Glass Controls</tooltip>
-    <x>24</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
-    <crop_right>0</crop_right>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
     <crop_left>0</crop_left>
-    <visible>true</visible>
+    <enabled>true</enabled>
     <wuid>-603c924c:141e100235d:-7b4e</wuid>
     <auto_size>true</auto_size>
+    <image_file>graphics/epics.png</image_file>
     <scripts />
     <height>101</height>
-    <name>Image_1</name>
-    <stretch_to_fit>false</stretch_to_fit>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
+    <visible>true</visible>
+    <crop_bottom>0</crop_bottom>
+    <degree>0</degree>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <no_animation>false</no_animation>
+    <widget_type>Image</widget_type>
+    <flip_horizontal>false</flip_horizontal>
     <background_color>
       <color red="240" green="240" blue="240" />
     </background_color>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <widget_type>Image</widget_type>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>101</width>
-    <no_animation>false</no_animation>
-    <flip_horizontal>false</flip_horizontal>
     <permutation_matrix>
       <row>
         <col>1.0</col>
@@ -411,51 +411,51 @@
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <crop_top>0</crop_top>
-    <border_style>0</border_style>
-    <rules />
-    <flip_vertical>false</flip_vertical>
-    <crop_bottom>0</crop_bottom>
-    <degree>0</degree>
-    <border_width>1</border_width>
-    <image_file>graphics/epics.png</image_file>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <actions hook="false" hook_all="false" />
-    <y>9</y>
-    <tooltip></tooltip>
+    <width>101</width>
     <x>684</x>
+    <name>Image_1</name>
+    <y>9</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <crop_top>0</crop_top>
+    <crop_right>0</crop_right>
+    <stretch_to_fit>false</stretch_to_fit>
+    <flip_vertical>false</flip_vertical>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
-    <crop_right>0</crop_right>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
     <crop_left>0</crop_left>
-    <visible>true</visible>
+    <enabled>true</enabled>
     <wuid>-603c924c:141e100235d:-7b27</wuid>
     <auto_size>true</auto_size>
+    <image_file>graphics/cbtaps.png</image_file>
     <scripts />
     <height>365</height>
-    <name>Image_2</name>
-    <stretch_to_fit>false</stretch_to_fit>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
+    <visible>true</visible>
+    <crop_bottom>0</crop_bottom>
+    <degree>0</degree>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <no_animation>false</no_animation>
+    <widget_type>Image</widget_type>
+    <flip_horizontal>false</flip_horizontal>
     <background_color>
       <color red="240" green="240" blue="240" />
     </background_color>
-    <foreground_color>
-      <color red="192" green="192" blue="192" />
-    </foreground_color>
-    <widget_type>Image</widget_type>
-    <enabled>true</enabled>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>571</width>
-    <no_animation>false</no_animation>
-    <flip_horizontal>false</flip_horizontal>
     <permutation_matrix>
       <row>
         <col>1.0</col>
@@ -466,58 +466,57 @@
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <crop_top>0</crop_top>
-    <border_style>0</border_style>
-    <rules />
-    <flip_vertical>false</flip_vertical>
-    <crop_bottom>0</crop_bottom>
-    <degree>0</degree>
-    <border_width>1</border_width>
-    <image_file>graphics/cbtaps.png</image_file>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <actions hook="false" hook_all="false" />
-    <y>219</y>
-    <tooltip></tooltip>
+    <width>571</width>
     <x>214</x>
+    <name>Image_2</name>
+    <y>219</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <crop_top>0</crop_top>
+    <crop_right>0</crop_right>
+    <stretch_to_fit>false</stretch_to_fit>
+    <flip_vertical>false</flip_vertical>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-603c924c:141e100235d:-70ab</wuid>
-    <scripts />
-    <height>43</height>
-    <style>1</style>
-    <name>taps_overview_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the Scaler Board</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-603c924c:141e100235d:-70ab</wuid>
+    <pv_value />
+    <text>TAPS Overview</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>43</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
+    <image></image>
+    <visible>true</visible>
     <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>133</width>
+    <x>198</x>
+    <name>taps_overview_btn</name>
+    <y>480</y>
+    <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>TAPS Overview</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>133</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
-    <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <y>480</y>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>TAPS.opi</path>
@@ -528,45 +527,45 @@
         <description>Open the TAPS overview</description>
       </action>
     </actions>
-    <tooltip>Open the Scaler Board</tooltip>
-    <x>198</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>69fc50bd:141f9f356e4:-7bc1</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>cb_monitor_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the CB Monitor</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>69fc50bd:141f9f356e4:-7bc1</wuid>
+    <pv_value />
+    <text>CB Monitor</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>CB Monitor</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>139</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>139</width>
+    <x>420</x>
+    <name>cb_monitor_btn</name>
     <y>189</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>CBMon.opi</path>
@@ -577,45 +576,45 @@
         <description>Open the CB Monitor</description>
       </action>
     </actions>
-    <tooltip>Open the CB Monitor</tooltip>
-    <x>420</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>69fc50bd:141f9f356e4:-732c</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>mwpc_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the Scaler Board</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>69fc50bd:141f9f356e4:-732c</wuid>
+    <pv_value />
+    <text>MWPC</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>MWPC</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>139</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>139</width>
+    <x>420</x>
+    <name>mwpc_btn</name>
     <y>237</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>MWPC.opi</path>
@@ -626,45 +625,46 @@
         <description>Open the MWPC Overview</description>
       </action>
     </actions>
-    <tooltip>Open the Scaler Board</tooltip>
-    <x>420</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-57d3bf0a:142387e867f:-7ed8</wuid>
-    <scripts />
-    <height>40</height>
-    <style>1</style>
-    <name>Action Button</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-57d3bf0a:142387e867f:-7ed8</wuid>
+    <pv_value />
+    <text>Crate Status</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>Crate Status</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>157</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>Action Button</name>
     <y>372</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>crates/CrateStatus.opi</path>
@@ -675,46 +675,45 @@
         <description>Open Crate Satus Overview</description>
       </action>
     </actions>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <x>24</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <visible>true</visible>
-    <wuid>-5694a794:1424793ea77:-6a6f</wuid>
-    <scripts />
-    <height>34</height>
-    <style>1</style>
-    <name>tagg_btn</name>
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open the Tagger Overview</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-5694a794:1424793ea77:-6a6f</wuid>
+    <pv_value />
+    <text>Tagger.</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>34</height>
+    <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
       <height_scalable>true</height_scalable>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
-    <pv_name></pv_name>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <widget_type>Action Button</widget_type>
-    <enabled>true</enabled>
-    <text>Tagger.</text>
-    <font>
-      <opifont.name fontName="Times New Roman" height="10" style="0">Default</opifont.name>
-    </font>
-    <width>115</width>
-    <border_style>0</border_style>
-    <push_action_index>0</push_action_index>
     <image></image>
-    <rules />
-    <pv_value />
-    <toggle_button>false</toggle_button>
-    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name></pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>115</width>
+    <x>240</x>
+    <name>tagg_btn</name>
     <y>138</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
         <path>tagger.opi</path>
@@ -725,7 +724,57 @@ $(pv_value)</tooltip>
         <description>Open the Tagger Overview</description>
       </action>
     </actions>
-    <tooltip>Open the Tagger Overview</tooltip>
-    <x>240</x>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open radiator controls for EPT</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>64935827:1470629c9e1:-7e67</wuid>
+    <pv_value />
+    <text>EPT radiator</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image></image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>157</width>
+    <x>24</x>
+    <name>table_positon_btn_1</name>
+    <y>468</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>radiators/EPT_radiators.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>0</replace>
+        <description></description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
   </widget>
 </display>
