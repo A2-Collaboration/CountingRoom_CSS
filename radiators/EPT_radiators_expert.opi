@@ -196,7 +196,7 @@ $(pv_value)</tooltip>
       <transparent_background>true</transparent_background>
       <level_lo>20.0</level_lo>
       <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <limits_from_pv>false</limits_from_pv>
+      <limits_from_pv>true</limits_from_pv>
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
@@ -1116,7 +1116,7 @@ $(pv_value)</tooltip>
       </border_color>
       <widget_type>Action Button</widget_type>
       <width>80</width>
-      <x>186</x>
+      <x>386</x>
       <name>Action Button</name>
       <y>123</y>
       <style>1</style>
@@ -1228,7 +1228,7 @@ $(pv_value)</tooltip>
       </border_color>
       <widget_type>Action Button</widget_type>
       <width>80</width>
-      <x>386</x>
+      <x>186</x>
       <name>Action Button_1</name>
       <y>123</y>
       <style>1</style>
