@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.406043786308E12</lower>
-            <upper>1.406044086308E12</upper>
+            <lower>1.406044083059E12</lower>
+            <upper>1.406044383059E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -32,7 +32,7 @@
     <axisSettingsList>
         <autoFormat>true</autoFormat>
         <autoScale>true</autoScale>
-        <autoScaleThreshold>0.1</autoScaleThreshold>
+        <autoScaleThreshold>0.5</autoScaleThreshold>
         <dashGridLine>true</dashGridLine>
         <dateEnabled>false</dateEnabled>
         <foregroundColor>
@@ -49,12 +49,12 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>100.0</lower>
-            <upper>102.0</upper>
+            <lower>0.0</lower>
+            <upper>1.0</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>false</showMajorGrid>
-        <title>Ion Chamber [Hz]</title>
+        <title>PB Glass Rate [Hz]</title>
         <titleFont>1|Sans|9.0|1|GTK|1|</titleFont>
     </axisSettingsList>
     <plotAreaBackColor>
@@ -65,11 +65,11 @@
     <showLegend>false</showLegend>
     <showPlotAreaBorder>true</showPlotAreaBorder>
     <showTitle>false</showTitle>
-    <title>Ion Chamber</title>
+    <title>PB Glass Rate</title>
     <titleColor>
-        <blue>0</blue>
-        <green>0</green>
-        <red>0</red>
+        <blue>33</blue>
+        <green>33</green>
+        <red>33</red>
     </titleColor>
     <titleFont>1|Sans|12.0|1|GTK|1|</titleFont>
     <traceSettingsList>
@@ -83,15 +83,15 @@
             <green>21</green>
             <red>21</red>
         </errorBarColor>
-        <errorBarEnabled>false</errorBarEnabled>
+        <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>1</lineWidth>
-        <name>BEAM:IonChamber</name>
+        <name>PB Glass Rate</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
             <blue>0</blue>
-            <green>0</green>
-            <red>255</red>
+            <green>128</green>
+            <red>0</red>
         </traceColor>
         <traceType>STEP_HORIZONTALLY</traceType>
         <xAxis>0</xAxis>
@@ -103,12 +103,12 @@
 </xyGraphSettings>
     <scroll>true</scroll>
     <update_period>1.0</update_period>
-    <start>2014/07/22 17:09:38.089</start>
-    <end>2014/07/22 17:14:38.089</end>
+    <start>2014/07/22 17:21:04.673</start>
+    <end>2014/07/22 17:26:04.673</end>
     <archive_rescale>STAGGER</archive_rescale>
     <pvlist>
         <pv>
-            <name>BEAM:IonChamber</name>
+            <name>BEAM:PBGlass</name>
             <visible>true</visible>
             <axis>0</axis>
             <waveform_index>0</waveform_index>

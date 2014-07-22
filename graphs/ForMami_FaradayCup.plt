@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.406040375176E12</lower>
-            <upper>1.406040675176E12</upper>
+            <lower>1.406043780326E12</lower>
+            <upper>1.406044080326E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -36,9 +36,9 @@
         <dashGridLine>true</dashGridLine>
         <dateEnabled>false</dateEnabled>
         <foregroundColor>
-            <blue>196</blue>
-            <green>21</green>
-            <red>21</red>
+            <blue>0</blue>
+            <green>0</green>
+            <red>0</red>
         </foregroundColor>
         <formatPattern>############.##</formatPattern>
         <logScale>false</logScale>
@@ -54,7 +54,7 @@
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>false</showMajorGrid>
-        <title>BEAM:FaradayCup</title>
+        <title>Faraday Cup [pA]</title>
         <titleFont>1|Sans|9.0|1|GTK|1|</titleFont>
     </axisSettingsList>
     <plotAreaBackColor>
@@ -64,7 +64,7 @@
     </plotAreaBackColor>
     <showLegend>false</showLegend>
     <showPlotAreaBorder>true</showPlotAreaBorder>
-    <showTitle>true</showTitle>
+    <showTitle>false</showTitle>
     <title>Faraday Cup</title>
     <titleColor>
         <blue>33</blue>

@@ -6,7 +6,7 @@
   <show_grid>true</show_grid>
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <scripts />
-  <height>600</height>
+  <height>768</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
@@ -23,7 +23,7 @@
   </background_color>
   <width>1024</width>
   <x>-1</x>
-  <name>Display</name>
+  <name>A2 Overview for MAMI</name>
   <grid_space>6</grid_space>
   <show_ruler>true</show_ruler>
   <y>-1</y>
@@ -90,13 +90,13 @@
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <border_style>0</border_style>
     <tooltip></tooltip>
-    <horizontal_alignment>1</horizontal_alignment>
+    <horizontal_alignment>0</horizontal_alignment>
     <rules />
     <enabled>true</enabled>
     <wuid>4a478266:1475e633807:-7f85</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>A2 Values for MAMI</text>
+    <text>Overview for MAMI Operator</text>
     <scripts />
     <height>30</height>
     <border_width>1</border_width>
@@ -115,8 +115,8 @@
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
-    <width>547</width>
-    <x>120</x>
+    <width>505</width>
+    <x>162</x>
     <name>Label</name>
     <y>24</y>
     <foreground_color>
@@ -137,7 +137,7 @@
     <auto_size>true</auto_size>
     <image_file>graphics/epics.png</image_file>
     <scripts />
-    <height>79</height>
+    <height>59</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -166,10 +166,10 @@
         <col>1.0</col>
       </row>
     </permutation_matrix>
-    <width>83</width>
-    <x>930</x>
+    <width>61</width>
+    <x>954</x>
     <name>Image_1</name>
-    <y>-1</y>
+    <y>9</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -183,7 +183,7 @@
     </font>
   </widget>
   <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
-    <show_value_labels>true</show_value_labels>
+    <show_value_labels>false</show_value_labels>
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
@@ -214,8 +214,8 @@
     <width>487</width>
     <x>24</x>
     <name>FaradayCupGraph</name>
-    <y>84</y>
-    <show_axis_trace>false</show_axis_trace>
+    <y>96</y>
+    <show_axis_trace>true</show_axis_trace>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -225,7 +225,7 @@
     </font>
   </widget>
   <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
-    <show_value_labels>true</show_value_labels>
+    <show_value_labels>false</show_value_labels>
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
@@ -256,8 +256,8 @@
     <width>487</width>
     <x>510</x>
     <name>IonChamberGraph</name>
-    <y>84</y>
-    <show_axis_trace>false</show_axis_trace>
+    <y>96</y>
+    <show_axis_trace>true</show_axis_trace>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -307,13 +307,13 @@
     <width>112</width>
     <x>399</x>
     <name>FaradayCupLabel</name>
-    <y>84</y>
+    <y>71</y>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color red="0" green="0" blue="255" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -357,13 +357,493 @@
     <width>112</width>
     <x>885</x>
     <name>IonChamberLabel</name>
-    <y>84</y>
+    <y>71</y>
     <foreground_color>
-      <color red="0" green="0" blue="0" />
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
+    <show_value_labels>false</show_value_labels>
+    <border_style>0</border_style>
+    <show_toolbar>false</show_toolbar>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7e44</wuid>
+    <scripts />
+    <height>300</height>
+    <selection_value_pv></selection_value_pv>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Data Browser</widget_type>
+    <filename>graphs/ForMami_PBGlass.plt</filename>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>487</width>
+    <x>24</x>
+    <name>PBGlassGraph</name>
+    <y>462</y>
+    <show_axis_trace>true</show_axis_trace>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <precision>0</precision>
+    <tooltip></tooltip>
+    <horizontal_alignment>2</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7e43</wuid>
+    <transparent>true</transparent>
+    <pv_value />
+    <auto_size>false</auto_size>
+    <text>##.###</text>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_units>true</show_units>
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>BEAM:PBGlass</pv_name>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <precision_from_pv>true</precision_from_pv>
+    <widget_type>Text Update</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <wrap_words>false</wrap_words>
+    <format_type>0</format_type>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240" />
+    </background_color>
+    <width>112</width>
+    <x>399</x>
+    <name>FaradayCupLabel_1</name>
+    <y>437</y>
+    <foreground_color>
+      <color red="0" green="128" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.trends.databrowser.opiwidget" version="1.0.0">
+    <show_value_labels>false</show_value_labels>
+    <border_style>0</border_style>
+    <show_toolbar>false</show_toolbar>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7e39</wuid>
+    <scripts />
+    <height>300</height>
+    <selection_value_pv></selection_value_pv>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Data Browser</widget_type>
+    <filename>graphs/ForMami_LadderRatios.plt</filename>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <width>487</width>
+    <x>510</x>
+    <name>LadderRatioGraph</name>
+    <y>462</y>
+    <show_axis_trace>true</show_axis_trace>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <precision>0</precision>
+    <tooltip></tooltip>
+    <horizontal_alignment>2</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7e38</wuid>
+    <transparent>true</transparent>
+    <pv_value />
+    <auto_size>false</auto_size>
+    <text>##.###</text>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_units>true</show_units>
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>TAGG:TAGG:LadderP2Ratio</pv_name>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <precision_from_pv>true</precision_from_pv>
+    <widget_type>Text Update</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <wrap_words>false</wrap_words>
+    <format_type>0</format_type>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240" />
+    </background_color>
+    <width>112</width>
+    <x>885</x>
+    <name>TaggerLadderP2RatioLabel</name>
+    <y>412</y>
+    <foreground_color>
+      <color red="0" green="0" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <precision>0</precision>
+    <tooltip></tooltip>
+    <horizontal_alignment>2</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7d89</wuid>
+    <transparent>true</transparent>
+    <pv_value />
+    <auto_size>false</auto_size>
+    <text>##.###</text>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_units>true</show_units>
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>TAGG:EPT:LadderP2Ratio</pv_name>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <precision_from_pv>true</precision_from_pv>
+    <widget_type>Text Update</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <wrap_words>false</wrap_words>
+    <format_type>0</format_type>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240" />
+    </background_color>
+    <width>112</width>
+    <x>885</x>
+    <name>EPTLadderP2RatioLabel</name>
+    <y>437</y>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>2</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7d1b</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>EPT:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>806</x>
+    <name>Label_1</name>
+    <y>437</y>
+    <foreground_color>
+      <color red="255" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>2</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7d0d</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>TAGG:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>806</x>
+    <name>Label_2</name>
+    <y>412</y>
+    <foreground_color>
+      <color red="0" green="0" blue="255" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7ca6</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Ladder / P2 Ratio</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>249</width>
+    <x>558</x>
+    <name>Label_3</name>
+    <y>437</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7c9a</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>PB Glass Rate</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>249</width>
+    <x>72</x>
+    <name>Label_4</name>
+    <y>437</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7c8f</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Faraday Cup</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>249</width>
+    <x>72</x>
+    <name>Label_5</name>
+    <y>71</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>32d962df:1475e730253:-7c88</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Ion Chamber (P2)</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>249</width>
+    <x>558</x>
+    <name>Label_6</name>
+    <y>71</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
     </font>
   </widget>
 </display>
