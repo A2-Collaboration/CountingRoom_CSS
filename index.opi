@@ -738,7 +738,7 @@ $(pv_value)</tooltip>
     <enabled>true</enabled>
     <wuid>64935827:1470629c9e1:-7e67</wuid>
     <pv_value />
-    <text>EPT radiator</text>
+    <text>EPT radiators</text>
     <scripts />
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <height>40</height>
@@ -765,7 +765,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>radiators/EPT_radiators.opi</path>
+        <path>radiators/EPT_radiators_2ch.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
