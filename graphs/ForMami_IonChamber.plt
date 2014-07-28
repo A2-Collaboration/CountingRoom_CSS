@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.406043786308E12</lower>
-            <upper>1.406044086308E12</upper>
+            <lower>1.406293954085E12</lower>
+            <upper>1.406294254085E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -50,7 +50,7 @@
         <onPrimarySide>true</onPrimarySide>
         <range>
             <lower>100.0</lower>
-            <upper>102.0</upper>
+            <upper>102.11</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>false</showMajorGrid>
@@ -83,15 +83,15 @@
             <green>21</green>
             <red>21</red>
         </errorBarColor>
-        <errorBarEnabled>false</errorBarEnabled>
+        <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>1</lineWidth>
         <name>BEAM:IonChamber</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
-            <blue>0</blue>
+            <blue>255</blue>
             <green>0</green>
-            <red>255</red>
+            <red>0</red>
         </traceColor>
         <traceType>STEP_HORIZONTALLY</traceType>
         <xAxis>0</xAxis>

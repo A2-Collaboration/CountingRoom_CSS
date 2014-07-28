@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.40604365552E12</lower>
-            <upper>1.40604395552E12</upper>
+            <lower>1.406293928209E12</lower>
+            <upper>1.406294228209E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -40,7 +40,7 @@
             <green>0</green>
             <red>0</red>
         </foregroundColor>
-        <formatPattern>############.##</formatPattern>
+        <formatPattern>0.####E0</formatPattern>
         <logScale>false</logScale>
         <majorGridColor>
             <blue>200</blue>
@@ -50,7 +50,7 @@
         <onPrimarySide>true</onPrimarySide>
         <range>
             <lower>0.0</lower>
-            <upper>1.0</upper>
+            <upper>114382.29841584158</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>false</showMajorGrid>
@@ -85,13 +85,13 @@
         </errorBarColor>
         <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>1</lineWidth>
-        <name>End Point Tagger</name>
+        <name>TAGG:EPT:LadderP2Ratio</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
-            <blue>0</blue>
-            <green>0</green>
-            <red>255</red>
+            <blue>196</blue>
+            <green>21</green>
+            <red>21</red>
         </traceColor>
         <traceType>STEP_HORIZONTALLY</traceType>
         <xAxis>0</xAxis>
@@ -112,12 +112,12 @@
         </errorBarColor>
         <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>1</lineWidth>
-        <name>Tagger</name>
+        <name>TAGG:TAGG:LadderP2Ratio</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
-            <blue>255</blue>
-            <green>0</green>
+            <blue>0</blue>
+            <green>128</green>
             <red>0</red>
         </traceColor>
         <traceType>STEP_HORIZONTALLY</traceType>

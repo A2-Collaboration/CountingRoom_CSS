@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.406044083059E12</lower>
-            <upper>1.406044383059E12</upper>
+            <lower>1.40629397142E12</lower>
+            <upper>1.40629427142E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -85,12 +85,12 @@
         </errorBarColor>
         <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>1</lineWidth>
-        <name>PB Glass Rate</name>
+        <name>BEAM:PBGlass</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
-            <blue>0</blue>
-            <green>128</green>
+            <blue>255</blue>
+            <green>0</green>
             <red>0</red>
         </traceColor>
         <traceType>STEP_HORIZONTALLY</traceType>

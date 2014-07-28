@@ -19,9 +19,9 @@
     <min_height>-1</min_height>
   </auto_scale_widgets>
   <background_color>
-    <color name="Background" red="255" green="255" blue="255" />
+    <color name="OPI_Background" red="255" green="255" blue="255" />
   </background_color>
-  <width>1024</width>
+  <width>1200</width>
   <x>-1</x>
   <name>A2 Overview for MAMI</name>
   <grid_space>6</grid_space>
@@ -167,7 +167,7 @@
       </row>
     </permutation_matrix>
     <width>61</width>
-    <x>954</x>
+    <x>1134</x>
     <name>Image_1</name>
     <y>9</y>
     <foreground_color>
@@ -187,7 +187,21 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules />
+    <rules>
+      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="128" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">BEAM:FaradayCup</pv>
+      </rule>
+    </rules>
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7f90</wuid>
     <scripts />
@@ -209,13 +223,13 @@
     <widget_type>Data Browser</widget_type>
     <filename>graphs/ForMami_FaradayCup.plt</filename>
     <background_color>
-      <color red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>487</width>
-    <x>24</x>
+    <width>445</width>
+    <x>6</x>
     <name>FaradayCupGraph</name>
     <y>96</y>
-    <show_axis_trace>true</show_axis_trace>
+    <show_axis_trace>false</show_axis_trace>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -229,7 +243,21 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules />
+    <rules>
+      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="128" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">BEAM:IonChamber</pv>
+      </rule>
+    </rules>
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7f59</wuid>
     <scripts />
@@ -243,6 +271,7 @@
     </scale_options>
     <macros>
       <include_parent_macros>true</include_parent_macros>
+      <AlarmPV>BEAM:IonChamber</AlarmPV>
     </macros>
     <visible>true</visible>
     <border_color>
@@ -251,13 +280,13 @@
     <widget_type>Data Browser</widget_type>
     <filename>graphs/ForMami_IonChamber.plt</filename>
     <background_color>
-      <color red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>487</width>
-    <x>510</x>
+    <width>445</width>
+    <x>450</x>
     <name>IonChamberGraph</name>
     <y>96</y>
-    <show_axis_trace>true</show_axis_trace>
+    <show_axis_trace>false</show_axis_trace>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -281,7 +310,7 @@
     <text>##.###</text>
     <rotation_angle>0.0</rotation_angle>
     <scripts />
-    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
     <show_units>true</show_units>
     <height>26</height>
     <border_width>1</border_width>
@@ -298,18 +327,18 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
-      <color name="Read_Background" red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
     <width>112</width>
-    <x>399</x>
+    <x>339</x>
     <name>FaradayCupLabel</name>
     <y>71</y>
     <foreground_color>
-      <color red="0" green="0" blue="255" />
+      <color name="Text" red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
@@ -331,7 +360,7 @@
     <text>##.###</text>
     <rotation_angle>0.0</rotation_angle>
     <scripts />
-    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
     <show_units>true</show_units>
     <height>26</height>
     <border_width>1</border_width>
@@ -348,18 +377,18 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
-      <color name="Read_Background" red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
     <width>112</width>
-    <x>885</x>
+    <x>756</x>
     <name>IonChamberLabel</name>
     <y>71</y>
     <foreground_color>
-      <color red="255" green="0" blue="0" />
+      <color name="Text" red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
@@ -371,7 +400,21 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules />
+    <rules>
+      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
+        <exp bool_exp="pvSev0==1">
+          <value>
+            <color name="Major" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="pvSev0==2">
+          <value>
+            <color name="Minor" red="255" green="128" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">BEAM:PBGlass</pv>
+      </rule>
+    </rules>
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7e44</wuid>
     <scripts />
@@ -393,13 +436,13 @@
     <widget_type>Data Browser</widget_type>
     <filename>graphs/ForMami_PBGlass.plt</filename>
     <background_color>
-      <color red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>487</width>
-    <x>24</x>
+    <width>445</width>
+    <x>6</x>
     <name>PBGlassGraph</name>
     <y>462</y>
-    <show_axis_trace>true</show_axis_trace>
+    <show_axis_trace>false</show_axis_trace>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -423,7 +466,7 @@
     <text>##.###</text>
     <rotation_angle>0.0</rotation_angle>
     <scripts />
-    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
     <show_units>true</show_units>
     <height>26</height>
     <border_width>1</border_width>
@@ -440,18 +483,18 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
-      <color name="Read_Background" red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
     <width>112</width>
-    <x>399</x>
+    <x>339</x>
     <name>FaradayCupLabel_1</name>
     <y>437</y>
     <foreground_color>
-      <color red="0" green="128" blue="0" />
+      <color name="Text" red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
@@ -463,7 +506,22 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules />
+    <rules>
+      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
+        <exp bool_exp="(pvSev0==1) || (pvSev1==1)">
+          <value>
+            <color name="Major" red="255" green="0" blue="0" />
+          </value>
+        </exp>
+        <exp bool_exp="(pvSev0==2) || (pvSev1==2)">
+          <value>
+            <color name="Minor" red="255" green="128" blue="0" />
+          </value>
+        </exp>
+        <pv trig="true">TAGG:TAGG:LadderP2Ratio</pv>
+        <pv trig="true">TAGG:EPT:LadderP2Ratio</pv>
+      </rule>
+    </rules>
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7e39</wuid>
     <scripts />
@@ -485,13 +543,13 @@
     <widget_type>Data Browser</widget_type>
     <filename>graphs/ForMami_LadderRatios.plt</filename>
     <background_color>
-      <color red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>487</width>
-    <x>510</x>
+    <width>418</width>
+    <x>450</x>
     <name>LadderRatioGraph</name>
     <y>462</y>
-    <show_axis_trace>true</show_axis_trace>
+    <show_axis_trace>false</show_axis_trace>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -509,13 +567,13 @@
     <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7e38</wuid>
-    <transparent>true</transparent>
+    <transparent>false</transparent>
     <pv_value />
     <auto_size>false</auto_size>
     <text>##.###</text>
     <rotation_angle>0.0</rotation_angle>
     <scripts />
-    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
     <show_units>true</show_units>
     <height>26</height>
     <border_width>1</border_width>
@@ -532,18 +590,18 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
-      <color name="Read_Background" red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
     <width>112</width>
-    <x>885</x>
+    <x>756</x>
     <name>TaggerLadderP2RatioLabel</name>
     <y>412</y>
     <foreground_color>
-      <color red="0" green="0" blue="255" />
+      <color name="Text" red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
@@ -559,13 +617,13 @@
     <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7d89</wuid>
-    <transparent>true</transparent>
+    <transparent>false</transparent>
     <pv_value />
     <auto_size>false</auto_size>
     <text>##.###</text>
     <rotation_angle>0.0</rotation_angle>
     <scripts />
-    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <border_alarm_sensitive>false</border_alarm_sensitive>
     <show_units>true</show_units>
     <height>26</height>
     <border_width>1</border_width>
@@ -582,18 +640,18 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
-      <color name="Read_Background" red="240" green="240" blue="240" />
+      <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
     <width>112</width>
-    <x>885</x>
+    <x>756</x>
     <name>EPTLadderP2RatioLabel</name>
     <y>437</y>
     <foreground_color>
-      <color red="255" green="0" blue="0" />
+      <color name="Text" red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
@@ -629,7 +687,7 @@
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>80</width>
-    <x>806</x>
+    <x>677</x>
     <name>Label_1</name>
     <y>437</y>
     <foreground_color>
@@ -670,7 +728,7 @@
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>80</width>
-    <x>806</x>
+    <x>677</x>
     <name>Label_2</name>
     <y>412</y>
     <foreground_color>
@@ -711,7 +769,7 @@
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>249</width>
-    <x>558</x>
+    <x>498</x>
     <name>Label_3</name>
     <y>437</y>
     <foreground_color>
@@ -752,7 +810,7 @@
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>249</width>
-    <x>72</x>
+    <x>54</x>
     <name>Label_4</name>
     <y>437</y>
     <foreground_color>
@@ -793,7 +851,7 @@
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>249</width>
-    <x>72</x>
+    <x>54</x>
     <name>Label_5</name>
     <y>71</y>
     <foreground_color>
@@ -834,8 +892,164 @@
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>249</width>
-    <x>558</x>
+    <x>498</x>
     <name>Label_6</name>
+    <y>71</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-13832ac3:1476cb5c324:-78a9</wuid>
+    <transparent>false</transparent>
+    <auto_size>false</auto_size>
+    <text>Minor Alarm</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color name="Minor" red="255" green="128" blue="0" />
+    </background_color>
+    <width>107</width>
+    <x>1020</x>
+    <name>Label_7</name>
+    <y>17</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>1</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-13832ac3:1476cb5c324:-7861</wuid>
+    <transparent>false</transparent>
+    <auto_size>false</auto_size>
+    <text>Major Alarm</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color name="Major" red="255" green="0" blue="0" />
+    </background_color>
+    <width>107</width>
+    <x>1020</x>
+    <name>Label_8</name>
+    <y>42</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.webbrowser" version="1.0.0">
+    <border_style>0</border_style>
+    <show_toolbar>false</show_toolbar>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-682ca41c:1476dde73ad:-7fd0</wuid>
+    <scripts />
+    <height>272</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>false</width_scalable>
+      <height_scalable>false</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <border_color>
+      <color red="192" green="192" blue="192" />
+    </border_color>
+    <widget_type>Web Browser</widget_type>
+    <url>http://slowcontrol.office.a2.kph/cams/radiator.html</url>
+    <background_color>
+      <color name="OPI_Background" red="255" green="255" blue="255" />
+    </background_color>
+    <width>301</width>
+    <x>894</x>
+    <name>Web Browser</name>
+    <y>102</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-682ca41c:1476dde73ad:-7fae</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Radiator Camera</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>249</width>
+    <x>894</x>
+    <name>Label_9</name>
     <y>71</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
