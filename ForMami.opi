@@ -10,7 +10,7 @@
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
-  <boy_version>3.2.17.201406251207</boy_version>
+  <boy_version>3.2.17.201407281526</boy_version>
   <show_edit_range>true</show_edit_range>
   <widget_type>Display</widget_type>
   <auto_scale_widgets>
@@ -187,21 +187,7 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules>
-      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
-        <exp bool_exp="pvSev0==2">
-          <value>
-            <color name="Minor" red="255" green="128" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pvSev0==1">
-          <value>
-            <color name="Major" red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">BEAM:FaradayCup</pv>
-      </rule>
-    </rules>
+    <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7f90</wuid>
     <scripts />
@@ -243,21 +229,7 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules>
-      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
-        <exp bool_exp="pvSev0==1">
-          <value>
-            <color name="Major" red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pvSev0==2">
-          <value>
-            <color name="Minor" red="255" green="128" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">BEAM:IonChamber</pv>
-      </rule>
-    </rules>
+    <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7f59</wuid>
     <scripts />
@@ -327,7 +299,7 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
@@ -377,7 +349,7 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
@@ -400,21 +372,7 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules>
-      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
-        <exp bool_exp="pvSev0==1">
-          <value>
-            <color name="Major" red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="pvSev0==2">
-          <value>
-            <color name="Minor" red="255" green="128" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">BEAM:PBGlass</pv>
-      </rule>
-    </rules>
+    <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7e44</wuid>
     <scripts />
@@ -483,7 +441,7 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
@@ -506,22 +464,7 @@
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
     <tooltip></tooltip>
-    <rules>
-      <rule name="AlarmBackground" prop_id="background_color" out_exp="false">
-        <exp bool_exp="(pvSev0==1) || (pvSev1==1)">
-          <value>
-            <color name="Major" red="255" green="0" blue="0" />
-          </value>
-        </exp>
-        <exp bool_exp="(pvSev0==2) || (pvSev1==2)">
-          <value>
-            <color name="Minor" red="255" green="128" blue="0" />
-          </value>
-        </exp>
-        <pv trig="true">TAGG:TAGG:LadderP2Ratio</pv>
-        <pv trig="true">TAGG:EPT:LadderP2Ratio</pv>
-      </rule>
-    </rules>
+    <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7e39</wuid>
     <scripts />
@@ -567,7 +510,7 @@
     <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7e38</wuid>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <pv_value />
     <auto_size>false</auto_size>
     <text>##.###</text>
@@ -590,7 +533,7 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
@@ -617,7 +560,7 @@
     <rules />
     <enabled>true</enabled>
     <wuid>32d962df:1475e730253:-7d89</wuid>
-    <transparent>false</transparent>
+    <transparent>true</transparent>
     <pv_value />
     <auto_size>false</auto_size>
     <text>##.###</text>
@@ -640,7 +583,7 @@
     </border_color>
     <precision_from_pv>true</precision_from_pv>
     <widget_type>Text Update</widget_type>
-    <backcolor_alarm_sensitive>true</backcolor_alarm_sensitive>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
     <wrap_words>false</wrap_words>
     <format_type>0</format_type>
     <background_color>
@@ -904,88 +847,6 @@
       <opifont.name fontName="Sans" height="13" style="1">Header 2</opifont.name>
     </font>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <border_style>0</border_style>
-    <tooltip></tooltip>
-    <horizontal_alignment>1</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-13832ac3:1476cb5c324:-78a9</wuid>
-    <transparent>false</transparent>
-    <auto_size>false</auto_size>
-    <text>Minor Alarm</text>
-    <scripts />
-    <height>26</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>Label</widget_type>
-    <wrap_words>true</wrap_words>
-    <background_color>
-      <color name="Minor" red="255" green="128" blue="0" />
-    </background_color>
-    <width>107</width>
-    <x>1020</x>
-    <name>Label_7</name>
-    <y>17</y>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <show_scrollbar>false</show_scrollbar>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <border_style>0</border_style>
-    <tooltip></tooltip>
-    <horizontal_alignment>1</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-13832ac3:1476cb5c324:-7861</wuid>
-    <transparent>false</transparent>
-    <auto_size>false</auto_size>
-    <text>Major Alarm</text>
-    <scripts />
-    <height>26</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>Label</widget_type>
-    <wrap_words>true</wrap_words>
-    <background_color>
-      <color name="Major" red="255" green="0" blue="0" />
-    </background_color>
-    <width>107</width>
-    <x>1020</x>
-    <name>Label_8</name>
-    <y>42</y>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <show_scrollbar>false</show_scrollbar>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.webbrowser" version="1.0.0">
     <border_style>0</border_style>
     <show_toolbar>false</show_toolbar>
@@ -1006,7 +867,7 @@
       <color red="192" green="192" blue="192" />
     </border_color>
     <widget_type>Web Browser</widget_type>
-    <url>http://slowcontrol.office.a2.kph/cams/radiator.html</url>
+    <url>http://slowcontrol.office.a2.kph/cams/radiator1.html</url>
     <background_color>
       <color name="OPI_Background" red="255" green="255" blue="255" />
     </background_color>
