@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.406293928209E12</lower>
-            <upper>1.406294228209E12</upper>
+            <lower>1.406642727158E12</lower>
+            <upper>1.406643027158E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -32,7 +32,7 @@
     <axisSettingsList>
         <autoFormat>true</autoFormat>
         <autoScale>true</autoScale>
-        <autoScaleThreshold>0.5</autoScaleThreshold>
+        <autoScaleThreshold>0.1</autoScaleThreshold>
         <dashGridLine>true</dashGridLine>
         <dateEnabled>false</dateEnabled>
         <foregroundColor>
@@ -40,7 +40,7 @@
             <green>0</green>
             <red>0</red>
         </foregroundColor>
-        <formatPattern>0.####E0</formatPattern>
+        <formatPattern>############.##</formatPattern>
         <logScale>false</logScale>
         <majorGridColor>
             <blue>200</blue>
@@ -50,7 +50,7 @@
         <onPrimarySide>true</onPrimarySide>
         <range>
             <lower>0.0</lower>
-            <upper>114382.29841584158</upper>
+            <upper>0.8811881188118812</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>false</showMajorGrid>
