@@ -10,7 +10,7 @@
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
-  <boy_version>3.2.17.201406251207</boy_version>
+  <boy_version>3.2.17.201407281652</boy_version>
   <show_edit_range>true</show_edit_range>
   <widget_type>Display</widget_type>
   <auto_scale_widgets>
@@ -72,93 +72,6 @@
     <font>
       <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
-    <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <effect_3d>true</effect_3d>
-      <scale_font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </scale_font>
-      <horizontal>true</horizontal>
-      <pv_value />
-      <show_scale>true</show_scale>
-      <scale_format></scale_format>
-      <show_label>false</show_label>
-      <height>80</height>
-      <fill_color>
-        <color red="0" green="0" blue="255" />
-      </fill_color>
-      <border_width>1</border_width>
-      <value_label_format></value_label_format>
-      <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos0:Read</pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Progress Bar</widget_type>
-      <name>Progress Bar</name>
-      <show_hi>false</show_hi>
-      <actions hook="false" hook_all="false" />
-      <show_lo>false</show_lo>
-      <border_style>0</border_style>
-      <show_lolo>false</show_lolo>
-      <show_minor_ticks>true</show_minor_ticks>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <show_markers>true</show_markers>
-      <color_hihi>
-        <color red="255" green="0" blue="0" />
-      </color_hihi>
-      <origin>0.0</origin>
-      <show_hihi>false</show_hihi>
-      <log_scale>false</log_scale>
-      <enabled>true</enabled>
-      <wuid>64935827:1470629c9e1:-7a9e</wuid>
-      <indicator_mode>false</indicator_mode>
-      <level_hihi>90.0</level_hihi>
-      <origin_ignored>true</origin_ignored>
-      <color_hi>
-        <color red="255" green="128" blue="0" />
-      </color_hi>
-      <color_lo>
-        <color red="255" green="128" blue="0" />
-      </color_lo>
-      <scripts />
-      <border_alarm_sensitive>true</border_alarm_sensitive>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
-      <color_fillbackground>
-        <color red="200" green="200" blue="200" />
-      </color_fillbackground>
-      <major_tick_step_hint>50</major_tick_step_hint>
-      <level_hi>80.0</level_hi>
-      <transparent_background>true</transparent_background>
-      <level_lo>20.0</level_lo>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <limits_from_pv>true</limits_from_pv>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <level_lolo>10.0</level_lolo>
-      <width>674</width>
-      <x>17</x>
-      <y>23</y>
-      <maximum>1680000.0</maximum>
-      <color_lolo>
-        <color red="255" green="0" blue="0" />
-      </color_lolo>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <minimum>590000.0</minimum>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
       <tooltip></tooltip>
@@ -191,167 +104,6 @@ $(pv_value)</tooltip>
       <x>17</x>
       <name>Label_1</name>
       <y>23</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>64935827:1470629c9e1:-7a9a</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="314" y="97" />
-        <point x="305" y="114" />
-        <point x="311" y="108" />
-        <point x="311" y="121" />
-        <point x="316" y="121" />
-        <point x="316" y="108" />
-        <point x="323" y="114" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>305</x>
-      <name>Polygon</name>
-      <y>97</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>64935827:1470629c9e1:-7a98</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="266" y="97" />
-        <point x="257" y="114" />
-        <point x="263" y="108" />
-        <point x="263" y="121" />
-        <point x="268" y="121" />
-        <point x="268" y="108" />
-        <point x="275" y="114" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>257</x>
-      <name>Polygon_1</name>
-      <y>97</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>64935827:1470629c9e1:-7a97</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>screen</text>
-      <scripts />
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>49</width>
-      <x>242</x>
-      <name>Label_4</name>
-      <y>124</y>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -394,47 +146,6 @@ voltage</text>
       <x>175</x>
       <name>Label</name>
       <y>23</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>64935827:1470629c9e1:-7a94</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>blank</text>
-      <scripts />
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>294</x>
-      <name>Label_1</name>
-      <y>124</y>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -553,309 +264,6 @@ $(pv_value)</tooltip>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-3ab75575:14710ba87d5:-735c</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="577" y="97" />
-        <point x="568" y="114" />
-        <point x="574" y="108" />
-        <point x="574" y="121" />
-        <point x="579" y="121" />
-        <point x="579" y="108" />
-        <point x="586" y="114" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>568</x>
-      <name>Polygon_2</name>
-      <y>97</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-3ab75575:14710ba87d5:-7348</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="536" y="97" />
-        <point x="527" y="114" />
-        <point x="533" y="108" />
-        <point x="533" y="121" />
-        <point x="538" y="121" />
-        <point x="538" y="108" />
-        <point x="545" y="114" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>527</x>
-      <name>Polygon_2</name>
-      <y>97</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-3ab75575:14710ba87d5:-7340</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>20 mu</text>
-      <scripts />
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>516</x>
-      <name>Label_1</name>
-      <y>124</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-3ab75575:14710ba87d5:-7336</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>10 mu</text>
-      <scripts />
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>557</x>
-      <name>Label_1</name>
-      <y>124</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-3ab75575:14710ba87d5:-732c</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>30 mu</text>
-      <scripts />
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>606</x>
-      <name>Label_1</name>
-      <y>124</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-3ab75575:14710ba87d5:-72ef</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="626" y="97" />
-        <point x="617" y="114" />
-        <point x="623" y="108" />
-        <point x="623" y="121" />
-        <point x="628" y="121" />
-        <point x="628" y="108" />
-        <point x="635" y="114" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>617</x>
-      <name>Polygon_2</name>
-      <y>97</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
       <tooltip>$(pv_name)
 $(pv_value)</tooltip>
@@ -931,14 +339,14 @@ $(pv_value)</tooltip>
       <width>674</width>
       <x>17</x>
       <y>162</y>
-      <maximum>1680000.0</maximum>
+      <maximum>1700000.0</maximum>
       <color_lolo>
         <color red="255" green="0" blue="0" />
       </color_lolo>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
-      <minimum>590000.0</minimum>
+      <minimum>530000.0</minimum>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
@@ -996,13 +404,13 @@ $(pv_value)</tooltip>
       <wuid>7c94191:1476cb134d5:-7da8</wuid>
       <transparent>false</transparent>
       <points>
-        <point x="314" y="247" />
-        <point x="305" y="264" />
-        <point x="311" y="258" />
-        <point x="311" y="271" />
-        <point x="316" y="271" />
-        <point x="316" y="258" />
-        <point x="323" y="264" />
+        <point x="370" y="250" />
+        <point x="361" y="267" />
+        <point x="367" y="261" />
+        <point x="367" y="274" />
+        <point x="372" y="274" />
+        <point x="372" y="261" />
+        <point x="379" y="267" />
       </points>
       <pv_value />
       <alpha>255</alpha>
@@ -1029,9 +437,9 @@ $(pv_value)</tooltip>
         <color red="30" green="144" blue="255" />
       </background_color>
       <width>19</width>
-      <x>305</x>
+      <x>361</x>
       <name>Polygon</name>
-      <y>247</y>
+      <y>250</y>
       <fill_level>0.0</fill_level>
       <foreground_color>
         <color red="255" green="0" blue="0" />
@@ -1043,107 +451,6 @@ $(pv_value)</tooltip>
       <line_color>
         <color red="128" green="0" blue="255" />
       </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7da7</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="266" y="247" />
-        <point x="257" y="264" />
-        <point x="263" y="258" />
-        <point x="263" y="271" />
-        <point x="268" y="271" />
-        <point x="268" y="258" />
-        <point x="275" y="264" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>257</x>
-      <name>Polygon_1</name>
-      <y>247</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7da6</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>screen</text>
-      <scripts />
-      <height>21</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>49</width>
-      <x>242</x>
-      <name>Label_4</name>
-      <y>273</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -1216,9 +523,9 @@ voltage</text>
         <color red="255" green="255" blue="255" />
       </background_color>
       <width>41</width>
-      <x>294</x>
+      <x>350</x>
       <name>Label_6</name>
-      <y>273</y>
+      <y>274</y>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
@@ -1336,309 +643,6 @@ $(pv_value)</tooltip>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7da1</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="577" y="247" />
-        <point x="568" y="264" />
-        <point x="574" y="258" />
-        <point x="574" y="271" />
-        <point x="579" y="271" />
-        <point x="579" y="258" />
-        <point x="586" y="264" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>568</x>
-      <name>Polygon_2</name>
-      <y>247</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7da0</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="536" y="247" />
-        <point x="527" y="264" />
-        <point x="533" y="258" />
-        <point x="533" y="271" />
-        <point x="538" y="271" />
-        <point x="538" y="258" />
-        <point x="545" y="264" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>527</x>
-      <name>Polygon_3</name>
-      <y>247</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7d9f</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>20 mu</text>
-      <scripts />
-      <height>21</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>516</x>
-      <name>Label_7</name>
-      <y>273</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7d9e</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>10 mu</text>
-      <scripts />
-      <height>21</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>557</x>
-      <name>Label_8</name>
-      <y>273</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-      <border_style>0</border_style>
-      <tooltip></tooltip>
-      <horizontal_alignment>0</horizontal_alignment>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7d9d</wuid>
-      <transparent>true</transparent>
-      <auto_size>false</auto_size>
-      <text>30 mu</text>
-      <scripts />
-      <height>21</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <vertical_alignment>1</vertical_alignment>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Label</widget_type>
-      <wrap_words>true</wrap_words>
-      <background_color>
-        <color red="255" green="255" blue="255" />
-      </background_color>
-      <width>41</width>
-      <x>606</x>
-      <name>Label_9</name>
-      <y>273</y>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <show_scrollbar>false</show_scrollbar>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <line_width>0</line_width>
-      <horizontal_fill>true</horizontal_fill>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>7c94191:1476cb134d5:-7d9c</wuid>
-      <transparent>false</transparent>
-      <points>
-        <point x="626" y="247" />
-        <point x="617" y="264" />
-        <point x="623" y="258" />
-        <point x="623" y="271" />
-        <point x="628" y="271" />
-        <point x="628" y="258" />
-        <point x="635" y="264" />
-      </points>
-      <pv_value />
-      <alpha>255</alpha>
-      <rotation_angle>0.0</rotation_angle>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>25</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>true</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <anti_alias>true</anti_alias>
-      <line_style>0</line_style>
-      <widget_type>Polygon</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="30" green="144" blue="255" />
-      </background_color>
-      <width>19</width>
-      <x>617</x>
-      <name>Polygon_4</name>
-      <y>247</y>
-      <fill_level>0.0</fill_level>
-      <foreground_color>
-        <color red="255" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-      <line_color>
-        <color red="128" green="0" blue="255" />
-      </line_color>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -2081,6 +1085,598 @@ $(pv_value)</tooltip>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d09</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>20mu</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>41</width>
+      <x>164</x>
+      <name>Label_6</name>
+      <y>124</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d0e</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>screen</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>49</width>
+      <x>530</x>
+      <name>Label_4</name>
+      <y>124</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <line_width>0</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d0f</wuid>
+      <transparent>false</transparent>
+      <points>
+        <point x="105" y="97" />
+        <point x="96" y="114" />
+        <point x="102" y="108" />
+        <point x="102" y="121" />
+        <point x="107" y="121" />
+        <point x="107" y="108" />
+        <point x="114" y="114" />
+      </points>
+      <pv_value />
+      <alpha>255</alpha>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>25</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <anti_alias>true</anti_alias>
+      <line_style>0</line_style>
+      <widget_type>Polygon</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="30" green="144" blue="255" />
+      </background_color>
+      <width>19</width>
+      <x>96</x>
+      <name>Polygon</name>
+      <y>97</y>
+      <fill_level>0.0</fill_level>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <line_width>0</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d0d</wuid>
+      <transparent>false</transparent>
+      <points>
+        <point x="381" y="97" />
+        <point x="372" y="114" />
+        <point x="378" y="108" />
+        <point x="378" y="121" />
+        <point x="383" y="121" />
+        <point x="383" y="108" />
+        <point x="390" y="114" />
+      </points>
+      <pv_value />
+      <alpha>255</alpha>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>25</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <anti_alias>true</anti_alias>
+      <line_style>0</line_style>
+      <widget_type>Polygon</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="30" green="144" blue="255" />
+      </background_color>
+      <width>19</width>
+      <x>372</x>
+      <name>Polygon_1</name>
+      <y>97</y>
+      <fill_level>0.0</fill_level>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <line_width>0</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d0a</wuid>
+      <transparent>false</transparent>
+      <points>
+        <point x="554" y="97" />
+        <point x="545" y="114" />
+        <point x="551" y="108" />
+        <point x="551" y="121" />
+        <point x="556" y="121" />
+        <point x="556" y="108" />
+        <point x="563" y="114" />
+      </points>
+      <pv_value />
+      <alpha>255</alpha>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>25</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <anti_alias>true</anti_alias>
+      <line_style>0</line_style>
+      <widget_type>Polygon</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="30" green="144" blue="255" />
+      </background_color>
+      <width>19</width>
+      <x>545</x>
+      <name>Polygon_3</name>
+      <y>97</y>
+      <fill_level>0.0</fill_level>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <line_width>0</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d0b</wuid>
+      <transparent>false</transparent>
+      <points>
+        <point x="141" y="97" />
+        <point x="132" y="114" />
+        <point x="138" y="108" />
+        <point x="138" y="121" />
+        <point x="143" y="121" />
+        <point x="143" y="108" />
+        <point x="150" y="114" />
+      </points>
+      <pv_value />
+      <alpha>255</alpha>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>25</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <anti_alias>true</anti_alias>
+      <line_style>0</line_style>
+      <widget_type>Polygon</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="30" green="144" blue="255" />
+      </background_color>
+      <width>19</width>
+      <x>132</x>
+      <name>Polygon_2</name>
+      <y>97</y>
+      <fill_level>0.0</fill_level>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d07</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>30mu</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>41</width>
+      <x>85</x>
+      <name>Label_8</name>
+      <y>124</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d0c</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>blank</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>41</width>
+      <x>361</x>
+      <name>Label_1</name>
+      <y>124</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.polygon" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <line_width>0</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d06</wuid>
+      <transparent>false</transparent>
+      <points>
+        <point x="184" y="97" />
+        <point x="175" y="114" />
+        <point x="181" y="108" />
+        <point x="181" y="121" />
+        <point x="186" y="121" />
+        <point x="186" y="108" />
+        <point x="193" y="114" />
+      </points>
+      <pv_value />
+      <alpha>255</alpha>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>25</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <anti_alias>true</anti_alias>
+      <line_style>0</line_style>
+      <widget_type>Polygon</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="30" green="144" blue="255" />
+      </background_color>
+      <width>19</width>
+      <x>175</x>
+      <name>Polygon_4</name>
+      <y>97</y>
+      <fill_level>0.0</fill_level>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+      <line_color>
+        <color red="128" green="0" blue="255" />
+      </line_color>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d08</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>10mu</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>41</width>
+      <x>121</x>
+      <name>Label_7</name>
+      <y>124</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <rules />
+      <effect_3d>true</effect_3d>
+      <scale_font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </scale_font>
+      <horizontal>true</horizontal>
+      <pv_value />
+      <show_scale>true</show_scale>
+      <scale_format></scale_format>
+      <show_label>false</show_label>
+      <height>80</height>
+      <fill_color>
+        <color red="0" green="0" blue="255" />
+      </fill_color>
+      <border_width>1</border_width>
+      <value_label_format></value_label_format>
+      <visible>true</visible>
+      <pv_name>EPT:Radiator:Pos0:Read</pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Progress Bar</widget_type>
+      <name>Progress Bar</name>
+      <show_hi>false</show_hi>
+      <actions hook="false" hook_all="false" />
+      <show_lo>false</show_lo>
+      <border_style>0</border_style>
+      <show_lolo>false</show_lolo>
+      <show_minor_ticks>true</show_minor_ticks>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <show_markers>true</show_markers>
+      <color_hihi>
+        <color red="255" green="0" blue="0" />
+      </color_hihi>
+      <origin>0.0</origin>
+      <show_hihi>false</show_hihi>
+      <log_scale>false</log_scale>
+      <enabled>true</enabled>
+      <wuid>703d9c10:147819302d2:-7d10</wuid>
+      <indicator_mode>false</indicator_mode>
+      <level_hihi>90.0</level_hihi>
+      <origin_ignored>true</origin_ignored>
+      <color_hi>
+        <color red="255" green="128" blue="0" />
+      </color_hi>
+      <color_lo>
+        <color red="255" green="128" blue="0" />
+      </color_lo>
+      <scripts />
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <fillcolor_alarm_sensitive>false</fillcolor_alarm_sensitive>
+      <color_fillbackground>
+        <color red="200" green="200" blue="200" />
+      </color_fillbackground>
+      <major_tick_step_hint>50</major_tick_step_hint>
+      <level_hi>80.0</level_hi>
+      <transparent_background>true</transparent_background>
+      <level_lo>20.0</level_lo>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <limits_from_pv>true</limits_from_pv>
+      <background_color>
+        <color red="240" green="240" blue="240" />
+      </background_color>
+      <level_lolo>10.0</level_lolo>
+      <width>674</width>
+      <x>17</x>
+      <y>23</y>
+      <maximum>1460000.0</maximum>
+      <color_lolo>
+        <color red="255" green="0" blue="0" />
+      </color_lolo>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <minimum>330000.0</minimum>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <border_style>13</border_style>
@@ -2263,7 +1859,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <wuid>7c94191:1476cb134d5:-6040</wuid>
       <pv_value />
-      <text>down</text>
+      <text>up</text>
       <scripts />
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <height>40</height>
@@ -2375,7 +1971,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <wuid>7c94191:1476cb134d5:-603e</wuid>
       <pv_value />
-      <text>up</text>
+      <text>down</text>
       <scripts />
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <height>40</height>
@@ -2832,7 +2428,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <wuid>7c94191:1476cb134d5:-5f55</wuid>
       <pv_value />
-      <text>down</text>
+      <text>up</text>
       <scripts />
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <height>40</height>
@@ -2944,7 +2540,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <wuid>7c94191:1476cb134d5:-5f53</wuid>
       <pv_value />
-      <text>up</text>
+      <text>down</text>
       <scripts />
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <height>40</height>
@@ -2993,7 +2589,7 @@ $(pv_value)</tooltip>
       <enabled>true</enabled>
       <wuid>7c94191:1476cb134d5:-5f52</wuid>
       <pv_value />
-      <text>Switch off Motor 1</text>
+      <text>Switch off Motor 2</text>
       <scripts />
       <border_alarm_sensitive>false</border_alarm_sensitive>
       <height>40</height>
@@ -3024,14 +2620,14 @@ $(pv_value)</tooltip>
       </foreground_color>
       <actions hook="false" hook_all="true">
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Motor0:Auto.DISV</pv_name>
+          <pv_name>EPT:Radiator:Motor1:Auto.DISV</pv_name>
           <value>0</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description></description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Motor0:Set</pv_name>
+          <pv_name>EPT:Radiator:Motor1:Set</pv_name>
           <value>0</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
