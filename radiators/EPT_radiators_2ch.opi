@@ -92,7 +92,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <value_label_format></value_label_format>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos0:Read</pv_name>
+      <pv_name>TAGG:EPT:Radiator1:Pos:Read</pv_name>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -212,13 +212,13 @@ $(pv_value)</tooltip>
       <wuid>64935827:1470629c9e1:-7a9a</wuid>
       <transparent>false</transparent>
       <points>
-        <point x="99" y="97" />
-        <point x="90" y="114" />
-        <point x="96" y="108" />
-        <point x="96" y="121" />
-        <point x="101" y="121" />
-        <point x="101" y="108" />
-        <point x="108" y="114" />
+        <point x="90" y="96" />
+        <point x="81" y="113" />
+        <point x="87" y="107" />
+        <point x="87" y="120" />
+        <point x="92" y="120" />
+        <point x="92" y="107" />
+        <point x="99" y="113" />
       </points>
       <pv_value />
       <alpha>255</alpha>
@@ -245,9 +245,9 @@ $(pv_value)</tooltip>
         <color red="30" green="144" blue="255" />
       </background_color>
       <width>19</width>
-      <x>90</x>
+      <x>81</x>
       <name>Polygon</name>
-      <y>97</y>
+      <y>96</y>
       <fill_level>0.0</fill_level>
       <foreground_color>
         <color red="255" green="0" blue="0" />
@@ -470,7 +470,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos0:Read</pv_name>
+      <pv_name>TAGG:EPT:Radiator1:Pos:Read</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -505,9 +505,9 @@ $(pv_value)</tooltip>
       <rules>
         <rule name="Change-control" prop_id="pv_name" out_exp="true">
           <exp bool_exp="pv0!=1">
-            <value>"EPT:Radiator:Motor0:Set"</value>
+            <value>"TAGG:EPT:Radiator1:Motor:Set"</value>
           </exp>
-          <pv trig="true">EPT:Radiator:Motor0:Auto.DISV</pv>
+          <pv trig="true">TAGG:EPT:Radiator1:Motor:Auto.DISV</pv>
         </rule>
       </rules>
       <enabled>true</enabled>
@@ -528,7 +528,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Motor0:Auto</pv_name>
+      <pv_name>TAGG:EPT:Radiator1:Motor:Auto</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -565,13 +565,13 @@ $(pv_value)</tooltip>
       <wuid>-3ab75575:14710ba87d5:-735c</wuid>
       <transparent>false</transparent>
       <points>
-        <point x="146" y="97" />
-        <point x="137" y="114" />
-        <point x="143" y="108" />
-        <point x="143" y="121" />
-        <point x="148" y="121" />
-        <point x="148" y="108" />
-        <point x="155" y="114" />
+        <point x="125" y="96" />
+        <point x="116" y="113" />
+        <point x="122" y="107" />
+        <point x="122" y="120" />
+        <point x="127" y="120" />
+        <point x="127" y="107" />
+        <point x="134" y="113" />
       </points>
       <pv_value />
       <alpha>255</alpha>
@@ -598,9 +598,9 @@ $(pv_value)</tooltip>
         <color red="30" green="144" blue="255" />
       </background_color>
       <width>19</width>
-      <x>137</x>
+      <x>116</x>
       <name>Polygon_2</name>
-      <y>97</y>
+      <y>96</y>
       <fill_level>0.0</fill_level>
       <foreground_color>
         <color red="255" green="0" blue="0" />
@@ -702,7 +702,7 @@ $(pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </background_color>
       <width>41</width>
-      <x>164</x>
+      <x>159</x>
       <name>Label_1</name>
       <y>124</y>
       <foreground_color>
@@ -743,7 +743,7 @@ $(pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </background_color>
       <width>41</width>
-      <x>129</x>
+      <x>110</x>
       <name>Label_1</name>
       <y>124</y>
       <foreground_color>
@@ -784,7 +784,7 @@ $(pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </background_color>
       <width>41</width>
-      <x>85</x>
+      <x>70</x>
       <name>Label_1</name>
       <y>124</y>
       <foreground_color>
@@ -808,13 +808,13 @@ $(pv_value)</tooltip>
       <wuid>-3ab75575:14710ba87d5:-72ef</wuid>
       <transparent>false</transparent>
       <points>
-        <point x="184" y="97" />
-        <point x="175" y="114" />
-        <point x="181" y="108" />
-        <point x="181" y="121" />
-        <point x="186" y="121" />
-        <point x="186" y="108" />
-        <point x="193" y="114" />
+        <point x="168" y="96" />
+        <point x="159" y="113" />
+        <point x="165" y="107" />
+        <point x="165" y="120" />
+        <point x="170" y="120" />
+        <point x="170" y="107" />
+        <point x="177" y="113" />
       </points>
       <pv_value />
       <alpha>255</alpha>
@@ -841,9 +841,9 @@ $(pv_value)</tooltip>
         <color red="30" green="144" blue="255" />
       </background_color>
       <width>19</width>
-      <x>175</x>
+      <x>159</x>
       <name>Polygon_2</name>
-      <y>97</y>
+      <y>96</y>
       <fill_level>0.0</fill_level>
       <foreground_color>
         <color red="255" green="0" blue="0" />
@@ -876,7 +876,7 @@ $(pv_value)</tooltip>
       <border_width>1</border_width>
       <value_label_format></value_label_format>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos1:Read</pv_name>
+      <pv_name>TAGG:EPT:Radiator2:Pos:Read</pv_name>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -1052,7 +1052,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos1:Read</pv_name>
+      <pv_name>TAGG:EPT:Radiator2:Pos:Read</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -1087,9 +1087,9 @@ $(pv_value)</tooltip>
       <rules>
         <rule name="change-ctl" prop_id="pv_name" out_exp="true">
           <exp bool_exp="pv0 != 1">
-            <value>"EPT:Radiator:Motor1:Set"</value>
+            <value>"TAGG:EPT:Radiator2:Motor:Set"</value>
           </exp>
-          <pv trig="true">EPT:Radiator:Motor1:Auto.DISV</pv>
+          <pv trig="true">TAGG:EPT:Radiator2:Motor:Auto.DISV</pv>
         </rule>
       </rules>
       <enabled>true</enabled>
@@ -1110,7 +1110,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Motor1:Auto</pv_name>
+      <pv_name>TAGG:EPT:Radiator2:Motor:Auto</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -1227,7 +1227,7 @@ $(pv_value)</tooltip>
       <height>26</height>
       <border_width>1</border_width>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Motor0:Auto.DISV</pv_name>
+      <pv_name>TAGG:EPT:Radiator1:Motor:Auto.DISV</pv_name>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -1364,7 +1364,7 @@ $(pv_value)</tooltip>
       <height>26</height>
       <border_width>1</border_width>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Motor1:Auto.DISV</pv_name>
+      <pv_name>TAGG:EPT:Radiator2:Motor:Auto.DISV</pv_name>
       <border_color>
         <color red="0" green="128" blue="255" />
       </border_color>
@@ -1525,13 +1525,20 @@ $(pv_value)</tooltip>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
     <border_style>13</border_style>
     <tooltip></tooltip>
-    <rules />
+    <rules>
+      <rule name="beamCurrentProtect" prop_id="enabled" out_exp="false">
+        <exp bool_exp="pv0 &gt; 100">
+          <value>false</value>
+        </exp>
+        <pv trig="true">BEAM:FaradayCup</pv>
+      </rule>
+    </rules>
     <enabled>true</enabled>
     <wuid>64935827:1470629c9e1:-7a1c</wuid>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>121</height>
+    <height>163</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1588,7 +1595,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos0:Set</pv_name>
+      <pv_name>TAGG:EPT:Radiator1:Pos:Set</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -1653,38 +1660,38 @@ $(pv_value)</tooltip>
       </foreground_color>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos0:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator1:Pos:Set</pv_name>
           <value>1.27e6</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
           <description>Screen</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos0:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator1:Pos:Set</pv_name>
           <value>0.95e6</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
           <description>Blank</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos0:Set</pv_name>
-          <value>0.59e6</value>
+          <pv_name>TAGG:EPT:Radiator1:Pos:Set</pv_name>
+          <value>0.56e6</value>
           <timeout>10</timeout>
-          <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
+          <confirm_message>This will move the radiator in front of EPT to 20 mu copper. Please make sure that there is no beam!</confirm_message>
           <description>20 mu copper</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos0:Set</pv_name>
-          <value>0.52e6</value>
+          <pv_name>TAGG:EPT:Radiator1:Pos:Set</pv_name>
+          <value>0.485e6</value>
           <timeout>10</timeout>
-          <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
+          <confirm_message>This will move the radiator in front of EPT to 10 mu copper. Please make sure that there is no beam!</confirm_message>
           <description>10 mu copper</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos0:Set</pv_name>
-          <value>0.44e6</value>
+          <pv_name>TAGG:EPT:Radiator1:Pos:Set</pv_name>
+          <value>0.42e6</value>
           <timeout>10</timeout>
-          <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
+          <confirm_message>This will move the radiator in front of EPT to 30 mu copper. Please make sure that there is no beam!</confirm_message>
           <description>30 mu copper</description>
         </action>
       </actions>
@@ -1805,7 +1812,7 @@ $(pv_value)</tooltip>
           <exp bool_exp="pv0 == 1">
             <value>false</value>
           </exp>
-          <pv trig="true">EPT:Radiator:Motor0:Auto.DISV</pv>
+          <pv trig="true">TAGG:EPT:Radiator1:Motor:Auto.DISV</pv>
         </rule>
       </rules>
       <enabled>true</enabled>
@@ -1843,7 +1850,7 @@ auto-mode</text>
       </foreground_color>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Motor0:Auto.DISV</pv_name>
+          <pv_name>TAGG:EPT:Radiator1:Motor:Auto.DISV</pv_name>
           <value>1</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
@@ -1856,6 +1863,54 @@ auto-mode</text>
           <description></description>
         </action>
       </actions>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules>
+        <rule name="makeVis" prop_id="visible" out_exp="false">
+          <exp bool_exp="pv0 &lt;= 100">
+            <value>false</value>
+          </exp>
+          <pv trig="true">BEAM:FaradayCup</pv>
+        </rule>
+      </rules>
+      <enabled>true</enabled>
+      <wuid>-6725d0c7:147833a84f0:-7901</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>Beamcurrent too high, switch off beam to move Radiator!</text>
+      <scripts />
+      <height>32</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>205</width>
+      <x>12</x>
+      <name>Label_1</name>
+      <y>78</y>
+      <foreground_color>
+        <color name="Major" red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
@@ -2020,7 +2075,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>121</height>
+    <height>163</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2077,7 +2132,7 @@ $(pv_value)</tooltip>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
       <visible>true</visible>
-      <pv_name>EPT:Radiator:Pos1:Set</pv_name>
+      <pv_name>TAGG:EPT:Radiator2:Pos:Set</pv_name>
       <vertical_alignment>1</vertical_alignment>
       <border_color>
         <color red="0" green="128" blue="255" />
@@ -2142,35 +2197,35 @@ $(pv_value)</tooltip>
       </foreground_color>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos1:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator2:Pos:Set</pv_name>
           <value>769453</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
           <description>Screen</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos1:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator2:Pos:Set</pv_name>
           <value>1073250</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
           <description>Blank</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos1:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator2:Pos:Set</pv_name>
           <value>1.45e6</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
           <description>20 mu copper</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos1:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator2:Pos:Set</pv_name>
           <value>1.525e6</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
           <description>10 mu copper</description>
         </action>
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Pos1:Set</pv_name>
+          <pv_name>TAGG:EPT:Radiator2:Pos:Set</pv_name>
           <value>1.6e6</value>
           <timeout>10</timeout>
           <confirm_message>This will move the radiator in front of EPT to XX mu copper. Please make sure that there is no beam!</confirm_message>
@@ -2294,7 +2349,7 @@ $(pv_value)</tooltip>
           <exp bool_exp="pv0 == 1">
             <value>false</value>
           </exp>
-          <pv trig="true">EPT:Radiator:Motor1:Auto.DISV</pv>
+          <pv trig="true">TAGG:EPT:Radiator2:Motor:Auto.DISV</pv>
         </rule>
       </rules>
       <enabled>false</enabled>
@@ -2332,13 +2387,54 @@ auto-mode</text>
       </foreground_color>
       <actions hook="false" hook_all="false">
         <action type="WRITE_PV">
-          <pv_name>EPT:Radiator:Motor1:Auto.DISV</pv_name>
+          <pv_name>TAGG:EPT:Radiator2:Motor:Auto.DISV</pv_name>
           <value>1</value>
           <timeout>10</timeout>
           <confirm_message></confirm_message>
           <description></description>
         </action>
       </actions>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>false</enabled>
+      <wuid>-6725d0c7:147833a84f0:-7785</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>Deactivated, EPT in use!</text>
+      <scripts />
+      <height>49</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>230</width>
+      <x>0</x>
+      <name>Label_1</name>
+      <y>72</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
@@ -2386,14 +2482,14 @@ $(pv_value)</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="true">
       <action type="WRITE_PV">
-        <pv_name>EPT:Radiator:Motor0:Auto.DISV</pv_name>
+        <pv_name>TAGG:EPT:Radiator1:Motor:Auto.DISV</pv_name>
         <value>0</value>
         <timeout>10</timeout>
         <confirm_message></confirm_message>
         <description></description>
       </action>
       <action type="WRITE_PV">
-        <pv_name>EPT:Radiator:Motor0:Set</pv_name>
+        <pv_name>TAGG:EPT:Radiator1:Motor:Set</pv_name>
         <value>0</value>
         <timeout>10</timeout>
         <confirm_message></confirm_message>
@@ -2446,14 +2542,14 @@ $(pv_value)</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="true">
       <action type="WRITE_PV">
-        <pv_name>EPT:Radiator:Motor1:Auto.DISV</pv_name>
+        <pv_name>TAGG:EPT:Radiator2:Motor:Auto.DISV</pv_name>
         <value>0</value>
         <timeout>10</timeout>
         <confirm_message></confirm_message>
         <description></description>
       </action>
       <action type="WRITE_PV">
-        <pv_name>EPT:Radiator:Motor1:Set</pv_name>
+        <pv_name>TAGG:EPT:Radiator2:Motor:Set</pv_name>
         <value>0</value>
         <timeout>10</timeout>
         <confirm_message></confirm_message>
