@@ -358,8 +358,7 @@ $(pv_value)</tooltip>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <line_width>2</line_width>
     <horizontal_fill>true</horizontal_fill>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>The Glasgow-Mainz-Tagger</tooltip>
     <rules />
     <enabled>true</enabled>
     <wuid>2c415b24:1479d40f891:-643b</wuid>
@@ -903,8 +902,7 @@ $(pv_value)</tooltip>
       <toggle_button>false</toggle_button>
       <border_style>0</border_style>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+      <tooltip>Open Radiator 1 control panel</tooltip>
       <push_action_index>0</push_action_index>
       <rules />
       <enabled>true</enabled>
@@ -989,8 +987,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>100</width>
-    <x>96</x>
+    <width>86</width>
+    <x>110</x>
     <name>Text Update</name>
     <y>408</y>
     <foreground_color>
@@ -1040,8 +1038,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>100</width>
-    <x>95</x>
+    <width>86</width>
+    <x>109</x>
     <name>Text Update_1</name>
     <y>433</y>
     <foreground_color>
@@ -1091,8 +1089,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>100</width>
-    <x>95</x>
+    <width>86</width>
+    <x>109</x>
     <name>Text Update_2</name>
     <y>458</y>
     <foreground_color>
@@ -1142,8 +1140,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>100</width>
-    <x>95</x>
+    <width>86</width>
+    <x>109</x>
     <name>Text Update_3</name>
     <y>483</y>
     <foreground_color>
@@ -2334,9 +2332,9 @@ $(pv_value)</tooltip>
       <color red="30" green="144" blue="255" />
     </background_color>
     <width>180</width>
-    <x>951</x>
+    <x>1143</x>
     <name>Rectangle_13</name>
-    <y>371</y>
+    <y>370</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2600,8 +2598,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>150</width>
-    <x>2096</x>
+    <width>65</width>
+    <x>2181</x>
     <name>Text Update_11</name>
     <y>593</y>
     <foreground_color>
@@ -2651,8 +2649,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>150</width>
-    <x>2095</x>
+    <width>65</width>
+    <x>2180</x>
     <name>Text Update_12</name>
     <y>618</y>
     <foreground_color>
@@ -2799,8 +2797,7 @@ $(pv_value)</tooltip>
       <toggle_button>false</toggle_button>
       <border_style>0</border_style>
       <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+      <tooltip>Open Beam Table control panel</tooltip>
       <push_action_index>0</push_action_index>
       <rules />
       <enabled>true</enabled>
@@ -2969,9 +2966,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>150</width>
-    <x>912</x>
+    <x>1158</x>
     <name>Label_11</name>
-    <y>741</y>
+    <y>739</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3023,9 +3020,9 @@ $(pv_value)</tooltip>
       <color red="30" green="144" blue="255" />
     </background_color>
     <width>254</width>
-    <x>1130</x>
+    <x>1322</x>
     <name>Rectangle_17</name>
-    <y>537</y>
+    <y>536</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -3478,8 +3475,9 @@ $(pv_value)</tooltip>
       </font>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+      <tooltip>Current run file size.
+If bar fills up, stop the DAQ and start a new file.
+Make a logbook entry!</tooltip>
       <rules />
       <effect_3d>false</effect_3d>
       <scale_font>
@@ -3621,8 +3619,7 @@ $(pv_value)</tooltip>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
     <line_width>5</line_width>
     <horizontal_fill>true</horizontal_fill>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>The Photon Beam Line</tooltip>
     <arrows>0</arrows>
     <rules />
     <enabled>true</enabled>
@@ -5058,8 +5055,7 @@ so leave them turned on most of the time!</tooltip>
       </font>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
-      <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+      <tooltip>On = Sound Muted</tooltip>
       <rules />
       <effect_3d>true</effect_3d>
       <bit>0</bit>
@@ -5115,8 +5111,7 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Open VME CPU live time board</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -5165,8 +5160,7 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Open the TAPS overview</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -5215,8 +5209,7 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Open the VITEC cards overview</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -5265,8 +5258,8 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Check and control Crystal Ball High Voltage.
+Usually for experts only.</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -5315,8 +5308,7 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Open GUI for MAMI Operators</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -5365,8 +5357,7 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
+    <tooltip>Monitor MWPC Voltages</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -5392,7 +5383,7 @@ $(pv_value)</tooltip>
     <width>147</width>
     <x>1492</x>
     <name>Action Button_5</name>
-    <y>534</y>
+    <y>558</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5446,6 +5437,252 @@ or resize window.</text>
     <x>1179</x>
     <name>Label_21</name>
     <y>10</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-531feeab:147b24212a2:-7e19</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Sector 0:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>30</x>
+    <name>Label_22</name>
+    <y>408</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-531feeab:147b24212a2:-7e11</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Sector 1:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>30</x>
+    <name>Label_23</name>
+    <y>433</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-531feeab:147b24212a2:-7e0c</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Sector 2:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>30</x>
+    <name>Label_24</name>
+    <y>458</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-531feeab:147b24212a2:-7e07</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Sector 3:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>30</x>
+    <name>Label_25</name>
+    <y>483</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-531feeab:147b24212a2:-7dbf</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Center X:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>2102</x>
+    <name>Label_26</name>
+    <y>593</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-531feeab:147b24212a2:-7db5</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Center Y:</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>80</width>
+    <x>2102</x>
+    <name>Label_27</name>
+    <y>618</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
