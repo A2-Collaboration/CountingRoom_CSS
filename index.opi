@@ -834,7 +834,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>259</height>
+    <height>77</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -865,39 +865,6 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
-    <widget typeId="org.csstudio.opibuilder.widgets.webbrowser" version="1.0.0">
-      <border_style>1</border_style>
-      <show_toolbar>false</show_toolbar>
-      <tooltip>Radiator 1 Cam</tooltip>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>2c415b24:1479d40f891:-5bc5</wuid>
-      <scripts />
-      <height>186</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <visible>true</visible>
-      <border_color>
-        <color red="192" green="192" blue="192" />
-      </border_color>
-      <widget_type>Web Browser</widget_type>
-      <url></url>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <width>238</width>
-      <x>0</x>
-      <name>Web Browser</name>
-      <y>36</y>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
       <border_style>0</border_style>
@@ -926,9 +893,9 @@ $(pv_value)</tooltip>
       </border_color>
       <widget_type>Action Button</widget_type>
       <width>86</width>
-      <x>6</x>
+      <x>12</x>
       <name>Action Button</name>
-      <y>6</y>
+      <y>13</y>
       <style>1</style>
       <foreground_color>
         <color red="0" green="0" blue="0" />
@@ -941,6 +908,51 @@ $(pv_value)</tooltip>
           </macros>
           <Position>4</Position>
           <description>Controls</description>
+        </action>
+      </actions>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <toggle_button>false</toggle_button>
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <tooltip>Open Camera Web Page</tooltip>
+      <push_action_index>0</push_action_index>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>2de88b9a:147ed405930:-7763</wuid>
+      <pv_value />
+      <text></text>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>40</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <image>graphics/video_camera.png</image>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Action Button</widget_type>
+      <width>48</width>
+      <x>173</x>
+      <name>Action Button_1</name>
+      <y>7</y>
+      <style>1</style>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false">
+        <action type="OPEN_WEBPAGE">
+          <hyperlink>http://slowcontrol/cams/refresh.html?src=http://a2radiator1.online.a2.kph/free.jpg&amp;char=q&amp;time=1000&amp;title=Radiator1</hyperlink>
+          <description>Radiator 1 Camera</description>
         </action>
       </actions>
       <font>
@@ -1161,7 +1173,7 @@ $(pv_value)</tooltip>
     <wuid>2c415b24:1479d40f891:-5c57</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>ETP</text>
+    <text>EPT</text>
     <scripts />
     <height>26</height>
     <border_width>1</border_width>
@@ -1498,7 +1510,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>259</height>
+    <height>77</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1517,7 +1529,7 @@ $(pv_value)</tooltip>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>240</width>
-    <x>254</x>
+    <x>260</x>
     <name>Radiator 2</name>
     <y>591</y>
     <foreground_color>
@@ -1529,38 +1541,50 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
-    <widget typeId="org.csstudio.opibuilder.widgets.webbrowser" version="1.0.0">
-      <border_style>1</border_style>
-      <show_toolbar>false</show_toolbar>
-      <tooltip>Radiator 2 Cam</tooltip>
+    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+      <toggle_button>false</toggle_button>
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <tooltip>Open Camera Web Page</tooltip>
+      <push_action_index>0</push_action_index>
       <rules />
       <enabled>true</enabled>
-      <wuid>2c415b24:1479d40f891:-5bac</wuid>
+      <wuid>2de88b9a:147ed405930:-76e2</wuid>
+      <pv_value />
+      <text></text>
       <scripts />
-      <height>196</height>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>40</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
         <height_scalable>true</height_scalable>
         <keep_wh_ratio>false</keep_wh_ratio>
       </scale_options>
+      <image>graphics/video_camera.png</image>
       <visible>true</visible>
+      <pv_name></pv_name>
       <border_color>
-        <color red="192" green="192" blue="192" />
+        <color red="0" green="128" blue="255" />
       </border_color>
-      <widget_type>Web Browser</widget_type>
-      <url></url>
-      <background_color>
-        <color red="240" green="240" blue="240" />
-      </background_color>
-      <width>238</width>
-      <x>0</x>
-      <name>Web Browser</name>
-      <y>36</y>
+      <widget_type>Action Button</widget_type>
+      <width>48</width>
+      <x>183</x>
+      <name>Action Button_7</name>
+      <y>6</y>
+      <style>1</style>
       <foreground_color>
-        <color red="192" green="192" blue="192" />
+        <color red="0" green="0" blue="0" />
       </foreground_color>
-      <actions hook="false" hook_all="false" />
+      <actions hook="false" hook_all="false">
+        <action type="OPEN_WEBPAGE">
+          <hyperlink>http://slowcontrol/cams/refresh.html?src=http://a2radiator2.online.a2.kph/free.jpg&amp;char=q&amp;time=1000&amp;title=Radiator2</hyperlink>
+          <description>Radiator 2 Camera</description>
+        </action>
+      </actions>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -1571,7 +1595,7 @@ $(pv_value)</tooltip>
       <wuid>2c415b24:1479d40f891:-37b6</wuid>
       <transparent>true</transparent>
       <auto_size>false</auto_size>
-      <text>Not is use for Eta Prime!</text>
+      <text>Not is use for Eta'!</text>
       <scripts />
       <height>26</height>
       <border_width>1</border_width>
@@ -1591,9 +1615,9 @@ $(pv_value)</tooltip>
         <color red="255" green="255" blue="255" />
       </background_color>
       <width>215</width>
-      <x>11</x>
+      <x>3</x>
       <name>Label</name>
-      <y>11</y>
+      <y>13</y>
       <foreground_color>
         <color red="0" green="0" blue="0" />
       </foreground_color>
