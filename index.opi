@@ -238,7 +238,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Cantarell" height="19" style="1">Header 1</opifont.name>
+      <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
@@ -863,7 +863,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
@@ -1202,7 +1202,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1243,7 +1243,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1539,7 +1539,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
@@ -1833,7 +1833,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -1931,7 +1931,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2162,7 +2162,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -2203,7 +2203,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2580,7 +2580,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2723,7 +2723,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2815,7 +2815,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
@@ -2999,7 +2999,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -3097,7 +3097,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -3138,7 +3138,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3179,7 +3179,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -3812,7 +3812,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -3935,7 +3935,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -4160,7 +4160,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -4384,7 +4384,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>false</show_scrollbar>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -4980,7 +4980,7 @@ so leave them turned on most of the time!</tooltip>
     <fc>false</fc>
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
@@ -5414,7 +5414,7 @@ Usually for experts only.</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>MWPC.opi</path>
+        <path>MWPC/MWPC.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
