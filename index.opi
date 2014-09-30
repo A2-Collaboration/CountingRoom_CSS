@@ -5414,7 +5414,7 @@ Usually for experts only.</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="false">
       <action type="OPEN_DISPLAY">
-        <path>MWPC/MWPC.opi</path>
+        <path>MWPC/mwpc-slowcontrol.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
         </macros>
