@@ -21,7 +21,7 @@
   <background_color>
     <color red="240" green="240" blue="240" />
   </background_color>
-  <width>1200</width>
+  <width>1600</width>
   <x>-1</x>
   <name></name>
   <grid_space>6</grid_space>
@@ -64,7 +64,7 @@
     <background_color>
       <color red="240" green="240" blue="240" />
     </background_color>
-    <width>1200</width>
+    <width>1489</width>
     <x>0</x>
     <name>Sash Container</name>
     <y>0</y>
@@ -102,7 +102,7 @@
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
-      <width>1200</width>
+      <width>1489</width>
       <x>0</x>
       <name>Panel 1</name>
       <y>0</y>
@@ -183,7 +183,7 @@
       <background_color>
         <color red="240" green="240" blue="240" />
       </background_color>
-      <width>1200</width>
+      <width>1489</width>
       <x>0</x>
       <name>Panel 2</name>
       <y>39</y>
@@ -207,7 +207,7 @@
         <horizontal>false</horizontal>
         <sash_style>0</sash_style>
         <scripts />
-        <height>560</height>
+        <height>469</height>
         <sash_width>1</sash_width>
         <border_width>1</border_width>
         <scale_options>
@@ -224,14 +224,14 @@
         </border_color>
         <panel2_auto_scale_children>false</panel2_auto_scale_children>
         <widget_type>Sash Container</widget_type>
-        <sash_position>0.6964285714285714</sash_position>
+        <sash_position>0.8484107579462102</sash_position>
         <background_color>
           <color red="240" green="240" blue="240" />
         </background_color>
         <width>1200</width>
-        <x>0</x>
+        <x>272</x>
         <name>Sash Container</name>
-        <y>0</y>
+        <y>8</y>
         <foreground_color>
           <color red="192" green="192" blue="192" />
         </foreground_color>
@@ -248,7 +248,7 @@
           <transparent>true</transparent>
           <lock_children>false</lock_children>
           <scripts />
-          <height>390</height>
+          <height>397</height>
           <border_width>1</border_width>
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -499,7 +499,7 @@
           <transparent>true</transparent>
           <lock_children>false</lock_children>
           <scripts />
-          <height>169</height>
+          <height>71</height>
           <border_width>1</border_width>
           <scale_options>
             <width_scalable>true</width_scalable>
@@ -520,7 +520,7 @@
           <width>1200</width>
           <x>0</x>
           <name>Panel 2</name>
-          <y>390</y>
+          <y>397</y>
           <foreground_color>
             <color red="192" green="192" blue="192" />
           </foreground_color>
@@ -530,308 +530,430 @@
           <font>
             <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
           </font>
-          <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-            <border_style>13</border_style>
-            <tooltip></tooltip>
-            <rules />
-            <enabled>true</enabled>
-            <wuid>69fc50bd:141f9f356e4:-73e2</wuid>
-            <transparent>false</transparent>
-            <lock_children>false</lock_children>
-            <scripts />
-            <height>70</height>
-            <border_width>1</border_width>
-            <scale_options>
-              <width_scalable>true</width_scalable>
-              <height_scalable>true</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <macros>
-              <include_parent_macros>true</include_parent_macros>
-            </macros>
-            <visible>true</visible>
-            <border_color>
-              <color red="0" green="128" blue="255" />
-            </border_color>
-            <widget_type>Grouping Container</widget_type>
-            <background_color>
-              <color red="240" green="240" blue="240" />
-            </background_color>
-            <width>131</width>
-            <x>0</x>
-            <name>Chamber 1</name>
-            <y>0</y>
-            <foreground_color>
-              <color red="192" green="192" blue="192" />
-            </foreground_color>
-            <actions hook="false" hook_all="false" />
-            <fc>false</fc>
-            <show_scrollbar>false</show_scrollbar>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-            </font>
-            <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-              <border_style>0</border_style>
-              <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-              <precision>0</precision>
-              <tooltip>$(pv_name)
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <border_style>13</border_style>
+        <tooltip></tooltip>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>69fc50bd:141f9f356e4:-73e2</wuid>
+        <transparent>false</transparent>
+        <lock_children>false</lock_children>
+        <scripts />
+        <height>375</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <visible>true</visible>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Grouping Container</widget_type>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <width>129</width>
+        <x>8</x>
+        <name>Chamber 1</name>
+        <y>2</y>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <fc>false</fc>
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+        </font>
+        <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+          <border_style>0</border_style>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <precision>0</precision>
+          <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-              <horizontal_alignment>0</horizontal_alignment>
-              <rules />
-              <enabled>true</enabled>
-              <wuid>69fc50bd:141f9f356e4:-7455</wuid>
-              <transparent>true</transparent>
-              <pv_value />
-              <auto_size>false</auto_size>
-              <text>######</text>
-              <rotation_angle>0.0</rotation_angle>
-              <scripts />
-              <border_alarm_sensitive>true</border_alarm_sensitive>
-              <show_units>true</show_units>
-              <height>20</height>
-              <border_width>1</border_width>
-              <scale_options>
-                <width_scalable>true</width_scalable>
-                <height_scalable>true</height_scalable>
-                <keep_wh_ratio>false</keep_wh_ratio>
-              </scale_options>
-              <visible>true</visible>
-              <pv_name>CB:MWPC:HV:CH0:Vmon:RBV</pv_name>
-              <vertical_alignment>1</vertical_alignment>
-              <border_color>
-                <color red="0" green="128" blue="255" />
-              </border_color>
-              <precision_from_pv>true</precision_from_pv>
-              <widget_type>Text Update</widget_type>
-              <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-              <wrap_words>false</wrap_words>
-              <format_type>0</format_type>
-              <background_color>
-                <color red="255" green="255" blue="255" />
-              </background_color>
-              <width>100</width>
-              <x>0</x>
-              <name>Text Update</name>
-              <y>0</y>
-              <foreground_color>
-                <color red="0" green="0" blue="0" />
-              </foreground_color>
-              <actions hook="false" hook_all="false" />
-              <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-              </font>
-            </widget>
-            <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-              <border_style>0</border_style>
-              <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-              <precision>0</precision>
-              <tooltip>$(pv_name)
+          <horizontal_alignment>0</horizontal_alignment>
+          <rules />
+          <enabled>true</enabled>
+          <wuid>69fc50bd:141f9f356e4:-7455</wuid>
+          <transparent>true</transparent>
+          <pv_value />
+          <auto_size>false</auto_size>
+          <text>######</text>
+          <rotation_angle>0.0</rotation_angle>
+          <scripts />
+          <border_alarm_sensitive>true</border_alarm_sensitive>
+          <show_units>true</show_units>
+          <height>20</height>
+          <border_width>1</border_width>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <visible>true</visible>
+          <pv_name>CB:MWPC:HV:CH0:Vmon:RBV</pv_name>
+          <vertical_alignment>1</vertical_alignment>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <precision_from_pv>true</precision_from_pv>
+          <widget_type>Text Update</widget_type>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <wrap_words>false</wrap_words>
+          <format_type>0</format_type>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <width>100</width>
+          <x>0</x>
+          <name>Text Update</name>
+          <y>0</y>
+          <foreground_color>
+            <color red="0" green="0" blue="0" />
+          </foreground_color>
+          <actions hook="false" hook_all="false" />
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+          </font>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+          <border_style>0</border_style>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <precision>0</precision>
+          <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-              <horizontal_alignment>0</horizontal_alignment>
-              <rules />
-              <enabled>true</enabled>
-              <wuid>69fc50bd:141f9f356e4:-741b</wuid>
-              <transparent>true</transparent>
-              <pv_value />
-              <auto_size>false</auto_size>
-              <text>######</text>
-              <rotation_angle>0.0</rotation_angle>
-              <scripts />
-              <border_alarm_sensitive>true</border_alarm_sensitive>
-              <show_units>true</show_units>
-              <height>20</height>
-              <border_width>1</border_width>
-              <scale_options>
-                <width_scalable>true</width_scalable>
-                <height_scalable>true</height_scalable>
-                <keep_wh_ratio>false</keep_wh_ratio>
-              </scale_options>
-              <visible>true</visible>
-              <pv_name>CB:MWPC:HV:CH0:Imon:RBV</pv_name>
-              <vertical_alignment>1</vertical_alignment>
-              <border_color>
-                <color red="0" green="128" blue="255" />
-              </border_color>
-              <precision_from_pv>true</precision_from_pv>
-              <widget_type>Text Update</widget_type>
-              <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-              <wrap_words>false</wrap_words>
-              <format_type>0</format_type>
-              <background_color>
-                <color red="255" green="255" blue="255" />
-              </background_color>
-              <width>100</width>
-              <x>0</x>
-              <name>Text Update_1</name>
-              <y>22</y>
-              <foreground_color>
-                <color red="0" green="0" blue="0" />
-              </foreground_color>
-              <actions hook="false" hook_all="false" />
-              <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-              </font>
-            </widget>
-            <widget typeId="org.csstudio.opibuilder.widgets.gridLayout" version="1.0.0">
-              <fill_grids>false</fill_grids>
-              <number_of_columns>1</number_of_columns>
-              <wuid>-6aac95c6:148c125c5b6:-38df</wuid>
-              <grid_gap>2</grid_gap>
-              <widget_type>Grid Layout</widget_type>
-              <name>Grid Layout</name>
-            </widget>
-          </widget>
-          <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-            <border_style>13</border_style>
-            <tooltip></tooltip>
-            <rules />
-            <enabled>true</enabled>
-            <wuid>69fc50bd:141f9f356e4:-73a3</wuid>
-            <transparent>false</transparent>
-            <lock_children>false</lock_children>
-            <scripts />
-            <height>70</height>
-            <border_width>1</border_width>
-            <scale_options>
-              <width_scalable>true</width_scalable>
-              <height_scalable>true</height_scalable>
-              <keep_wh_ratio>false</keep_wh_ratio>
-            </scale_options>
-            <macros>
-              <include_parent_macros>true</include_parent_macros>
-            </macros>
-            <visible>true</visible>
-            <border_color>
-              <color red="0" green="128" blue="255" />
-            </border_color>
-            <widget_type>Grouping Container</widget_type>
-            <background_color>
-              <color red="240" green="240" blue="240" />
-            </background_color>
-            <width>131</width>
-            <x>0</x>
-            <name>Chamber 2</name>
-            <y>84</y>
-            <foreground_color>
-              <color red="192" green="192" blue="192" />
-            </foreground_color>
-            <actions hook="false" hook_all="false" />
-            <fc>false</fc>
-            <show_scrollbar>false</show_scrollbar>
-            <font>
-              <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-            </font>
-            <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-              <border_style>0</border_style>
-              <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-              <precision>0</precision>
-              <tooltip>$(pv_name)
+          <horizontal_alignment>0</horizontal_alignment>
+          <rules />
+          <enabled>true</enabled>
+          <wuid>69fc50bd:141f9f356e4:-741b</wuid>
+          <transparent>true</transparent>
+          <pv_value />
+          <auto_size>false</auto_size>
+          <text>######</text>
+          <rotation_angle>0.0</rotation_angle>
+          <scripts />
+          <border_alarm_sensitive>true</border_alarm_sensitive>
+          <show_units>true</show_units>
+          <height>20</height>
+          <border_width>1</border_width>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <visible>true</visible>
+          <pv_name>CB:MWPC:HV:CH0:Imon:RBV</pv_name>
+          <vertical_alignment>1</vertical_alignment>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <precision_from_pv>true</precision_from_pv>
+          <widget_type>Text Update</widget_type>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <wrap_words>false</wrap_words>
+          <format_type>0</format_type>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <width>100</width>
+          <x>0</x>
+          <name>Text Update_1</name>
+          <y>22</y>
+          <foreground_color>
+            <color red="0" green="0" blue="0" />
+          </foreground_color>
+          <actions hook="false" hook_all="false" />
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+          </font>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.bytemonitor" version="1.0.0">
+          <border_style>0</border_style>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-              <horizontal_alignment>0</horizontal_alignment>
-              <rules />
-              <enabled>true</enabled>
-              <wuid>69fc50bd:141f9f356e4:-73a2</wuid>
-              <transparent>true</transparent>
-              <pv_value />
-              <auto_size>false</auto_size>
-              <text>######</text>
-              <rotation_angle>0.0</rotation_angle>
-              <scripts />
-              <border_alarm_sensitive>true</border_alarm_sensitive>
-              <show_units>true</show_units>
-              <height>20</height>
-              <border_width>1</border_width>
-              <scale_options>
-                <width_scalable>true</width_scalable>
-                <height_scalable>true</height_scalable>
-                <keep_wh_ratio>false</keep_wh_ratio>
-              </scale_options>
-              <visible>true</visible>
-              <pv_name>CB:MWPC:HV:CH1:Vmon:RBV</pv_name>
-              <vertical_alignment>1</vertical_alignment>
-              <border_color>
-                <color red="0" green="128" blue="255" />
-              </border_color>
-              <precision_from_pv>true</precision_from_pv>
-              <widget_type>Text Update</widget_type>
-              <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-              <wrap_words>false</wrap_words>
-              <format_type>0</format_type>
-              <background_color>
-                <color red="255" green="255" blue="255" />
-              </background_color>
-              <width>100</width>
-              <x>0</x>
-              <name>Text Update</name>
-              <y>0</y>
-              <foreground_color>
-                <color red="0" green="0" blue="0" />
-              </foreground_color>
-              <actions hook="false" hook_all="false" />
-              <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-              </font>
-            </widget>
-            <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
-              <border_style>0</border_style>
-              <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-              <precision>0</precision>
-              <tooltip>$(pv_name)
+          <rules />
+          <effect_3d>false</effect_3d>
+          <enabled>true</enabled>
+          <wuid>-46ed5793:148c7205778:-7e2d</wuid>
+          <on_color>
+            <color red="0" green="255" blue="0" />
+          </on_color>
+          <horizontal>false</horizontal>
+          <pv_value />
+          <numBits>14</numBits>
+          <scripts />
+          <border_alarm_sensitive>true</border_alarm_sensitive>
+          <height>292</height>
+          <border_width>1</border_width>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <visible>true</visible>
+          <pv_name>CB:MWPC:HV:CH0:Stat:RBV</pv_name>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <bitReverse>true</bitReverse>
+          <label>
+            <s>ON</s>
+            <s>RUP</s>
+            <s>RDW</s>
+            <s>OVC</s>
+            <s>OVV</s>
+            <s>UNV</s>
+            <s>MAXV</s>
+            <s>TRIP</s>
+            <s>OVP</s>
+            <s>OVT</s>
+            <s>DIS</s>
+            <s>KILL</s>
+            <s>ILK</s>
+            <s>NOCAL</s>
+            <s></s>
+          </label>
+          <widget_type>Byte Monitor</widget_type>
+          <off_color>
+            <color red="0" green="100" blue="0" />
+          </off_color>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <square_led>true</square_led>
+          <startBit>0</startBit>
+          <width>67</width>
+          <x>0</x>
+          <name>Byte Monitor</name>
+          <y>54</y>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <actions hook="false" hook_all="false" />
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+          </font>
+        </widget>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+        <border_style>13</border_style>
+        <tooltip></tooltip>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>69fc50bd:141f9f356e4:-73a3</wuid>
+        <transparent>false</transparent>
+        <lock_children>false</lock_children>
+        <scripts />
+        <height>375</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <visible>true</visible>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Grouping Container</widget_type>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <width>129</width>
+        <x>136</x>
+        <name>Chamber 2</name>
+        <y>2</y>
+        <foreground_color>
+          <color red="192" green="192" blue="192" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <fc>false</fc>
+        <show_scrollbar>false</show_scrollbar>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+        </font>
+        <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+          <border_style>0</border_style>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <precision>0</precision>
+          <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-              <horizontal_alignment>0</horizontal_alignment>
-              <rules />
-              <enabled>true</enabled>
-              <wuid>69fc50bd:141f9f356e4:-73a1</wuid>
-              <transparent>true</transparent>
-              <pv_value />
-              <auto_size>false</auto_size>
-              <text>######</text>
-              <rotation_angle>0.0</rotation_angle>
-              <scripts />
-              <border_alarm_sensitive>true</border_alarm_sensitive>
-              <show_units>true</show_units>
-              <height>20</height>
-              <border_width>1</border_width>
-              <scale_options>
-                <width_scalable>true</width_scalable>
-                <height_scalable>true</height_scalable>
-                <keep_wh_ratio>false</keep_wh_ratio>
-              </scale_options>
-              <visible>true</visible>
-              <pv_name>CB:MWPC:HV:CH1:Imon:RBV</pv_name>
-              <vertical_alignment>1</vertical_alignment>
-              <border_color>
-                <color red="0" green="128" blue="255" />
-              </border_color>
-              <precision_from_pv>true</precision_from_pv>
-              <widget_type>Text Update</widget_type>
-              <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-              <wrap_words>false</wrap_words>
-              <format_type>0</format_type>
-              <background_color>
-                <color red="255" green="255" blue="255" />
-              </background_color>
-              <width>100</width>
-              <x>0</x>
-              <name>Text Update_1</name>
-              <y>22</y>
-              <foreground_color>
-                <color red="0" green="0" blue="0" />
-              </foreground_color>
-              <actions hook="false" hook_all="false" />
-              <font>
-                <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-              </font>
-            </widget>
-            <widget typeId="org.csstudio.opibuilder.widgets.gridLayout" version="1.0.0">
-              <fill_grids>false</fill_grids>
-              <number_of_columns>1</number_of_columns>
-              <wuid>-6aac95c6:148c125c5b6:-3888</wuid>
-              <grid_gap>2</grid_gap>
-              <widget_type>Grid Layout</widget_type>
-              <name>Grid Layout</name>
-            </widget>
-          </widget>
+          <horizontal_alignment>0</horizontal_alignment>
+          <rules />
+          <enabled>true</enabled>
+          <wuid>69fc50bd:141f9f356e4:-73a2</wuid>
+          <transparent>true</transparent>
+          <pv_value />
+          <auto_size>false</auto_size>
+          <text>######</text>
+          <rotation_angle>0.0</rotation_angle>
+          <scripts />
+          <border_alarm_sensitive>true</border_alarm_sensitive>
+          <show_units>true</show_units>
+          <height>20</height>
+          <border_width>1</border_width>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <visible>true</visible>
+          <pv_name>CB:MWPC:HV:CH1:Vmon:RBV</pv_name>
+          <vertical_alignment>1</vertical_alignment>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <precision_from_pv>true</precision_from_pv>
+          <widget_type>Text Update</widget_type>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <wrap_words>false</wrap_words>
+          <format_type>0</format_type>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <width>100</width>
+          <x>0</x>
+          <name>Text Update</name>
+          <y>0</y>
+          <foreground_color>
+            <color red="0" green="0" blue="0" />
+          </foreground_color>
+          <actions hook="false" hook_all="false" />
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+          </font>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+          <border_style>0</border_style>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <precision>0</precision>
+          <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+          <horizontal_alignment>0</horizontal_alignment>
+          <rules />
+          <enabled>true</enabled>
+          <wuid>69fc50bd:141f9f356e4:-73a1</wuid>
+          <transparent>true</transparent>
+          <pv_value />
+          <auto_size>false</auto_size>
+          <text>######</text>
+          <rotation_angle>0.0</rotation_angle>
+          <scripts />
+          <border_alarm_sensitive>true</border_alarm_sensitive>
+          <show_units>true</show_units>
+          <height>20</height>
+          <border_width>1</border_width>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <visible>true</visible>
+          <pv_name>CB:MWPC:HV:CH1:Imon:RBV</pv_name>
+          <vertical_alignment>1</vertical_alignment>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <precision_from_pv>true</precision_from_pv>
+          <widget_type>Text Update</widget_type>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <wrap_words>false</wrap_words>
+          <format_type>0</format_type>
+          <background_color>
+            <color red="255" green="255" blue="255" />
+          </background_color>
+          <width>100</width>
+          <x>0</x>
+          <name>Text Update_1</name>
+          <y>22</y>
+          <foreground_color>
+            <color red="0" green="0" blue="0" />
+          </foreground_color>
+          <actions hook="false" hook_all="false" />
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+          </font>
+        </widget>
+        <widget typeId="org.csstudio.opibuilder.widgets.bytemonitor" version="1.0.0">
+          <border_style>0</border_style>
+          <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+          <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+          <rules />
+          <effect_3d>false</effect_3d>
+          <enabled>true</enabled>
+          <wuid>-46ed5793:148c7205778:-7d66</wuid>
+          <on_color>
+            <color red="0" green="255" blue="0" />
+          </on_color>
+          <horizontal>false</horizontal>
+          <pv_value />
+          <numBits>14</numBits>
+          <scripts />
+          <border_alarm_sensitive>true</border_alarm_sensitive>
+          <height>292</height>
+          <border_width>1</border_width>
+          <scale_options>
+            <width_scalable>true</width_scalable>
+            <height_scalable>true</height_scalable>
+            <keep_wh_ratio>false</keep_wh_ratio>
+          </scale_options>
+          <visible>true</visible>
+          <pv_name>CB:MWPC:HV:CH1:Stat:RBV</pv_name>
+          <border_color>
+            <color red="0" green="128" blue="255" />
+          </border_color>
+          <bitReverse>true</bitReverse>
+          <label>
+            <s>ON</s>
+            <s>RUP</s>
+            <s>RDW</s>
+            <s>OVC</s>
+            <s>OVV</s>
+            <s>UNV</s>
+            <s>MAXV</s>
+            <s>TRIP</s>
+            <s>OVP</s>
+            <s>OVT</s>
+            <s>DIS</s>
+            <s>KILL</s>
+            <s>ILK</s>
+            <s>NOCAL</s>
+            <s></s>
+          </label>
+          <widget_type>Byte Monitor</widget_type>
+          <off_color>
+            <color red="0" green="100" blue="0" />
+          </off_color>
+          <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+          <background_color>
+            <color red="240" green="240" blue="240" />
+          </background_color>
+          <square_led>true</square_led>
+          <startBit>0</startBit>
+          <width>67</width>
+          <x>0</x>
+          <name>Byte Monitor</name>
+          <y>54</y>
+          <foreground_color>
+            <color red="192" green="192" blue="192" />
+          </foreground_color>
+          <actions hook="false" hook_all="false" />
+          <font>
+            <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+          </font>
         </widget>
       </widget>
     </widget>
