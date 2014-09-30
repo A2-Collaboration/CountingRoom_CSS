@@ -6,7 +6,7 @@
   <show_grid>true</show_grid>
   <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
   <scripts />
-  <height>600</height>
+  <height>768</height>
   <macros>
     <include_parent_macros>true</include_parent_macros>
   </macros>
@@ -21,7 +21,7 @@
   <background_color>
     <color name="Background" red="255" green="255" blue="255" />
   </background_color>
-  <width>800</width>
+  <width>1024</width>
   <x>-1</x>
   <name>Display</name>
   <grid_space>6</grid_space>
@@ -48,7 +48,7 @@
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>217</height>
+    <height>236</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -66,10 +66,10 @@
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>571</width>
+    <width>576</width>
     <x>12</x>
     <name>Set parameters</name>
-    <y>12</y>
+    <y>24</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -77,7 +77,7 @@
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>13</border_style>
@@ -88,7 +88,7 @@
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>85</height>
+      <height>97</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -107,10 +107,10 @@
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>521</width>
+      <width>533</width>
       <x>0</x>
       <name>Channel ${CH}</name>
-      <y>12</y>
+      <y>0</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -118,7 +118,7 @@
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -726,7 +726,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>85</height>
+      <height>97</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -745,7 +745,7 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>521</width>
+      <width>533</width>
       <x>0</x>
       <name>Channel ${CH}</name>
       <y>96</y>
@@ -756,7 +756,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -1372,7 +1372,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>217</height>
+    <height>236</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1390,10 +1390,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>571</width>
+    <width>576</width>
     <x>12</x>
     <name>Alarm levels</name>
-    <y>240</y>
+    <y>259</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -1401,7 +1401,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>13</border_style>
@@ -1412,7 +1412,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>85</height>
+      <height>97</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -1431,10 +1431,10 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>521</width>
+      <width>533</width>
       <x>0</x>
       <name>Channel ${CH}</name>
-      <y>12</y>
+      <y>0</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -1442,7 +1442,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -2050,7 +2050,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>85</height>
+      <height>97</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2069,7 +2069,7 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>521</width>
+      <width>533</width>
       <x>0</x>
       <name>Channel ${CH}</name>
       <y>96</y>
@@ -2080,7 +2080,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -2713,9 +2713,9 @@ $(pv_value)</tooltip>
       <color red="240" green="240" blue="240" />
     </background_color>
     <width>127</width>
-    <x>635</x>
+    <x>643</x>
     <name>Action Button</name>
-    <y>506</y>
+    <y>544</y>
     <style>0</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -2750,7 +2750,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>116</height>
+    <height>140</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2768,10 +2768,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>422</width>
-    <x>12</x>
+    <width>452</width>
+    <x>18</x>
     <name>Display upper limits</name>
-    <y>468</y>
+    <y>494</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -2779,7 +2779,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>13</border_style>
@@ -2790,7 +2790,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>85</height>
+      <height>97</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -2809,7 +2809,7 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>193</width>
+      <width>205</width>
       <x>0</x>
       <name>Channel ${CH}</name>
       <y>0</y>
@@ -2820,7 +2820,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -3036,7 +3036,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>85</height>
+      <height>97</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3055,8 +3055,8 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>193</width>
-      <x>198</x>
+      <width>205</width>
+      <x>204</x>
       <name>Channel ${CH}</name>
       <y>0</y>
       <foreground_color>
@@ -3066,7 +3066,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -3283,7 +3283,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>273</height>
+    <height>321</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -3301,8 +3301,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>138</width>
-    <x>624</x>
+    <width>159</width>
+    <x>627</x>
     <name>Main switches</name>
     <y>12</y>
     <foreground_color>
@@ -3312,7 +3312,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>13</border_style>
@@ -3330,7 +3330,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>62</height>
+      <height>74</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3349,10 +3349,10 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>104</width>
-      <x>3</x>
+      <width>116</width>
+      <x>0</x>
       <name>Channel ${CH}</name>
-      <y>113</y>
+      <y>125</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -3360,7 +3360,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
         <toggle_button>true</toggle_button>
@@ -3439,7 +3439,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>62</height>
+      <height>74</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3458,10 +3458,10 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>104</width>
+      <width>116</width>
       <x>0</x>
       <name>Channel ${CH}</name>
-      <y>180</y>
+      <y>204</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -3469,7 +3469,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
         <toggle_button>true</toggle_button>
@@ -3541,7 +3541,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>114</height>
+      <height>126</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3559,8 +3559,8 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>98</width>
-      <x>6</x>
+      <width>110</width>
+      <x>3</x>
       <name>Group Name</name>
       <y>0</y>
       <foreground_color>
@@ -3570,7 +3570,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.BoolSwitch" version="1.0.0">
         <toggle_button>true</toggle_button>
