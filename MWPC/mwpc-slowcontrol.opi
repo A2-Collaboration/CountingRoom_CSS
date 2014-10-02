@@ -389,7 +389,7 @@ $(pv_value)</tooltip>
         <wuid>-6aac95c6:148c125c5b6:-73e2</wuid>
         <transparent>true</transparent>
         <auto_size>false</auto_size>
-        <text>Setpopint:</text>
+        <text>Setpoint:</text>
         <scripts />
         <height>26</height>
         <border_width>1</border_width>
@@ -644,7 +644,7 @@ $(pv_value)</tooltip>
         <wuid>-6aac95c6:148c125c5b6:-73c2</wuid>
         <transparent>true</transparent>
         <auto_size>false</auto_size>
-        <text>Setpopint:</text>
+        <text>Trip current:</text>
         <scripts />
         <height>26</height>
         <border_width>1</border_width>
@@ -1310,7 +1310,7 @@ $(pv_value)</tooltip>
         <wuid>-6aac95c6:148c125c5b6:-7293</wuid>
         <transparent>true</transparent>
         <auto_size>false</auto_size>
-        <text>Setpopint:</text>
+        <text>Trip current:</text>
         <scripts />
         <height>26</height>
         <border_width>1</border_width>
@@ -1656,7 +1656,7 @@ $(pv_value)</tooltip>
         </border_color>
         <precision_from_pv>true</precision_from_pv>
         <widget_type>Text Input</widget_type>
-        <confirm_message></confirm_message>
+        <confirm_message>Really voltage setpoint?</confirm_message>
         <name>Text</name>
         <style>1</style>
         <actions hook="false" hook_all="false" />
@@ -1863,7 +1863,7 @@ $(pv_value)</tooltip>
         </border_color>
         <precision_from_pv>true</precision_from_pv>
         <widget_type>Text Input</widget_type>
-        <confirm_message></confirm_message>
+        <confirm_message>Really voltage setpoint?</confirm_message>
         <name>Text</name>
         <style>1</style>
         <actions hook="false" hook_all="false" />

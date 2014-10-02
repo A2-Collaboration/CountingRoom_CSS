@@ -501,7 +501,7 @@ $(pv_value)</tooltip>
         </border_color>
         <precision_from_pv>true</precision_from_pv>
         <widget_type>Text Input</widget_type>
-        <confirm_message></confirm_message>
+        <confirm_message>No ramp down if Vmon &gt; MaxV, check voltage before.</confirm_message>
         <name>Text_2</name>
         <style>1</style>
         <actions hook="false" hook_all="false" />
@@ -1139,7 +1139,7 @@ $(pv_value)</tooltip>
         </border_color>
         <precision_from_pv>true</precision_from_pv>
         <widget_type>Text Input</widget_type>
-        <confirm_message></confirm_message>
+        <confirm_message>No ramp down if Vmon &gt; MaxV, check voltage before.</confirm_message>
         <name>Text_2</name>
         <style>1</style>
         <actions hook="false" hook_all="false" />

@@ -21,8 +21,8 @@
         </majorGridColor>
         <onPrimarySide>true</onPrimarySide>
         <range>
-            <lower>1.412238283749E12</lower>
-            <upper>1.412240083749E12</upper>
+            <lower>1.412240668353E12</lower>
+            <upper>1.412242468353E12</upper>
         </range>
         <scaleFont>1|Sans|9.0|0|GTK|1|</scaleFont>
         <showMajorGrid>true</showMajorGrid>
@@ -85,7 +85,7 @@
         </errorBarColor>
         <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>2</lineWidth>
-        <name>Chamber 1</name>
+        <name>CB:MWPC:HV:CH0:Imon:RBV</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
@@ -106,13 +106,13 @@
         <drawYErrorInArea>true</drawYErrorInArea>
         <errorBarCapWidth>4</errorBarCapWidth>
         <errorBarColor>
-            <blue>0</blue>
-            <green>128</green>
-            <red>0</red>
+            <blue>26</blue>
+            <green>26</green>
+            <red>242</red>
         </errorBarColor>
         <errorBarEnabled>true</errorBarEnabled>
         <lineWidth>2</lineWidth>
-        <name>CB:MWPC:HV:CH2:Imon:RBV</name>
+        <name>CB:MWPC:HV:CH1:Imon:RBV</name>
         <pointSize>4</pointSize>
         <pointStyle>NONE</pointStyle>
         <traceColor>
