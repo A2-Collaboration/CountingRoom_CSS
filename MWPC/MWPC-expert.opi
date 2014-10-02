@@ -211,7 +211,7 @@
         <wuid>-6aac95c6:148c125c5b6:-6124</wuid>
         <transparent>true</transparent>
         <auto_size>false</auto_size>
-        <text>Vmax</text>
+        <text>MaxV</text>
         <scripts />
         <height>26</height>
         <border_width>1</border_width>
@@ -495,7 +495,7 @@ $(pv_value)</tooltip>
         <multiline_input>false</multiline_input>
         <border_width>1</border_width>
         <visible>true</visible>
-        <pv_name>CB:MWPC:HV:CH${CH}:Vset.HOPR</pv_name>
+        <pv_name>CB:MWPC:HV:CH${CH}:MaxV</pv_name>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
@@ -849,7 +849,7 @@ $(pv_value)</tooltip>
         <wuid>-6aac95c6:148c125c5b6:-6116</wuid>
         <transparent>true</transparent>
         <auto_size>false</auto_size>
-        <text>Vmax</text>
+        <text>MaxV</text>
         <scripts />
         <height>26</height>
         <border_width>1</border_width>
@@ -1133,7 +1133,7 @@ $(pv_value)</tooltip>
         <multiline_input>false</multiline_input>
         <border_width>1</border_width>
         <visible>true</visible>
-        <pv_name>CB:MWPC:HV:CH${CH}:Vset.HOPR</pv_name>
+        <pv_name>CB:MWPC:HV:CH${CH}:MaxV</pv_name>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
@@ -2713,9 +2713,9 @@ $(pv_value)</tooltip>
       <color red="240" green="240" blue="240" />
     </background_color>
     <width>127</width>
-    <x>486</x>
+    <x>615</x>
     <name>Action Button</name>
-    <y>600</y>
+    <y>588</y>
     <style>0</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -2768,10 +2768,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>452</width>
+    <width>576</width>
     <x>12</x>
     <name>Display upper limits</name>
-    <y>516</y>
+    <y>494</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -2810,9 +2810,9 @@ $(pv_value)</tooltip>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
       <width>205</width>
-      <x>0</x>
+      <x>29</x>
       <name>Channel ${CH}</name>
-      <y>0</y>
+      <y>6</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -3056,9 +3056,9 @@ $(pv_value)</tooltip>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
       <width>205</width>
-      <x>204</x>
+      <x>294</x>
       <name>Channel ${CH}</name>
-      <y>0</y>
+      <y>6</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -3283,7 +3283,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>321</height>
+    <height>471</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -3301,10 +3301,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>159</width>
-    <x>627</x>
+    <width>184</width>
+    <x>587</x>
     <name>Main switches</name>
-    <y>12</y>
+    <y>24</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -3330,7 +3330,7 @@ $(pv_value)</tooltip>
       <transparent>false</transparent>
       <lock_children>false</lock_children>
       <scripts />
-      <height>74</height>
+      <height>116</height>
       <border_width>1</border_width>
       <scale_options>
         <width_scalable>true</width_scalable>
@@ -3349,10 +3349,10 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>116</width>
+      <width>142</width>
       <x>0</x>
       <name>Channel ${CH}</name>
-      <y>125</y>
+      <y>156</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
       </foreground_color>
@@ -3408,7 +3408,7 @@ $(pv_value)</tooltip>
           <color red="240" green="240" blue="240" />
         </background_color>
         <width>73</width>
-        <x>0</x>
+        <x>13</x>
         <name>Boolean Button</name>
         <data_type>0</data_type>
         <y>0</y>
@@ -3422,114 +3422,107 @@ $(pv_value)</tooltip>
         </font>
         <off_label>OFF</off_label>
       </widget>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
-      <border_style>13</border_style>
-      <tooltip></tooltip>
-      <rules>
-        <rule name="activ" prop_id="enabled" out_exp="false">
-          <exp bool_exp="pv0 == 1">
-            <value>false</value>
-          </exp>
-          <pv trig="true">CB:MWPC:HV:DISABLE</pv>
-        </rule>
-      </rules>
-      <enabled>true</enabled>
-      <wuid>-6aac95c6:148c125c5b6:-464e</wuid>
-      <transparent>false</transparent>
-      <lock_children>false</lock_children>
-      <scripts />
-      <height>74</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <macros>
-        <include_parent_macros>true</include_parent_macros>
-        <CH>1</CH>
-      </macros>
-      <visible>true</visible>
-      <border_color>
-        <color name="Black" red="0" green="0" blue="0" />
-      </border_color>
-      <widget_type>Grouping Container</widget_type>
-      <background_color>
-        <color name="Background" red="255" green="255" blue="255" />
-      </background_color>
-      <width>116</width>
-      <x>0</x>
-      <name>Channel ${CH}</name>
-      <y>204</y>
-      <foreground_color>
-        <color red="192" green="192" blue="192" />
-      </foreground_color>
-      <actions hook="false" hook_all="false" />
-      <fc>false</fc>
-      <show_scrollbar>true</show_scrollbar>
-      <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
-      </font>
-      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
-        <toggle_button>true</toggle_button>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
         <border_style>0</border_style>
         <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision>0</precision>
         <tooltip>$(pv_name)
 $(pv_value)</tooltip>
-        <push_action_index>0</push_action_index>
+        <horizontal_alignment>0</horizontal_alignment>
         <rules />
-        <effect_3d>true</effect_3d>
-        <bit>0</bit>
         <enabled>true</enabled>
-        <wuid>-6aac95c6:148c125c5b6:-464d</wuid>
-        <on_color>
-          <color name="On" red="0" green="255" blue="0" />
-        </on_color>
-        <show_confirm_dialog>0</show_confirm_dialog>
-        <password></password>
+        <wuid>142aaf5:148cb207d20:-7993</wuid>
+        <transparent>true</transparent>
         <pv_value />
-        <released_action_index>0</released_action_index>
-        <square_button>false</square_button>
-        <show_led>true</show_led>
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
         <scripts />
         <border_alarm_sensitive>true</border_alarm_sensitive>
-        <height>31</height>
-        <on_label>ON</on_label>
+        <show_units>true</show_units>
+        <height>20</height>
         <border_width>1</border_width>
         <scale_options>
           <width_scalable>true</width_scalable>
           <height_scalable>true</height_scalable>
-          <keep_wh_ratio>true</keep_wh_ratio>
+          <keep_wh_ratio>false</keep_wh_ratio>
         </scale_options>
         <visible>true</visible>
-        <pv_name>CB:MWPC:HV:ON${CH}</pv_name>
+        <pv_name>CB:MWPC:HV:CH${CH}:Vmon:RBV</pv_name>
+        <vertical_alignment>1</vertical_alignment>
         <border_color>
           <color red="0" green="128" blue="255" />
         </border_color>
-        <widget_type>Boolean Button</widget_type>
-        <off_color>
-          <color name="Off" red="60" green="100" blue="60" />
-        </off_color>
-        <confirm_message>Are your sure you want to do this?</confirm_message>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
         <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
         <background_color>
-          <color red="240" green="240" blue="240" />
+          <color red="255" green="255" blue="255" />
         </background_color>
-        <width>73</width>
+        <width>100</width>
         <x>0</x>
-        <name>Boolean Button</name>
-        <data_type>0</data_type>
-        <y>0</y>
+        <name>Text Update</name>
+        <y>36</y>
         <foreground_color>
           <color red="0" green="0" blue="0" />
         </foreground_color>
         <actions hook="false" hook_all="false" />
-        <show_boolean_label>true</show_boolean_label>
         <font>
           <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
         </font>
-        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision>0</precision>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>142aaf5:148cb207d20:-7992</wuid>
+        <transparent>true</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>CB:MWPC:HV:CH${CH}:Imon:RBV</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>100</width>
+        <x>0</x>
+        <name>Text Update_1</name>
+        <y>55</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+        </font>
       </widget>
     </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -3559,9 +3552,9 @@ $(pv_value)</tooltip>
       <background_color>
         <color name="Background" red="255" green="255" blue="255" />
       </background_color>
-      <width>110</width>
-      <x>3</x>
-      <name>Group Name</name>
+      <width>142</width>
+      <x>0</x>
+      <name>Control:</name>
       <y>0</y>
       <foreground_color>
         <color red="192" green="192" blue="192" />
@@ -3617,7 +3610,7 @@ $(pv_value)</tooltip>
         </background_color>
         <boolean_label_position>5</boolean_label_position>
         <width>67</width>
-        <x>0</x>
+        <x>18</x>
         <name>Boolean Switch</name>
         <data_type>0</data_type>
         <y>0</y>
@@ -3630,6 +3623,217 @@ $(pv_value)</tooltip>
           <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
         </font>
         <off_label>Enabled</off_label>
+      </widget>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+      <border_style>13</border_style>
+      <tooltip></tooltip>
+      <rules>
+        <rule name="activ" prop_id="enabled" out_exp="false">
+          <exp bool_exp="pv0 == 1">
+            <value>false</value>
+          </exp>
+          <pv trig="true">CB:MWPC:HV:DISABLE</pv>
+        </rule>
+      </rules>
+      <enabled>true</enabled>
+      <wuid>142aaf5:148cb207d20:-78a0</wuid>
+      <transparent>false</transparent>
+      <lock_children>false</lock_children>
+      <scripts />
+      <height>116</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <CH>1</CH>
+      </macros>
+      <visible>true</visible>
+      <border_color>
+        <color name="Black" red="0" green="0" blue="0" />
+      </border_color>
+      <widget_type>Grouping Container</widget_type>
+      <background_color>
+        <color name="Background" red="255" green="255" blue="255" />
+      </background_color>
+      <width>142</width>
+      <x>0</x>
+      <name>Channel ${CH}</name>
+      <y>322</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <fc>false</fc>
+      <show_scrollbar>true</show_scrollbar>
+      <font>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      </font>
+      <widget typeId="org.csstudio.opibuilder.widgets.BoolButton" version="1.0.0">
+        <toggle_button>true</toggle_button>
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <push_action_index>0</push_action_index>
+        <rules />
+        <effect_3d>true</effect_3d>
+        <bit>0</bit>
+        <enabled>true</enabled>
+        <wuid>142aaf5:148cb207d20:-789f</wuid>
+        <on_color>
+          <color name="On" red="0" green="255" blue="0" />
+        </on_color>
+        <show_confirm_dialog>0</show_confirm_dialog>
+        <password></password>
+        <pv_value />
+        <released_action_index>0</released_action_index>
+        <square_button>false</square_button>
+        <show_led>true</show_led>
+        <scripts />
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <height>31</height>
+        <on_label>ON</on_label>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>true</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>CB:MWPC:HV:ON${CH}</pv_name>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <widget_type>Boolean Button</widget_type>
+        <off_color>
+          <color name="Off" red="60" green="100" blue="60" />
+        </off_color>
+        <confirm_message>Are your sure you want to do this?</confirm_message>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <background_color>
+          <color red="240" green="240" blue="240" />
+        </background_color>
+        <width>73</width>
+        <x>13</x>
+        <name>Boolean Button</name>
+        <data_type>0</data_type>
+        <y>0</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <show_boolean_label>true</show_boolean_label>
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+        </font>
+        <off_label>OFF</off_label>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision>0</precision>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>142aaf5:148cb207d20:-789e</wuid>
+        <transparent>true</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>CB:MWPC:HV:CH${CH}:Vmon:RBV</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>100</width>
+        <x>0</x>
+        <name>Text Update</name>
+        <y>36</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+        </font>
+      </widget>
+      <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+        <border_style>0</border_style>
+        <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+        <precision>0</precision>
+        <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+        <horizontal_alignment>0</horizontal_alignment>
+        <rules />
+        <enabled>true</enabled>
+        <wuid>142aaf5:148cb207d20:-789d</wuid>
+        <transparent>true</transparent>
+        <pv_value />
+        <auto_size>false</auto_size>
+        <text>######</text>
+        <rotation_angle>0.0</rotation_angle>
+        <scripts />
+        <border_alarm_sensitive>true</border_alarm_sensitive>
+        <show_units>true</show_units>
+        <height>20</height>
+        <border_width>1</border_width>
+        <scale_options>
+          <width_scalable>true</width_scalable>
+          <height_scalable>true</height_scalable>
+          <keep_wh_ratio>false</keep_wh_ratio>
+        </scale_options>
+        <visible>true</visible>
+        <pv_name>CB:MWPC:HV:CH${CH}:Imon:RBV</pv_name>
+        <vertical_alignment>1</vertical_alignment>
+        <border_color>
+          <color red="0" green="128" blue="255" />
+        </border_color>
+        <precision_from_pv>true</precision_from_pv>
+        <widget_type>Text Update</widget_type>
+        <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+        <wrap_words>false</wrap_words>
+        <format_type>0</format_type>
+        <background_color>
+          <color red="255" green="255" blue="255" />
+        </background_color>
+        <width>100</width>
+        <x>0</x>
+        <name>Text Update_1</name>
+        <y>55</y>
+        <foreground_color>
+          <color red="0" green="0" blue="0" />
+        </foreground_color>
+        <actions hook="false" hook_all="false" />
+        <font>
+          <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+        </font>
       </widget>
     </widget>
   </widget>
@@ -3666,9 +3870,9 @@ $(pv_value)</tooltip>
       <color red="240" green="240" blue="240" />
     </background_color>
     <width>127</width>
-    <x>486</x>
+    <x>615</x>
     <name>Action Button_1</name>
-    <y>528</y>
+    <y>516</y>
     <style>0</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
