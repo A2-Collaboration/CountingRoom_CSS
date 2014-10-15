@@ -21,7 +21,7 @@
   <background_color>
     <color name="OPI_Background" red="255" green="255" blue="255" />
   </background_color>
-  <width>2400</width>
+  <width>1860</width>
   <x>-1</x>
   <name>A2 Hall View</name>
   <grid_space>6</grid_space>
@@ -74,9 +74,9 @@ $(pv_value)</tooltip>
       <color red="230" green="230" blue="250" />
     </background_color>
     <width>137</width>
-    <x>1780</x>
+    <x>1321</x>
     <name>Rectangle_7</name>
-    <y>372</y>
+    <y>373</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -131,9 +131,9 @@ $(pv_value)</tooltip>
       <color red="127" green="127" blue="127" />
     </background_color>
     <width>108</width>
-    <x>2278</x>
+    <x>1737</x>
     <name>Rectangle_6</name>
-    <y>451</y>
+    <y>452</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2109,9 +2109,9 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="255" />
     </background_color>
     <width>82</width>
-    <x>2278</x>
+    <x>1737</x>
     <name>Rectangle_5</name>
-    <y>512</y>
+    <y>513</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2153,9 +2153,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>108</width>
-    <x>2278</x>
+    <x>1737</x>
     <name>Label_7</name>
-    <y>456</y>
+    <y>457</y>
     <foreground_color>
       <color red="255" green="255" blue="255" />
     </foreground_color>
@@ -2193,10 +2193,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
-    <width>150</width>
-    <x>2244</x>
+    <width>175</width>
+    <x>1678</x>
     <name>Label_8</name>
-    <y>667</y>
+    <y>668</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2246,9 +2246,9 @@ $(pv_value)</tooltip>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <width>150</width>
-    <x>2244</x>
+    <x>1703</x>
     <name>Text Update_10</name>
-    <y>692</y>
+    <y>694</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2275,7 +2275,7 @@ $(pv_value)</tooltip>
     </bg_gradient_color>
     <scripts />
     <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>400</height>
+    <height>330</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -2298,10 +2298,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="230" green="230" blue="250" />
     </background_color>
-    <width>400</width>
-    <x>1366</x>
+    <width>324</width>
+    <x>979</x>
     <name>Ellipse</name>
-    <y>356</y>
+    <y>392</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2355,10 +2355,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="30" green="144" blue="255" />
     </background_color>
-    <width>180</width>
-    <x>1143</x>
+    <width>115</width>
+    <x>842</x>
     <name>Rectangle_13</name>
-    <y>370</y>
+    <y>371</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2413,9 +2413,9 @@ $(pv_value)</tooltip>
       <color red="230" green="230" blue="250" />
     </background_color>
     <width>137</width>
-    <x>1946</x>
+    <x>1531</x>
     <name>Rectangle_14</name>
-    <y>383</y>
+    <y>384</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2470,9 +2470,9 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="255" />
     </background_color>
     <width>52</width>
-    <x>1982</x>
+    <x>1567</x>
     <name>Rectangle_15</name>
-    <y>532</y>
+    <y>533</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2527,9 +2527,9 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="255" />
     </background_color>
     <width>52</width>
-    <x>1982</x>
+    <x>1567</x>
     <name>Rectangle_16</name>
-    <y>435</y>
+    <y>436</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -2571,9 +2571,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>150</width>
-    <x>2096</x>
+    <x>1704</x>
     <name>Label_9</name>
-    <y>568</y>
+    <y>726</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2623,9 +2623,9 @@ $(pv_value)</tooltip>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <width>65</width>
-    <x>2181</x>
+    <x>1789</x>
     <name>Text Update_11</name>
-    <y>593</y>
+    <y>751</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2674,9 +2674,9 @@ $(pv_value)</tooltip>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <width>65</width>
-    <x>2180</x>
+    <x>1788</x>
     <name>Text Update_12</name>
-    <y>618</y>
+    <y>776</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2714,9 +2714,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>150</width>
-    <x>2095</x>
+    <x>1678</x>
     <name>Label_10</name>
-    <y>383</y>
+    <y>382</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2766,9 +2766,9 @@ $(pv_value)</tooltip>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <width>150</width>
-    <x>2095</x>
+    <x>1678</x>
     <name>Text Update_13</name>
-    <y>408</y>
+    <y>407</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2805,9 +2805,9 @@ $(pv_value)</tooltip>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>108</width>
-    <x>1961</x>
+    <x>1546</x>
     <name>Beam Table</name>
-    <y>662</y>
+    <y>663</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -2990,9 +2990,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>150</width>
-    <x>1158</x>
+    <x>825</x>
     <name>Label_11</name>
-    <y>739</y>
+    <y>749</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3044,9 +3044,9 @@ $(pv_value)</tooltip>
       <color red="30" green="144" blue="255" />
     </background_color>
     <width>254</width>
-    <x>1322</x>
+    <x>956</x>
     <name>Rectangle_17</name>
-    <y>536</y>
+    <y>537</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -3088,9 +3088,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>150</width>
-    <x>1482</x>
+    <x>1076</x>
     <name>Label_12</name>
-    <y>771</y>
+    <y>774</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3129,9 +3129,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>150</width>
-    <x>1774</x>
+    <x>1315</x>
     <name>Label_13</name>
-    <y>752</y>
+    <y>753</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3169,9 +3169,9 @@ $(pv_value)</tooltip>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>224</width>
-    <x>1391</x>
+    <x>980</x>
     <name>DAQ</name>
-    <y>9</y>
+    <y>21</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -3650,8 +3650,8 @@ $(pv_value)</tooltip>
     <wuid>2c415b24:1479d40f891:-52f0</wuid>
     <transparent>false</transparent>
     <points>
-      <point x="331" y="554" />
-      <point x="2301" y="555" />
+      <point x="331" y="555" />
+      <point x="1818" y="555" />
     </points>
     <fill_arrow>true</fill_arrow>
     <pv_value />
@@ -3659,7 +3659,7 @@ $(pv_value)</tooltip>
     <rotation_angle>0.0</rotation_angle>
     <scripts />
     <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>2</height>
+    <height>1</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -3679,10 +3679,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="0" green="0" blue="0" />
     </background_color>
-    <width>1971</width>
+    <width>1488</width>
     <x>331</x>
     <name>Polyline_8</name>
-    <y>554</y>
+    <y>555</y>
     <fill_level>0.0</fill_level>
     <foreground_color>
       <color red="255" green="0" blue="0" />
@@ -3762,9 +3762,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>77</width>
-    <x>2180</x>
+    <x>1639</x>
     <name>Label_20</name>
-    <y>535</y>
+    <y>536</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3925,9 +3925,9 @@ $(pv_value)</tooltip>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>171</width>
-    <x>1480</x>
+    <x>1065</x>
     <name>Energy Sum</name>
-    <y>382</y>
+    <y>441</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -4150,9 +4150,9 @@ $(pv_value)</tooltip>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
     <width>374</width>
-    <x>1614</x>
+    <x>1203</x>
     <name>Trigger</name>
-    <y>9</y>
+    <y>21</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -5159,9 +5159,9 @@ so leave them turned on most of the time!</tooltip>
     </border_color>
     <widget_type>Action Button</widget_type>
     <width>147</width>
-    <x>1429</x>
+    <x>1018</x>
     <name>Action Button</name>
-    <y>204</y>
+    <y>216</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5208,9 +5208,9 @@ so leave them turned on most of the time!</tooltip>
     </border_color>
     <widget_type>Action Button</widget_type>
     <width>115</width>
-    <x>1792</x>
+    <x>1333</x>
     <name>Action Button_1</name>
-    <y>401</y>
+    <y>402</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5257,9 +5257,9 @@ so leave them turned on most of the time!</tooltip>
     </border_color>
     <widget_type>Action Button</widget_type>
     <width>147</width>
-    <x>1429</x>
+    <x>1018</x>
     <name>Action Button_2</name>
-    <y>255</y>
+    <y>262</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5307,9 +5307,9 @@ Usually for experts only.</tooltip>
     </border_color>
     <widget_type>Action Button</widget_type>
     <width>147</width>
-    <x>1492</x>
+    <x>1077</x>
     <name>Action Button_3</name>
-    <y>685</y>
+    <y>729</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5405,9 +5405,9 @@ Usually for experts only.</tooltip>
     </border_color>
     <widget_type>Action Button</widget_type>
     <width>147</width>
-    <x>1492</x>
+    <x>1077</x>
     <name>Action Button_5</name>
-    <y>558</y>
+    <y>575</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5422,50 +5422,6 @@ Usually for experts only.</tooltip>
         <description>MWPC</description>
       </action>
     </actions>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <border_style>0</border_style>
-    <tooltip></tooltip>
-    <horizontal_alignment>1</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>2c415b24:1479d40f891:-38a1</wuid>
-    <transparent>true</transparent>
-    <auto_size>false</auto_size>
-    <text>This View is BIG.
-Scroll to the side!
-&lt;---&gt;
-or resize window.</text>
-    <scripts />
-    <height>132</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>Label</widget_type>
-    <wrap_words>true</wrap_words>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <width>188</width>
-    <x>1179</x>
-    <name>Label_21</name>
-    <y>10</y>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <show_scrollbar>false</show_scrollbar>
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
@@ -5663,9 +5619,9 @@ or resize window.</text>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>80</width>
-    <x>2102</x>
+    <x>1710</x>
     <name>Label_26</name>
-    <y>593</y>
+    <y>751</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -5704,9 +5660,9 @@ or resize window.</text>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>80</width>
-    <x>2102</x>
+    <x>1710</x>
     <name>Label_27</name>
-    <y>618</y>
+    <y>776</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -5806,8 +5762,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
-    <width>80</width>
-    <x>1228</x>
+    <width>72</width>
+    <x>882</x>
     <name>Text Update_15</name>
     <y>433</y>
     <foreground_color>
@@ -5847,9 +5803,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>58</width>
-    <x>1179</x>
+    <x>848</x>
     <name>Label_28</name>
-    <y>433</y>
+    <y>434</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -5899,9 +5855,9 @@ $(pv_value)</tooltip>
       <color name="Read_Background" red="240" green="240" blue="240" />
     </background_color>
     <width>80</width>
-    <x>1228</x>
+    <x>878</x>
     <name>Text Update_16</name>
-    <y>458</y>
+    <y>457</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -5939,9 +5895,9 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>58</width>
-    <x>1179</x>
+    <x>848</x>
     <name>Label_29</name>
-    <y>458</y>
+    <y>457</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -5984,9 +5940,9 @@ $(pv_value)</tooltip>
       <color red="240" green="240" blue="240" />
     </background_color>
     <width>80</width>
-    <x>1193</x>
+    <x>855</x>
     <name>Action Button_6</name>
-    <y>692</y>
+    <y>694</y>
     <style>0</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
