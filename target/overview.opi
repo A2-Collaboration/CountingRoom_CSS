@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
-  <show_close_button>true</show_close_button>
+  <show_close_button>false</show_close_button>
   <rules />
   <wuid>2da4dada:138bb0b2666:-7ff6</wuid>
   <show_grid>true</show_grid>
@@ -41,7 +41,7 @@
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>420</height>
+    <height>432</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -59,10 +59,10 @@
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>885</width>
-    <x>48</x>
+    <width>897</width>
+    <x>42</x>
     <name>Temperatures</name>
-    <y>498</y>
+    <y>467</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -70,7 +70,7 @@
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>13</border_style>
@@ -111,7 +111,7 @@
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -818,7 +818,7 @@ $(pv_value)</tooltip>
     <transparent>false</transparent>
     <lock_children>false</lock_children>
     <scripts />
-    <height>420</height>
+    <height>432</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -836,10 +836,10 @@ $(pv_value)</tooltip>
     <background_color>
       <color name="Background" red="255" green="255" blue="255" />
     </background_color>
-    <width>885</width>
-    <x>48</x>
+    <width>893</width>
+    <x>44</x>
     <name>Pressure</name>
-    <y>60</y>
+    <y>36</y>
     <foreground_color>
       <color red="192" green="192" blue="192" />
     </foreground_color>
@@ -847,7 +847,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
       <border_style>13</border_style>
@@ -888,7 +888,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>true</show_scrollbar>
       <font>
-        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -1145,7 +1145,7 @@ $(pv_value)</tooltip>
     <auto_size>false</auto_size>
     <text>Target Overview</text>
     <scripts />
-    <height>26</height>
+    <height>37</height>
     <border_width>1</border_width>
     <scale_options>
       <width_scalable>true</width_scalable>
@@ -1165,14 +1165,14 @@ $(pv_value)</tooltip>
     <width>885</width>
     <x>48</x>
     <name>Label</name>
-    <y>18</y>
+    <y>0</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
+      <opifont.name fontName="Cantarell" height="19" style="1">Header 1</opifont.name>
     </font>
   </widget>
 </display>
