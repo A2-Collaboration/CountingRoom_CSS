@@ -70,7 +70,7 @@
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
       <tooltip>$(pv_name)
@@ -1622,7 +1622,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_style>0</border_style>
@@ -2104,7 +2104,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
       <border_style>0</border_style>
