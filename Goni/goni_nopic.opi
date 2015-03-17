@@ -1,0 +1,1037 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <show_close_button>false</show_close_button>
+  <rules />
+  <wuid>696450be:14689b3d16f:-7efe</wuid>
+  <show_grid>false</show_grid>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <scripts />
+  <height>900</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+  </macros>
+  <boy_version>3.2.17.201407281652</boy_version>
+  <show_edit_range>false</show_edit_range>
+  <widget_type>Display</widget_type>
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <background_color>
+    <color red="229" green="229" blue="229" />
+  </background_color>
+  <width>800</width>
+  <x>-1</x>
+  <name></name>
+  <grid_space>6</grid_space>
+  <show_ruler>false</show_ruler>
+  <y>-1</y>
+  <snap_to_geometry>false</snap_to_geometry>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <actions hook="false" hook_all="false" />
+  <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>4c38b52f:14a0b99c301:-78c0</wuid>
+    <transparent>true</transparent>
+    <lock_children>false</lock_children>
+    <scripts />
+    <height>781</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <P>BEAM:GONI:</P>
+    </macros>
+    <visible>true</visible>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Grouping Container</widget_type>
+    <background_color>
+      <color name="MEDM_COLOR_30" red="251" green="243" blue="74" />
+    </background_color>
+    <width>247</width>
+    <x>12</x>
+    <name>Grouping Container</name>
+    <y>12</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <fc>false</fc>
+    <show_scrollbar>true</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>radiator.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-415873df:14a141f49f5:-7eb0</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <RAD_NUMBER>6</RAD_NUMBER>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>211</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>562</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>radiator.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-415873df:14a141f49f5:-7ee0</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <RAD_NUMBER>2</RAD_NUMBER>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>211</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>486</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>radiator.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:40f9</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <RAD_NUMBER>1</RAD_NUMBER>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>211</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>467</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>radiator.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-415873df:14a141f49f5:-7ed5</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <RAD_NUMBER>3</RAD_NUMBER>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>211</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>505</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>radiator.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-415873df:14a141f49f5:-7ebf</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <RAD_NUMBER>5</RAD_NUMBER>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>211</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>543</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>radiator.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-415873df:14a141f49f5:-7eca</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <RAD_NUMBER>4</RAD_NUMBER>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>211</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>524</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-7f8d10e:14a352b5277:508b</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>Radiator selection</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>175</width>
+      <x>18</x>
+      <name>Label</name>
+      <y>426</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <fontdata fontName="DejaVu Sans Mono" height="9" style="1" />
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>goni_axis.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6eac</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <AXIS_NUMBER>3</AXIS_NUMBER>
+        <AXIS_NAME>Y</AXIS_NAME>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>223</width>
+      <x>12</x>
+      <name>Linking Container_2</name>
+      <y>288</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-7f8d10e:14a352b5277:3593</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>n  Name    Mov Home   Pos</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>223</width>
+      <x>12</x>
+      <name>Label_2</name>
+      <y>227</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>goni_axis.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6ec0</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <AXIS_NUMBER>1</AXIS_NUMBER>
+        <AXIS_NAME>X</AXIS_NAME>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>223</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>250</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>goni_axis.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6e7f</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <AXIS_NUMBER>6</AXIS_NUMBER>
+        <AXIS_NAME>MOELL</AXIS_NAME>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>223</width>
+      <x>12</x>
+      <name>Linking Container</name>
+      <y>345</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>goni_axis.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6e98</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <AXIS_NUMBER>5</AXIS_NUMBER>
+        <AXIS_NAME>ROLL</AXIS_NAME>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>223</width>
+      <x>12</x>
+      <name>Linking Container_4</name>
+      <y>326</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6d30</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>Goniometer Axes and Values</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>223</width>
+      <x>12</x>
+      <name>Label</name>
+      <y>209</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <fontdata fontName="DejaVu Sans Mono" height="9" style="1" />
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>goni_axis.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6eb6</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <AXIS_NUMBER>2</AXIS_NUMBER>
+        <AXIS_NAME>PITCH</AXIS_NAME>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>223</width>
+      <x>12</x>
+      <name>Linking Container_1</name>
+      <y>269</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+      <opi_file>goni_axis.opi</opi_file>
+      <border_style>15</border_style>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>4c38b52f:14a0b99c301:-6ea2</wuid>
+      <auto_size>false</auto_size>
+      <scripts />
+      <height>20</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <macros>
+        <include_parent_macros>true</include_parent_macros>
+        <AXIS_NUMBER>4</AXIS_NUMBER>
+        <AXIS_NAME>YAW</AXIS_NAME>
+      </macros>
+      <visible>true</visible>
+      <group_name></group_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Linking Container</widget_type>
+      <background_color>
+        <color red="229" green="229" blue="229" />
+      </background_color>
+      <zoom_to_fit>true</zoom_to_fit>
+      <width>223</width>
+      <x>12</x>
+      <name>Linking Container_3</name>
+      <y>307</y>
+      <foreground_color>
+        <color red="192" green="192" blue="192" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>1</horizontal_alignment>
+      <rules>
+        <rule name="Rule" prop_id="text" out_exp="false">
+          <exp bool_exp="pv0&lt;1">
+            <value>Radiator unknown</value>
+          </exp>
+          <exp bool_exp="pv0&gt;0">
+            <value></value>
+          </exp>
+          <pv trig="true">$(P)RADIATOR_INDEX</pv>
+        </rule>
+        <rule name="Rule" prop_id="foreground_color" out_exp="false">
+          <exp bool_exp="pv0&lt;1">
+            <value>
+              <color name="Major" red="255" green="0" blue="0" />
+            </value>
+          </exp>
+          <exp bool_exp="pv0&gt;0">
+            <value>
+              <color name="Text" red="0" green="0" blue="0" />
+            </value>
+          </exp>
+          <pv trig="true">$(P)RADIATOR_INDEX</pv>
+        </rule>
+      </rules>
+      <enabled>true</enabled>
+      <wuid>-7f8d10e:14a33b5b500:-73f0</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>Label</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>139</width>
+      <x>30</x>
+      <name>Label_1</name>
+      <y>588</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <fontdata fontName="DejaVu Sans Mono" height="9" style="1" />
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-7f8d10e:14a352b5277:50ef</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>n    Radiator Name         ID</text>
+      <scripts />
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>223</width>
+      <x>12</x>
+      <name>Label_2</name>
+      <y>444</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.polyline" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <line_width>2</line_width>
+      <horizontal_fill>true</horizontal_fill>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <arrows>0</arrows>
+      <rules>
+        <rule name="Rule" prop_id="x" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">BEAM:GONI:CROSSX</pv>
+        </rule>
+        <rule name="Rule" prop_id="y" out_exp="true">
+          <exp bool_exp="1">
+            <value>pv0</value>
+          </exp>
+          <pv trig="true">BEAM:GONI:CROSSY</pv>
+        </rule>
+      </rules>
+      <enabled>true</enabled>
+      <wuid>-7f8d10e:14a352b5277:5c8c</wuid>
+      <transparent>false</transparent>
+      <points>
+        <point x="104" y="41" />
+        <point x="104" y="120" />
+        <point x="104" y="80" />
+        <point x="152" y="80" />
+        <point x="56" y="80" />
+      </points>
+      <fill_arrow>true</fill_arrow>
+      <pv_value />
+      <alpha>255</alpha>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>80</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>true</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <anti_alias>true</anti_alias>
+      <line_style>0</line_style>
+      <arrow_length>20</arrow_length>
+      <widget_type>Polyline</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="0" green="255" blue="0" />
+      </background_color>
+      <width>97</width>
+      <x>56</x>
+      <name>Polyline</name>
+      <y>41</y>
+      <fill_level>0.0</fill_level>
+      <foreground_color>
+        <color red="255" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.scrollbar" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <tooltip>Move crosswires horizontally</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-7f8d10e:14a352b5277:6017</wuid>
+      <horizontal>true</horizontal>
+      <pv_value />
+      <scripts />
+      <bar_length>20.0</bar_length>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>8</height>
+      <show_value_tip>false</show_value_tip>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name>BEAM:GONI:CROSSX</pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Scrollbar</widget_type>
+      <step_increment>1.0</step_increment>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <limits_from_pv>false</limits_from_pv>
+      <background_color>
+        <color red="144" green="238" blue="144" />
+      </background_color>
+      <page_increment>10.0</page_increment>
+      <width>121</width>
+      <x>48</x>
+      <name>Scrollbar</name>
+      <y>156</y>
+      <maximum>115.0</maximum>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <minimum>15.0</minimum>
+      <font>
+        <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.scrollbar" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <tooltip>Move crosswires vertically</tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>3c4c67a0:14a3ec0c983:-7f48</wuid>
+      <horizontal>false</horizontal>
+      <pv_value />
+      <scripts />
+      <bar_length>20.0</bar_length>
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>92</height>
+      <show_value_tip>false</show_value_tip>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name>BEAM:GONI:CROSSY</pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Scrollbar</widget_type>
+      <step_increment>1.0</step_increment>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <limits_from_pv>false</limits_from_pv>
+      <background_color>
+        <color red="144" green="238" blue="144" />
+      </background_color>
+      <page_increment>10.0</page_increment>
+      <width>8</width>
+      <x>222</x>
+      <name>Scrollbar</name>
+      <y>42</y>
+      <maximum>85.0</maximum>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <minimum>18.0</minimum>
+      <font>
+        <opifont.name fontName="Cantarell" height="9" style="0">Fine Print</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.MenuButton" version="1.0.0">
+      <border_style>6</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <actions_from_pv>false</actions_from_pv>
+      <tooltip></tooltip>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>-3ce86df0:14a3fa2755a:-7308</wuid>
+      <transparent>false</transparent>
+      <pv_value />
+      <scripts />
+      <border_alarm_sensitive>false</border_alarm_sensitive>
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name></pv_name>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <label>Full goniometer menu</label>
+      <widget_type>Menu Button</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <background_color>
+        <color red="173" green="216" blue="230" />
+      </background_color>
+      <width>219</width>
+      <x>12</x>
+      <name>Menu Button</name>
+      <y>370</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false">
+        <action type="EXECUTE_CMD">
+          <command>./init_goni.sh All</command>
+          <command_directory>$(user.home)</command_directory>
+          <wait_time>10</wait_time>
+          <description>Initialise all goniometer axes (Beam must be OFF)</description>
+        </action>
+        <action type="OPEN_DISPLAY">
+          <path>all_axis_move.opi</path>
+          <macros>
+            <include_parent_macros>true</include_parent_macros>
+          </macros>
+          <replace>0</replace>
+          <description>Bring up tool for simple axis motion (if you are expert enough)</description>
+        </action>
+      </actions>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+  </widget>
+</display>
