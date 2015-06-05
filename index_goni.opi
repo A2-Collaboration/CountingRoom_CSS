@@ -238,7 +238,7 @@ $(pv_value)</tooltip>
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <font>
-      <opifont.name fontName="Cantarell" height="19" style="1">Header 1</opifont.name>
+      <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Image" version="1.0.0">
@@ -694,7 +694,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1047,7 +1047,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -1145,7 +1145,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1376,7 +1376,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -1417,7 +1417,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1794,7 +1794,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -1937,7 +1937,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
@@ -2029,7 +2029,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
@@ -2213,7 +2213,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Rectangle" version="1.0.0">
@@ -2311,7 +2311,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
@@ -2352,7 +2352,7 @@ $(pv_value)</tooltip>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.groupingContainer" version="1.0.0">
@@ -2393,7 +2393,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -3026,7 +3026,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>true</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -3149,7 +3149,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -3374,7 +3374,7 @@ $(pv_value)</tooltip>
     <fc>false</fc>
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
@@ -3598,7 +3598,7 @@ $(pv_value)</tooltip>
       <fc>false</fc>
       <show_scrollbar>false</show_scrollbar>
       <font>
-        <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+        <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
       </font>
       <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
         <border_style>0</border_style>
@@ -4194,7 +4194,7 @@ so leave them turned on most of the time!</tooltip>
     <fc>false</fc>
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="11" style="1">Default Bold</opifont.name>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
     </font>
     <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
       <toggle_button>false</toggle_button>
@@ -4964,7 +4964,7 @@ $(pv_value)</tooltip>
     <toggle_button>false</toggle_button>
     <border_style>0</border_style>
     <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>Open VME CPU live time board</tooltip>
+    <tooltip>Open LV Controls for Tagger</tooltip>
     <push_action_index>0</push_action_index>
     <rules />
     <enabled>true</enabled>
@@ -4987,10 +4987,10 @@ $(pv_value)</tooltip>
       <color red="0" green="128" blue="255" />
     </border_color>
     <widget_type>Action Button</widget_type>
-    <width>148</width>
-    <x>598</x>
+    <width>160</width>
+    <x>503</x>
     <name>TaggerLV_btn</name>
-    <y>487</y>
+    <y>288</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -5048,7 +5048,7 @@ radiators</text>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
     <font>
-      <opifont.name fontName="Cantarell" height="13" style="1">Header 3</opifont.name>
+      <opifont.name fontName="Sans" height="12" style="1">Header 3</opifont.name>
     </font>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
@@ -5140,6 +5140,55 @@ $(pv_value)</tooltip>
         </macros>
         <replace>2</replace>
         <description>Open Coherent Brem GUI</description>
+      </action>
+    </actions>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
+    <toggle_button>false</toggle_button>
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <tooltip>Open HV controls for Tagger, PID, PbGlass, Cerenkov etc</tooltip>
+    <push_action_index>0</push_action_index>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>-1710bbd:14db49aceaf:-6d83</wuid>
+    <pv_value />
+    <text>$(actions)</text>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <height>40</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <image></image>
+    <visible>true</visible>
+    <pv_name></pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Action Button</widget_type>
+    <width>160</width>
+    <x>503</x>
+    <name>Action Button_8</name>
+    <y>243</y>
+    <style>1</style>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false">
+      <action type="OPEN_DISPLAY">
+        <path>HVCAEN/HVCAENx527.opi</path>
+        <macros>
+          <include_parent_macros>true</include_parent_macros>
+        </macros>
+        <replace>2</replace>
+        <description>Tagger and Beamline HVCAEN-x527</description>
       </action>
     </actions>
     <font>

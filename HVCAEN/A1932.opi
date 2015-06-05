@@ -1,0 +1,2693 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<display typeId="org.csstudio.opibuilder.Display" version="1.0.0">
+  <show_close_button>true</show_close_button>
+  <rules />
+  <wuid>2da4dada:138bb0b2666:-7ff6</wuid>
+  <show_grid>true</show_grid>
+  <auto_zoom_to_fit_all>false</auto_zoom_to_fit_all>
+  <scripts />
+  <height>840</height>
+  <macros>
+    <include_parent_macros>true</include_parent_macros>
+    <CHANNEL>000</CHANNEL>
+  </macros>
+  <boy_version>3.2.17.201407281652</boy_version>
+  <show_edit_range>true</show_edit_range>
+  <widget_type>Display</widget_type>
+  <auto_scale_widgets>
+    <auto_scale_widgets>false</auto_scale_widgets>
+    <min_width>-1</min_width>
+    <min_height>-1</min_height>
+  </auto_scale_widgets>
+  <background_color>
+    <color red="229" green="229" blue="229" />
+  </background_color>
+  <width>1300</width>
+  <x>-1</x>
+  <name>Display</name>
+  <grid_space>6</grid_space>
+  <show_ruler>true</show_ruler>
+  <y>-1</y>
+  <snap_to_geometry>true</snap_to_geometry>
+  <foreground_color>
+    <color red="192" green="192" blue="192" />
+  </foreground_color>
+  <actions hook="false" hook_all="false" />
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d8ae7041e:-7770</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>A2 CAEN HVx527: $(PSNAME): A1932 Module</text>
+    <scripts />
+    <height>36</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>638</width>
+    <x>17</x>
+    <name>Label_12</name>
+    <y>5</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="Sans" height="18" style="1">Header 1</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d59</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>001</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_1</name>
+    <y>148</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d63</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>002</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_2</name>
+    <y>174</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d6d</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>003</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_3</name>
+    <y>200</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d77</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>004</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_4</name>
+    <y>226</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d81</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>005</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_5</name>
+    <y>252</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d8b</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>006</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_6</name>
+    <y>278</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d95</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>007</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_7</name>
+    <y>304</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1d9f</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>008</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_8</name>
+    <y>330</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1da9</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>009</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_9</name>
+    <y>376</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1db3</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>010</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_10</name>
+    <y>402</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1dbd</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>011</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_11</name>
+    <y>428</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1dc7</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>012</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_12</name>
+    <y>454</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1dd1</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>013</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_13</name>
+    <y>480</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ddb</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>014</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_14</name>
+    <y>506</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1de5</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>015</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_15</name>
+    <y>532</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1def</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>016</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_16</name>
+    <y>558</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1df9</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>017</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_17</name>
+    <y>604</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e03</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>018</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_18</name>
+    <y>630</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e0d</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>019</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_19</name>
+    <y>656</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e17</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>020</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_20</name>
+    <y>682</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e21</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>021</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_21</name>
+    <y>708</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e2b</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>022</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_22</name>
+    <y>734</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e35</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>023</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_23</name>
+    <y>760</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e3f</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>024</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_24</name>
+    <y>786</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e49</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>025</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_25</name>
+    <y>832</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e53</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>026</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_26</name>
+    <y>858</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e5d</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>027</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_27</name>
+    <y>884</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e67</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>028</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_28</name>
+    <y>910</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e71</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>029</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_29</name>
+    <y>936</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e7b</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>030</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_30</name>
+    <y>962</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e85</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>031</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_31</name>
+    <y>988</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e8f</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>032</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_32</name>
+    <y>1014</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1e99</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>033</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_33</name>
+    <y>1060</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ea3</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>034</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_34</name>
+    <y>1086</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ead</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>035</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_35</name>
+    <y>1112</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1eb7</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>036</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_36</name>
+    <y>1138</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ec1</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>037</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_37</name>
+    <y>1164</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ecb</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>038</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_38</name>
+    <y>1190</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ed5</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>039</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_39</name>
+    <y>1216</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1edf</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>040</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_40</name>
+    <y>1242</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ee9</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>041</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_49</name>
+    <y>1294</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1ef3</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>042</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_50</name>
+    <y>1320</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1efd</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>043</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_51</name>
+    <y>1346</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f07</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>044</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_52</name>
+    <y>1372</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f11</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>045</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_53</name>
+    <y>1398</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f1b</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>046</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_54</name>
+    <y>1424</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f25</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>047</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_55</name>
+    <y>1450</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>A1932ch.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f2f</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>27</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+      <CHANNEL>048</CHANNEL>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1222</width>
+    <x>36</x>
+    <name>Linking Container_56</name>
+    <y>1476</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter Ramp down rate</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f39</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Hardware Name</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>89</width>
+    <x>1168</x>
+    <name>Label_19</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Software Voltage Limit</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f3a</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>SVMax</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>97</width>
+    <x>785</x>
+    <name>Label_4</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter I0 max</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f3b</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>I0Set</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>79</width>
+    <x>359</x>
+    <name>Label_9</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Status bits:
+Bit 0: ON/OFF
+Bit 1: Ramp Up
+Bit 2: Ramp Down
+Bit 3: OverCurrent
+Bit 4: OverVoltage
+Bit 5: UnderVoltage
+Bit 6: External Trip
+Bit 7: Over HVmax
+Bit 8: External Disable
+Bit 9: Internal Trip
+Bit 10: Calibration Error
+Bit 11: don't care
+Bit12: UnderCurrent
+Bit13: OverVoltage Protection
+Bit14: Power Fail
+Bit15: Temperature Error</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f3c</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Status bits</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>134</width>
+    <x>611</x>
+    <name>Label_5</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.linkingContainer" version="1.0.0">
+    <opi_file>HVCAEN_A1932_0.opi</opi_file>
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f3d</wuid>
+    <auto_size>false</auto_size>
+    <scripts />
+    <height>28</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <macros>
+      <include_parent_macros>true</include_parent_macros>
+    </macros>
+    <visible>true</visible>
+    <group_name></group_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Linking Container</widget_type>
+    <background_color>
+      <color red="229" green="229" blue="229" />
+    </background_color>
+    <zoom_to_fit>false</zoom_to_fit>
+    <width>1066</width>
+    <x>198</x>
+    <name>Linking Container</name>
+    <y>76</y>
+    <foreground_color>
+      <color red="192" green="192" blue="192" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter V1 setpoint</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f4b</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>V1Set</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>97</width>
+    <x>868</x>
+    <name>Label_3</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter Ramp up rate</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f4c</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Rup</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>62</width>
+    <x>1036</x>
+    <name>Label_2</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter Ramp down rate</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f4d</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>RDwn</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>62</width>
+    <x>1104</x>
+    <name>Label_11</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter I1 max</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f4e</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>I0Set</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>79</width>
+    <x>954</x>
+    <name>Label_10</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>V readback</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f4f</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>Vmon</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>97</width>
+    <x>442</x>
+    <name>Label_6</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>I readback</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f50</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>IMon</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>79</width>
+    <x>527</x>
+    <name>Label_8</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Enter V0 setpoint</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f51</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>V0Set</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>97</width>
+    <x>277</x>
+    <name>Label_1</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip>Switch HV  output On/Off</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f52</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>On/Off</text>
+    <scripts />
+    <height>15</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>68</width>
+    <x>203</x>
+    <name>Label_7</name>
+    <y>50</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <precision>0</precision>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>865e95:14d9a2189bd:1f53</wuid>
+    <transparent>true</transparent>
+    <pv_value />
+    <auto_size>false</auto_size>
+    <text>##.###</text>
+    <rotation_angle>0.0</rotation_angle>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <show_units>true</show_units>
+    <height>25</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <pv_name>$(PSNAME):$(SLOT):$(CHANNEL):ename</pv_name>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <precision_from_pv>true</precision_from_pv>
+    <widget_type>Text Update</widget_type>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <wrap_words>false</wrap_words>
+    <format_type>0</format_type>
+    <background_color>
+      <color name="Read_Background" red="240" green="240" blue="240" />
+    </background_color>
+    <width>235</width>
+    <x>36</x>
+    <name>Text Update_2</name>
+    <y>112</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <font>
+      <opifont.name fontName="Sans" height="10" style="1">Default Bold</opifont.name>
+    </font>
+  </widget>
+</display>

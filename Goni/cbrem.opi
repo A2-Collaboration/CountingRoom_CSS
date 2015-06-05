@@ -1438,7 +1438,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <visible>true</visible>
-    <pv_name>$(P)PARA_MODE</pv_name>
+    <pv_name>$(P)DIAM1:PARA_MODE</pv_name>
     <vertical_alignment>1</vertical_alignment>
     <format>0</format>
     <horizontal_buttons_layout>false</horizontal_buttons_layout>
@@ -1532,7 +1532,7 @@ $(pv_value)</tooltip>
       <keep_wh_ratio>false</keep_wh_ratio>
     </scale_options>
     <visible>true</visible>
-    <pv_name>$(P)PERP_MODE</pv_name>
+    <pv_name>$(P)DIAM1:PERP_MODE</pv_name>
     <vertical_alignment>1</vertical_alignment>
     <format>0</format>
     <horizontal_buttons_layout>false</horizontal_buttons_layout>
@@ -2565,7 +2565,7 @@ $(trace_0_y_pv_value)</tooltip>
     <axis_count>2</axis_count>
     <pv_value />
     <trace_0_buffer_size>100</trace_0_buffer_size>
-    <axis_1_maximum>600.0</axis_1_maximum>
+    <axis_1_maximum>900.0</axis_1_maximum>
     <axis_0_scale_font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </axis_0_scale_font>
@@ -2615,7 +2615,7 @@ $(trace_0_y_pv_value)</tooltip>
     <trace_0_update_delay>100</trace_0_update_delay>
     <pv_name>$(P)EDGE</pv_name>
     <name>XY Graph_2</name>
-    <axis_0_auto_scale>true</axis_0_auto_scale>
+    <axis_0_auto_scale>false</axis_0_auto_scale>
     <axis_0_minimum>0.0</axis_0_minimum>
     <axis_1_axis_title>Edge</axis_1_axis_title>
     <axis_1_auto_scale>false</axis_1_auto_scale>
@@ -2633,7 +2633,7 @@ $(trace_0_y_pv_value)</tooltip>
     <border_alarm_sensitive>false</border_alarm_sensitive>
     <show_plot_area_border>false</show_plot_area_border>
     <width>559</width>
-    <axis_1_minimum>200.0</axis_1_minimum>
+    <axis_1_minimum>600.0</axis_1_minimum>
     <title_font>
       <fontdata fontName="Arial" height="12" style="1" />
     </title_font>
