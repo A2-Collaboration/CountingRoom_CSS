@@ -895,6 +895,20 @@ $(pv_value)</tooltip>
           <confirm_message>This will move the beamtable to Active Target position. Please make sure that there is no beam!</confirm_message>
           <description>Active Target</description>
         </action>
+        <action type="WRITE_PV">
+          <pv_name>BEAM:TABLE:CH0:SET</pv_name>
+          <value>1.66</value>
+          <timeout>10</timeout>
+          <confirm_message>This will move the beamtable to P2_Quarz position. Please make sure that there is no beam!</confirm_message>
+          <description>P2_Quarz</description>
+        </action>
+        <action type="WRITE_PV">
+          <pv_name>BEAM:TABLE:CH0:SET</pv_name>
+          <value>1.72</value>
+          <timeout>10</timeout>
+          <confirm_message>This will move the beamtable to P2_Lyso position. Please make sure that there is no beam!</confirm_message>
+          <description>P2_Lyso</description>
+        </action>
       </actions>
       <font>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
