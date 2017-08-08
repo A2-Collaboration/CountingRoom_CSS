@@ -71,8 +71,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
-    <width>73</width>
-    <x>282</x>
+    <width>85</width>
+    <x>270</x>
     <name>Text Update</name>
     <y>0</y>
     <foreground_color>
@@ -121,15 +121,15 @@ $(pv_value)</tooltip>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false">
-      <action type="OPEN_OPI_IN_VIEW">
+      <action type="OPEN_DISPLAY">
         <path>motorx_all.opi</path>
         <macros>
           <include_parent_macros>true</include_parent_macros>
           <P>BEAM:GONI:</P>
           <M>$(AXIS_NAME)</M>
         </macros>
-        <Position>1</Position>
-        <description>Open expert GUI for $(AXIS_NAME) axis</description>
+        <replace>2</replace>
+        <description>Open Expert GUI for axis $(AXIS_NAME)</description>
       </action>
       <action type="WRITE_PV">
         <pv_name>$(P)$(AXIS_NAME).HOMR</pv_name>
@@ -287,59 +287,6 @@ $(pv_value)</tooltip>
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.LED" version="1.0.0">
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <rules />
-    <effect_3d>true</effect_3d>
-    <bit>0</bit>
-    <pv_value />
-    <height>12</height>
-    <border_width>1</border_width>
-    <visible>true</visible>
-    <pv_name>$(P)$(AXIS_NAME).ATHM</pv_name>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>LED</widget_type>
-    <name>LED_1</name>
-    <actions hook="false" hook_all="false" />
-    <show_boolean_label>false</show_boolean_label>
-    <border_style>0</border_style>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <enabled>true</enabled>
-    <wuid>-7f8d10e:14a352b5277:4cf3</wuid>
-    <on_color>
-      <color red="127" green="127" blue="127" />
-    </on_color>
-    <scripts />
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <on_label>ON</on_label>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>true</keep_wh_ratio>
-    </scale_options>
-    <off_color>
-      <color red="0" green="255" blue="0" />
-    </off_color>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="240" green="240" blue="240" />
-    </background_color>
-    <square_led>false</square_led>
-    <width>12</width>
-    <x>271</x>
-    <data_type>0</data_type>
-    <y>5</y>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-    <off_label>OFF</off_label>
   </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
     <precision>0</precision>

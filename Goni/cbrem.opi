@@ -714,108 +714,6 @@ $(pv_value)</tooltip>
         <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <toggle_button>false</toggle_button>
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <tooltip>Save current settings as the new PARA default for the installed diamond</tooltip>
-      <push_action_index>0</push_action_index>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-12ce66a7:14c08f43cc6:-75ea</wuid>
-      <pv_value />
-      <text>Force PARA</text>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <image></image>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Action Button</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="144" green="238" blue="144" />
-      </background_color>
-      <width>94</width>
-      <x>8</x>
-      <name>Action Button_15</name>
-      <y>258</y>
-      <style>0</style>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false">
-        <action type="EXECUTE_CMD">
-          <command>./cbrem/scripts/saveDiamond.sh $(P) $(G) 1</command>
-          <command_directory>$(user.home)</command_directory>
-          <wait_time>10</wait_time>
-          <description>Save current settings as the new default for PARA for the installed diamond</description>
-        </action>
-      </actions>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
-    <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-      <toggle_button>false</toggle_button>
-      <border_style>0</border_style>
-      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-      <tooltip>Save current settings as the new PERP default for the installed diamond</tooltip>
-      <push_action_index>0</push_action_index>
-      <rules />
-      <enabled>true</enabled>
-      <wuid>-12ce66a7:14c08f43cc6:-75cc</wuid>
-      <pv_value />
-      <text>Force PERP</text>
-      <scripts />
-      <border_alarm_sensitive>false</border_alarm_sensitive>
-      <height>19</height>
-      <border_width>1</border_width>
-      <scale_options>
-        <width_scalable>true</width_scalable>
-        <height_scalable>true</height_scalable>
-        <keep_wh_ratio>false</keep_wh_ratio>
-      </scale_options>
-      <image></image>
-      <visible>true</visible>
-      <pv_name></pv_name>
-      <border_color>
-        <color red="0" green="128" blue="255" />
-      </border_color>
-      <widget_type>Action Button</widget_type>
-      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-      <background_color>
-        <color red="144" green="238" blue="144" />
-      </background_color>
-      <width>94</width>
-      <x>113</x>
-      <name>Action Button_16</name>
-      <y>258</y>
-      <style>0</style>
-      <foreground_color>
-        <color red="0" green="0" blue="0" />
-      </foreground_color>
-      <actions hook="false" hook_all="false">
-        <action type="EXECUTE_CMD">
-          <command>./cbrem/scripts/saveDiamond.sh $(P) $(G) 2</command>
-          <command_directory>$(user.home)</command_directory>
-          <wait_time>10</wait_time>
-          <description>Save current settings as the new default for PERP for the installed diamond</description>
-        </action>
-      </actions>
-      <font>
-        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-      </font>
-    </widget>
     <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
       <border_style>0</border_style>
       <tooltip></tooltip>
@@ -907,10 +805,10 @@ $(pv_value)</tooltip>
       <background_color>
         <color red="255" green="255" blue="255" />
       </background_color>
-      <width>157</width>
-      <x>30</x>
+      <width>5</width>
+      <x>22</x>
       <name>Label_1</name>
-      <y>66</y>
+      <y>69</y>
       <foreground_color>
         <color red="165" green="42" blue="42" />
       </foreground_color>
@@ -918,6 +816,98 @@ $(pv_value)</tooltip>
       <show_scrollbar>false</show_scrollbar>
       <font>
         <opifont.name fontName="Cantarell" height="15" style="1">Header 2</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.TextUpdate" version="1.0.0">
+      <border_style>0</border_style>
+      <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+      <precision>0</precision>
+      <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>cfba44a:14fa31304d1:-4189</wuid>
+      <transparent>false</transparent>
+      <pv_value />
+      <auto_size>false</auto_size>
+      <text>##.###</text>
+      <rotation_angle>0.0</rotation_angle>
+      <scripts />
+      <border_alarm_sensitive>true</border_alarm_sensitive>
+      <show_units>true</show_units>
+      <height>19</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <pv_name>$(P)PLANE</pv_name>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <precision_from_pv>false</precision_from_pv>
+      <widget_type>Text Update</widget_type>
+      <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+      <wrap_words>false</wrap_words>
+      <format_type>0</format_type>
+      <background_color>
+        <color name="Read_Background" red="240" green="240" blue="240" />
+      </background_color>
+      <width>43</width>
+      <x>86</x>
+      <name>Text Update_1</name>
+      <y>72</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+      </font>
+    </widget>
+    <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+      <border_style>0</border_style>
+      <tooltip></tooltip>
+      <horizontal_alignment>0</horizontal_alignment>
+      <rules />
+      <enabled>true</enabled>
+      <wuid>cfba44a:14fa31304d1:-40c8</wuid>
+      <transparent>true</transparent>
+      <auto_size>false</auto_size>
+      <text>1 = PARA, 2 = PERP</text>
+      <scripts />
+      <height>13</height>
+      <border_width>1</border_width>
+      <scale_options>
+        <width_scalable>true</width_scalable>
+        <height_scalable>true</height_scalable>
+        <keep_wh_ratio>false</keep_wh_ratio>
+      </scale_options>
+      <visible>true</visible>
+      <vertical_alignment>1</vertical_alignment>
+      <border_color>
+        <color red="0" green="128" blue="255" />
+      </border_color>
+      <widget_type>Label</widget_type>
+      <wrap_words>true</wrap_words>
+      <background_color>
+        <color red="255" green="255" blue="255" />
+      </background_color>
+      <width>187</width>
+      <x>24</x>
+      <name>Label_7</name>
+      <y>36</y>
+      <foreground_color>
+        <color red="0" green="0" blue="0" />
+      </foreground_color>
+      <actions hook="false" hook_all="false" />
+      <show_scrollbar>false</show_scrollbar>
+      <font>
+        <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
       </font>
     </widget>
   </widget>
@@ -1415,194 +1405,6 @@ $(pv_value)</tooltip>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
   </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
-    <border_style>3</border_style>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <precision>3</precision>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <horizontal_alignment>1</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-5e3cff6d:14bebc0960f:-6f7d</wuid>
-    <transparent>false</transparent>
-    <pv_value />
-    <scripts />
-    <buttons_on_left>false</buttons_on_left>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>20</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <pv_name>$(P)DIAM1:PARA_MODE</pv_name>
-    <vertical_alignment>1</vertical_alignment>
-    <format>0</format>
-    <horizontal_buttons_layout>false</horizontal_buttons_layout>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <precision_from_pv>false</precision_from_pv>
-    <widget_type>Spinner</widget_type>
-    <step_increment>1.0</step_increment>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <limits_from_pv>false</limits_from_pv>
-    <background_color>
-      <color name="OPI_Background" red="255" green="255" blue="255" />
-    </background_color>
-    <page_increment>10.0</page_increment>
-    <width>49</width>
-    <x>192</x>
-    <name>Spinner</name>
-    <y>441</y>
-    <maximum>4.0</maximum>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <minimum>1.0</minimum>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <border_style>0</border_style>
-    <tooltip></tooltip>
-    <horizontal_alignment>0</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-5e3cff6d:14bebc0960f:-5451</wuid>
-    <transparent>true</transparent>
-    <auto_size>false</auto_size>
-    <text>PARA Mode (1-4)</text>
-    <scripts />
-    <height>25</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>Label</widget_type>
-    <wrap_words>true</wrap_words>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <width>157</width>
-    <x>17</x>
-    <name>Label_7</name>
-    <y>441</y>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <show_scrollbar>false</show_scrollbar>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.spinner" version="1.0.0">
-    <border_style>3</border_style>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <precision>3</precision>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <horizontal_alignment>1</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-5e3cff6d:14bebc0960f:-541d</wuid>
-    <transparent>false</transparent>
-    <pv_value />
-    <scripts />
-    <buttons_on_left>false</buttons_on_left>
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>20</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <pv_name>$(P)DIAM1:PERP_MODE</pv_name>
-    <vertical_alignment>1</vertical_alignment>
-    <format>0</format>
-    <horizontal_buttons_layout>false</horizontal_buttons_layout>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <precision_from_pv>false</precision_from_pv>
-    <widget_type>Spinner</widget_type>
-    <step_increment>1.0</step_increment>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <limits_from_pv>false</limits_from_pv>
-    <background_color>
-      <color name="OPI_Background" red="255" green="255" blue="255" />
-    </background_color>
-    <page_increment>10.0</page_increment>
-    <width>49</width>
-    <x>192</x>
-    <name>Spinner_1</name>
-    <y>468</y>
-    <maximum>4.0</maximum>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <minimum>1.0</minimum>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
-    <border_style>0</border_style>
-    <tooltip></tooltip>
-    <horizontal_alignment>0</horizontal_alignment>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-5e3cff6d:14bebc0960f:-541c</wuid>
-    <transparent>true</transparent>
-    <auto_size>false</auto_size>
-    <text>PERP Mode (1-4)</text>
-    <scripts />
-    <height>25</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <visible>true</visible>
-    <vertical_alignment>1</vertical_alignment>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>Label</widget_type>
-    <wrap_words>true</wrap_words>
-    <background_color>
-      <color red="255" green="255" blue="255" />
-    </background_color>
-    <width>157</width>
-    <x>17</x>
-    <name>Label_8</name>
-    <y>468</y>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
-    <show_scrollbar>false</show_scrollbar>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
   <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
     <border_style>0</border_style>
     <tooltip></tooltip>
@@ -1632,115 +1434,14 @@ $(pv_value)</tooltip>
       <color red="255" green="255" blue="255" />
     </background_color>
     <width>134</width>
-    <x>17</x>
+    <x>21</x>
     <name>Label_9</name>
-    <y>504</y>
+    <y>432</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
     <actions hook="false" hook_all="false" />
     <show_scrollbar>false</show_scrollbar>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
-    <precision>0</precision>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <horizontal_alignment>0</horizontal_alignment>
-    <rules />
-    <pv_value />
-    <auto_size>false</auto_size>
-    <text></text>
-    <rotation_angle>0.0</rotation_angle>
-    <show_units>false</show_units>
-    <height>18</height>
-    <multiline_input>false</multiline_input>
-    <border_width>1</border_width>
-    <visible>true</visible>
-    <pv_name>$(P)REQ_EDGE</pv_name>
-    <selector_type>0</selector_type>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <precision_from_pv>true</precision_from_pv>
-    <widget_type>Text Input</widget_type>
-    <confirm_message></confirm_message>
-    <name>Text</name>
-    <style>0</style>
-    <actions hook="false" hook_all="false" />
-    <border_style>0</border_style>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <enabled>true</enabled>
-    <wuid>-5e3cff6d:14bebc0960f:-5331</wuid>
-    <transparent>false</transparent>
-    <scripts />
-    <border_alarm_sensitive>true</border_alarm_sensitive>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <format_type>0</format_type>
-    <limits_from_pv>false</limits_from_pv>
-    <background_color>
-      <color name="OPI_Background" red="255" green="255" blue="255" />
-    </background_color>
-    <width>58</width>
-    <x>183</x>
-    <y>508</y>
-    <maximum>1.7976931348623157E308</maximum>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <minimum>-1.7976931348623157E308</minimum>
-    <font>
-      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
-    </font>
-  </widget>
-  <widget typeId="org.csstudio.opibuilder.widgets.ActionButton" version="2.0.0">
-    <toggle_button>false</toggle_button>
-    <border_style>0</border_style>
-    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
-    <tooltip>$(pv_name)
-$(pv_value)</tooltip>
-    <push_action_index>0</push_action_index>
-    <rules />
-    <enabled>true</enabled>
-    <wuid>-5e3cff6d:14bebc0960f:-4144</wuid>
-    <pv_value />
-    <text>Calculate angles</text>
-    <scripts />
-    <border_alarm_sensitive>false</border_alarm_sensitive>
-    <height>25</height>
-    <border_width>1</border_width>
-    <scale_options>
-      <width_scalable>true</width_scalable>
-      <height_scalable>true</height_scalable>
-      <keep_wh_ratio>false</keep_wh_ratio>
-    </scale_options>
-    <image></image>
-    <visible>true</visible>
-    <pv_name></pv_name>
-    <border_color>
-      <color red="0" green="128" blue="255" />
-    </border_color>
-    <widget_type>Action Button</widget_type>
-    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
-    <background_color>
-      <color red="139" green="105" blue="20" />
-    </background_color>
-    <width>224</width>
-    <x>18</x>
-    <name>Action Button_10</name>
-    <y>540</y>
-    <style>0</style>
-    <foreground_color>
-      <color red="0" green="0" blue="0" />
-    </foreground_color>
-    <actions hook="false" hook_all="false" />
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
@@ -2848,6 +2549,62 @@ $(trace_0_y_pv_value)</tooltip>
         <description>Stop the ROOT process to make the enhancement. MUST BE GOING to get coherent edge for EPICS.</description>
       </action>
     </actions>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.TextInput" version="2.0.0">
+    <precision>0</precision>
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <horizontal_alignment>0</horizontal_alignment>
+    <rules />
+    <pv_value />
+    <auto_size>false</auto_size>
+    <text></text>
+    <rotation_angle>0.0</rotation_angle>
+    <show_units>false</show_units>
+    <height>25</height>
+    <multiline_input>false</multiline_input>
+    <border_width>1</border_width>
+    <visible>true</visible>
+    <pv_name>$(P)REQ_EDGE</pv_name>
+    <selector_type>0</selector_type>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <precision_from_pv>true</precision_from_pv>
+    <widget_type>Text Input</widget_type>
+    <confirm_message></confirm_message>
+    <name>Text</name>
+    <style>0</style>
+    <actions hook="false" hook_all="false" />
+    <border_style>0</border_style>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <enabled>true</enabled>
+    <wuid>cfba44a:14fa31304d1:-42b1</wuid>
+    <transparent>false</transparent>
+    <scripts />
+    <border_alarm_sensitive>true</border_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <format_type>0</format_type>
+    <limits_from_pv>false</limits_from_pv>
+    <background_color>
+      <color name="WritePV_Background" red="128" green="255" blue="255" />
+    </background_color>
+    <width>97</width>
+    <x>144</x>
+    <y>432</y>
+    <maximum>1.7976931348623157E308</maximum>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <minimum>-1.7976931348623157E308</minimum>
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
