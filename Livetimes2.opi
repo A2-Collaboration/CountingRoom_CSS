@@ -640,7 +640,7 @@ $(pv_value)</tooltip>
     <wuid>-11ef68d9:148d17d0c81:-6b9f</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>TDC A</text>
+    <text>CB TDC A</text>
     <scripts />
     <height>26</height>
     <border_width>1</border_width>
@@ -768,7 +768,7 @@ $(pv_value)</tooltip>
     <wuid>-11ef68d9:148d17d0c81:-6b9d</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>TDC B</text>
+    <text>CB TDC B</text>
     <scripts />
     <height>26</height>
     <border_width>1</border_width>
@@ -820,7 +820,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <value_label_format></value_label_format>
     <visible>true</visible>
-    <pv_name>TAGG:TDC_A:TRIG:Livetime</pv_name>
+    <pv_name>TAGG:TDC_B:TRIG:Livetime</pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
@@ -896,7 +896,7 @@ $(pv_value)</tooltip>
     <wuid>-11ef68d9:148d17d0c81:-6adb</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>TDC A</text>
+    <text>TAGG TDC B</text>
     <scripts />
     <height>26</height>
     <border_width>1</border_width>
@@ -915,8 +915,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
-    <width>56</width>
-    <x>108</x>
+    <width>85</width>
+    <x>79</x>
     <name>Label_8</name>
     <y>332</y>
     <foreground_color>
@@ -948,7 +948,7 @@ $(pv_value)</tooltip>
     <border_width>1</border_width>
     <value_label_format></value_label_format>
     <visible>true</visible>
-    <pv_name>TAGG:TDC_B:TRIG:Livetime</pv_name>
+    <pv_name>TAGG:TDC_C:TRIG:Livetime</pv_name>
     <border_color>
       <color red="0" green="128" blue="255" />
     </border_color>
@@ -1024,7 +1024,7 @@ $(pv_value)</tooltip>
     <wuid>-11ef68d9:148d17d0c81:-6ad9</wuid>
     <transparent>true</transparent>
     <auto_size>false</auto_size>
-    <text>TDC B</text>
+    <text>TAGG TDC C</text>
     <scripts />
     <height>26</height>
     <border_width>1</border_width>
@@ -1043,8 +1043,8 @@ $(pv_value)</tooltip>
     <background_color>
       <color red="255" green="255" blue="255" />
     </background_color>
-    <width>56</width>
-    <x>108</x>
+    <width>85</width>
+    <x>79</x>
     <name>Label_9</name>
     <y>360</y>
     <foreground_color>
@@ -1386,7 +1386,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>396</y>
+    <y>426</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -1430,7 +1430,7 @@ $(pv_value)</tooltip>
     <width>85</width>
     <x>79</x>
     <name>Label_12</name>
-    <y>398</y>
+    <y>428</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -1514,7 +1514,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>424</y>
+    <y>454</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -1558,7 +1558,7 @@ $(pv_value)</tooltip>
     <width>85</width>
     <x>79</x>
     <name>Label_13</name>
-    <y>426</y>
+    <y>456</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -1642,7 +1642,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>538</y>
+    <y>568</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -1686,7 +1686,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_14</name>
-    <y>540</y>
+    <y>570</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -1770,7 +1770,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>566</y>
+    <y>596</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -1814,7 +1814,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_15</name>
-    <y>568</y>
+    <y>598</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -1898,7 +1898,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>594</y>
+    <y>624</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -1942,7 +1942,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_16</name>
-    <y>596</y>
+    <y>626</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2026,7 +2026,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>622</y>
+    <y>652</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2070,7 +2070,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_17</name>
-    <y>624</y>
+    <y>654</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2154,7 +2154,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>650</y>
+    <y>680</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2198,7 +2198,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_18</name>
-    <y>652</y>
+    <y>682</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2282,7 +2282,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>678</y>
+    <y>708</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2326,7 +2326,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_19</name>
-    <y>680</y>
+    <y>710</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2410,7 +2410,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>714</y>
+    <y>744</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2454,7 +2454,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_20</name>
-    <y>716</y>
+    <y>746</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2538,7 +2538,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>742</y>
+    <y>772</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2582,7 +2582,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_21</name>
-    <y>744</y>
+    <y>774</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2666,7 +2666,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>769</y>
+    <y>799</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2710,7 +2710,7 @@ $(pv_value)</tooltip>
     <width>56</width>
     <x>108</x>
     <name>Label_22</name>
-    <y>771</y>
+    <y>801</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2794,7 +2794,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>808</y>
+    <y>838</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2838,7 +2838,7 @@ $(pv_value)</tooltip>
     <width>67</width>
     <x>97</x>
     <name>Label_23</name>
-    <y>810</y>
+    <y>840</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -2922,7 +2922,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>462</y>
+    <y>492</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -2966,7 +2966,7 @@ $(pv_value)</tooltip>
     <width>109</width>
     <x>55</x>
     <name>Label_24</name>
-    <y>464</y>
+    <y>494</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3050,7 +3050,7 @@ $(pv_value)</tooltip>
     <level_lolo>10.0</level_lolo>
     <width>223</width>
     <x>168</x>
-    <y>490</y>
+    <y>520</y>
     <maximum>100.0</maximum>
     <color_lolo>
       <color red="255" green="0" blue="0" />
@@ -3094,7 +3094,7 @@ $(pv_value)</tooltip>
     <width>109</width>
     <x>55</x>
     <name>Label_25</name>
-    <y>492</y>
+    <y>522</y>
     <foreground_color>
       <color red="0" green="0" blue="0" />
     </foreground_color>
@@ -3303,7 +3303,7 @@ $(pv_value)</tooltip>
     <width>175</width>
     <x>426</x>
     <name>OpenGraphs_1</name>
-    <y>464</y>
+    <y>494</y>
     <style>1</style>
     <foreground_color>
       <color red="0" green="0" blue="0" />
@@ -3367,6 +3367,134 @@ $(pv_value)</tooltip>
         <description>Open the CB (and others) CPU LIvetimes overview</description>
       </action>
     </actions>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.progressbar" version="1.0.0">
+    <tooltip>$(pv_name)
+$(pv_value)</tooltip>
+    <rules />
+    <effect_3d>false</effect_3d>
+    <scale_font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </scale_font>
+    <horizontal>true</horizontal>
+    <pv_value />
+    <show_scale>false</show_scale>
+    <scale_format></scale_format>
+    <show_label>true</show_label>
+    <height>29</height>
+    <fill_color>
+      <color red="0" green="0" blue="255" />
+    </fill_color>
+    <border_width>1</border_width>
+    <value_label_format></value_label_format>
+    <visible>true</visible>
+    <pv_name>TAGG:TDC_D:TRIG:Livetime</pv_name>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Progress Bar</widget_type>
+    <name>Progress Bar_27</name>
+    <show_hi>true</show_hi>
+    <actions hook="false" hook_all="false" />
+    <show_lo>true</show_lo>
+    <border_style>0</border_style>
+    <show_lolo>true</show_lolo>
+    <show_minor_ticks>true</show_minor_ticks>
+    <forecolor_alarm_sensitive>false</forecolor_alarm_sensitive>
+    <show_markers>false</show_markers>
+    <color_hihi>
+      <color red="255" green="0" blue="0" />
+    </color_hihi>
+    <origin>0.0</origin>
+    <show_hihi>true</show_hihi>
+    <log_scale>false</log_scale>
+    <enabled>true</enabled>
+    <wuid>337d3c02:15f2f7fc7b5:-7e31</wuid>
+    <indicator_mode>false</indicator_mode>
+    <level_hihi>90.0</level_hihi>
+    <origin_ignored>true</origin_ignored>
+    <color_hi>
+      <color red="255" green="128" blue="0" />
+    </color_hi>
+    <color_lo>
+      <color red="255" green="128" blue="0" />
+    </color_lo>
+    <scripts />
+    <border_alarm_sensitive>false</border_alarm_sensitive>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <fillcolor_alarm_sensitive>true</fillcolor_alarm_sensitive>
+    <color_fillbackground>
+      <color red="200" green="200" blue="200" />
+    </color_fillbackground>
+    <major_tick_step_hint>50</major_tick_step_hint>
+    <level_hi>80.0</level_hi>
+    <transparent_background>true</transparent_background>
+    <level_lo>20.0</level_lo>
+    <backcolor_alarm_sensitive>false</backcolor_alarm_sensitive>
+    <limits_from_pv>true</limits_from_pv>
+    <background_color>
+      <color red="240" green="240" blue="240" />
+    </background_color>
+    <level_lolo>10.0</level_lolo>
+    <width>223</width>
+    <x>168</x>
+    <y>386</y>
+    <maximum>100.0</maximum>
+    <color_lolo>
+      <color red="255" green="0" blue="0" />
+    </color_lolo>
+    <foreground_color>
+      <color red="255" green="255" blue="255" />
+    </foreground_color>
+    <minimum>0.0</minimum>
+    <font>
+      <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
+    </font>
+  </widget>
+  <widget typeId="org.csstudio.opibuilder.widgets.Label" version="1.0.0">
+    <border_style>0</border_style>
+    <tooltip></tooltip>
+    <horizontal_alignment>2</horizontal_alignment>
+    <rules />
+    <enabled>true</enabled>
+    <wuid>337d3c02:15f2f7fc7b5:-7e29</wuid>
+    <transparent>true</transparent>
+    <auto_size>false</auto_size>
+    <text>TAGG TDC D</text>
+    <scripts />
+    <height>26</height>
+    <border_width>1</border_width>
+    <scale_options>
+      <width_scalable>true</width_scalable>
+      <height_scalable>true</height_scalable>
+      <keep_wh_ratio>false</keep_wh_ratio>
+    </scale_options>
+    <visible>true</visible>
+    <vertical_alignment>1</vertical_alignment>
+    <border_color>
+      <color red="0" green="128" blue="255" />
+    </border_color>
+    <widget_type>Label</widget_type>
+    <wrap_words>true</wrap_words>
+    <background_color>
+      <color red="255" green="255" blue="255" />
+    </background_color>
+    <width>85</width>
+    <x>79</x>
+    <name>Label_28</name>
+    <y>388</y>
+    <foreground_color>
+      <color red="0" green="0" blue="0" />
+    </foreground_color>
+    <actions hook="false" hook_all="false" />
+    <show_scrollbar>false</show_scrollbar>
     <font>
       <opifont.name fontName="DejaVu Sans Mono" height="9" style="0">Default</opifont.name>
     </font>
