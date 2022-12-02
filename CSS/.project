@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>CSS</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+	</buildSpec>
+	<natures>
+	</natures>
+	<variableList>
+		<variable>
+			<name>COUNTING_ROOM</name>
+			<value>file:/home/a2cb/EPICS/CountingRoom_CSS/index_goni.opi</value>
+		</variable>
+	</variableList>
+</projectDescription>
